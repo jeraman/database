@@ -1,0 +1,866 @@
+=== Run information ===
+
+Scheme:weka.classifiers.meta.MultiClassClassifier -M 0 -R 2.0 -S 1 -W weka.classifiers.functions.Logistic -- -R 1.0E-8 -M -1
+Relation:     jAudio
+Instances:    75
+Attributes:   69
+              Class
+              Spectral Centroid Overall Standard Deviation0
+              Spectral Rolloff Point Overall Standard Deviation0
+              Spectral Flux Overall Standard Deviation0
+              Compactness Overall Standard Deviation0
+              Spectral Variability Overall Standard Deviation0
+              Root Mean Square Overall Standard Deviation0
+              Fraction Of Low Energy Windows Overall Standard Deviation0
+              Zero Crossings Overall Standard Deviation0
+              Strongest Beat Overall Standard Deviation0
+              Beat Sum Overall Standard Deviation0
+              Strength Of Strongest Beat Overall Standard Deviation0
+              MFCC Overall Standard Deviation0
+              MFCC Overall Standard Deviation1
+              MFCC Overall Standard Deviation2
+              MFCC Overall Standard Deviation3
+              MFCC Overall Standard Deviation4
+              MFCC Overall Standard Deviation5
+              MFCC Overall Standard Deviation6
+              MFCC Overall Standard Deviation7
+              MFCC Overall Standard Deviation8
+              MFCC Overall Standard Deviation9
+              MFCC Overall Standard Deviation10
+              MFCC Overall Standard Deviation11
+              MFCC Overall Standard Deviation12
+              LPC Overall Standard Deviation0
+              LPC Overall Standard Deviation1
+              LPC Overall Standard Deviation2
+              LPC Overall Standard Deviation3
+              LPC Overall Standard Deviation4
+              LPC Overall Standard Deviation5
+              LPC Overall Standard Deviation6
+              LPC Overall Standard Deviation7
+              LPC Overall Standard Deviation8
+              LPC Overall Standard Deviation9
+              Spectral Centroid Overall Average0
+              Spectral Rolloff Point Overall Average0
+              Spectral Flux Overall Average0
+              Compactness Overall Average0
+              Spectral Variability Overall Average0
+              Root Mean Square Overall Average0
+              Fraction Of Low Energy Windows Overall Average0
+              Zero Crossings Overall Average0
+              Strongest Beat Overall Average0
+              Beat Sum Overall Average0
+              Strength Of Strongest Beat Overall Average0
+              MFCC Overall Average0
+              MFCC Overall Average1
+              MFCC Overall Average2
+              MFCC Overall Average3
+              MFCC Overall Average4
+              MFCC Overall Average5
+              MFCC Overall Average6
+              MFCC Overall Average7
+              MFCC Overall Average8
+              MFCC Overall Average9
+              MFCC Overall Average10
+              MFCC Overall Average11
+              MFCC Overall Average12
+              LPC Overall Average0
+              LPC Overall Average1
+              LPC Overall Average2
+              LPC Overall Average3
+              LPC Overall Average4
+              LPC Overall Average5
+              LPC Overall Average6
+              LPC Overall Average7
+              LPC Overall Average8
+              LPC Overall Average9
+Test mode:5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+MultiClassClassifier
+
+Classifier 1, using indicator values: Strings: 1 
+Invert: false
+Cols: 1
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                                                               Class
+Variable                                                           neg_CavaloMarinho
+====================================================================================
+Spectral Centroid Overall Standard Deviation0                                -0.7459
+Spectral Rolloff Point Overall Standard Deviation0                          110.9035
+Spectral Flux Overall Standard Deviation0                                   -921.669
+Compactness Overall Standard Deviation0                                       0.1223
+Spectral Variability Overall Standard Deviation0                           8195.5487
+Root Mean Square Overall Standard Deviation0                                359.6293
+Fraction Of Low Energy Windows Overall Standard Deviation0                  238.9423
+Zero Crossings Overall Standard Deviation0                                   -0.5015
+Strongest Beat Overall Standard Deviation0                                   -0.4784
+Beat Sum Overall Standard Deviation0                                         -0.0216
+Strength Of Strongest Beat Overall Standard Deviation0                    -7544.3078
+MFCC Overall Standard Deviation0                                              0.1451
+MFCC Overall Standard Deviation1                                             -5.6574
+MFCC Overall Standard Deviation2                                             14.8841
+MFCC Overall Standard Deviation3                                             -4.1698
+MFCC Overall Standard Deviation4                                             24.8542
+MFCC Overall Standard Deviation5                                             -8.0489
+MFCC Overall Standard Deviation6                                            -10.0059
+MFCC Overall Standard Deviation7                                            -13.3115
+MFCC Overall Standard Deviation8                                            -49.4019
+MFCC Overall Standard Deviation9                                              2.7728
+MFCC Overall Standard Deviation10                                             1.4403
+MFCC Overall Standard Deviation11                                           -10.4109
+MFCC Overall Standard Deviation12                                           -29.4477
+LPC Overall Standard Deviation0                                             -72.4138
+LPC Overall Standard Deviation1                                             -39.4011
+LPC Overall Standard Deviation2                                             -81.2112
+LPC Overall Standard Deviation3                                             133.9458
+LPC Overall Standard Deviation4                                            -134.6359
+LPC Overall Standard Deviation5                                              402.413
+LPC Overall Standard Deviation6                                             253.5768
+LPC Overall Standard Deviation7                                             199.9566
+LPC Overall Standard Deviation8                                             180.4026
+Spectral Centroid Overall Average0                                           -0.1236
+Spectral Rolloff Point Overall Average0                                      38.9406
+Spectral Flux Overall Average0                                             -1269.408
+Compactness Overall Average0                                                  0.0267
+Spectral Variability Overall Average0                                     -1241.8997
+Root Mean Square Overall Average0                                           -55.2911
+Fraction Of Low Energy Windows Overall Average0                            -283.4167
+Zero Crossings Overall Average0                                               0.0024
+Strongest Beat Overall Average0                                                 0.13
+Beat Sum Overall Average0                                                     0.0011
+Strength Of Strongest Beat Overall Average0                                1586.0913
+MFCC Overall Average0                                                        -0.6415
+MFCC Overall Average1                                                         1.1965
+MFCC Overall Average2                                                           2.45
+MFCC Overall Average3                                                         2.8121
+MFCC Overall Average4                                                         5.3706
+MFCC Overall Average5                                                        -1.7698
+MFCC Overall Average6                                                        -3.1729
+MFCC Overall Average7                                                        -3.4684
+MFCC Overall Average8                                                         1.4677
+MFCC Overall Average9                                                       -14.3194
+MFCC Overall Average10                                                      -12.3463
+MFCC Overall Average11                                                       10.1565
+MFCC Overall Average12                                                         8.676
+LPC Overall Average0                                                         -9.9856
+LPC Overall Average1                                                        -41.3396
+LPC Overall Average2                                                        -15.2204
+LPC Overall Average3                                                         -6.0257
+LPC Overall Average4                                                        -72.7071
+LPC Overall Average5                                                       -227.4032
+LPC Overall Average6                                                         14.9352
+LPC Overall Average7                                                        -86.6354
+LPC Overall Average8                                                         176.437
+Intercept                                                                    83.1964
+
+
+Odds Ratios...
+                                                                               Class
+Variable                                                           neg_CavaloMarinho
+====================================================================================
+Spectral Centroid Overall Standard Deviation0                                 0.4743
+Spectral Rolloff Point Overall Standard Deviation0             1.4613929194449313E48
+Spectral Flux Overall Standard Deviation0                                          0
+Compactness Overall Standard Deviation0                                       1.1301
+Spectral Variability Overall Standard Deviation0                            Infinity
+Root Mean Square Overall Standard Deviation0                  1.5311467393093666E156
+Fraction Of Low Energy Windows Overall Standard Deviation0     5.906202492271067E103
+Zero Crossings Overall Standard Deviation0                                    0.6056
+Strongest Beat Overall Standard Deviation0                                    0.6198
+Beat Sum Overall Standard Deviation0                                          0.9786
+Strength Of Strongest Beat Overall Standard Deviation0                             0
+MFCC Overall Standard Deviation0                                              1.1561
+MFCC Overall Standard Deviation1                                              0.0035
+MFCC Overall Standard Deviation2                                        2911252.1493
+MFCC Overall Standard Deviation3                                              0.0155
+MFCC Overall Standard Deviation4                                6.223667102438151E10
+MFCC Overall Standard Deviation5                                              0.0003
+MFCC Overall Standard Deviation6                                                   0
+MFCC Overall Standard Deviation7                                                   0
+MFCC Overall Standard Deviation8                                                   0
+MFCC Overall Standard Deviation9                                             16.0027
+MFCC Overall Standard Deviation10                                             4.2219
+MFCC Overall Standard Deviation11                                                  0
+MFCC Overall Standard Deviation12                                                  0
+LPC Overall Standard Deviation0                                                    0
+LPC Overall Standard Deviation1                                                    0
+LPC Overall Standard Deviation2                                                    0
+LPC Overall Standard Deviation3                                1.4856957806656132E58
+LPC Overall Standard Deviation4                                                    0
+LPC Overall Standard Deviation5                                 5.83125102603976E174
+LPC Overall Standard Deviation6                               1.3397179252737448E110
+LPC Overall Standard Deviation7                                 6.918821511699776E86
+LPC Overall Standard Deviation8                                2.2275948148908648E78
+Spectral Centroid Overall Average0                                            0.8837
+Spectral Rolloff Point Overall Average0                        8.1602541184920032E16
+Spectral Flux Overall Average0                                                     0
+Compactness Overall Average0                                                  1.0271
+Spectral Variability Overall Average0                                              0
+Root Mean Square Overall Average0                                                  0
+Fraction Of Low Energy Windows Overall Average0                                    0
+Zero Crossings Overall Average0                                               1.0024
+Strongest Beat Overall Average0                                               1.1388
+Beat Sum Overall Average0                                                     1.0011
+Strength Of Strongest Beat Overall Average0                                 Infinity
+MFCC Overall Average0                                                         0.5265
+MFCC Overall Average1                                                         3.3084
+MFCC Overall Average2                                                        11.5885
+MFCC Overall Average3                                                        16.6443
+MFCC Overall Average4                                                       215.0013
+MFCC Overall Average5                                                         0.1704
+MFCC Overall Average6                                                         0.0419
+MFCC Overall Average7                                                         0.0312
+MFCC Overall Average8                                                         4.3392
+MFCC Overall Average9                                                              0
+MFCC Overall Average10                                                             0
+MFCC Overall Average11                                                    25756.8944
+MFCC Overall Average12                                                     5860.5539
+LPC Overall Average0                                                               0
+LPC Overall Average1                                                               0
+LPC Overall Average2                                                               0
+LPC Overall Average3                                                          0.0024
+LPC Overall Average4                                                               0
+LPC Overall Average5                                                               0
+LPC Overall Average6                                                    3064041.7362
+LPC Overall Average7                                                               0
+LPC Overall Average8                                            4.222877888865473E76
+
+
+Classifier 2, using indicator values: Strings: 2 
+Invert: false
+Cols: 2
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                                                               Class
+Variable                                                                    neg_Coco
+====================================================================================
+Spectral Centroid Overall Standard Deviation0                                -0.3324
+Spectral Rolloff Point Overall Standard Deviation0                         -184.5683
+Spectral Flux Overall Standard Deviation0                                 -5945.1403
+Compactness Overall Standard Deviation0                                      -0.1922
+Spectral Variability Overall Standard Deviation0                            416.6238
+Root Mean Square Overall Standard Deviation0                                 86.7583
+Fraction Of Low Energy Windows Overall Standard Deviation0                 1118.4627
+Zero Crossings Overall Standard Deviation0                                   -0.2295
+Strongest Beat Overall Standard Deviation0                                    0.1708
+Beat Sum Overall Standard Deviation0                                         -0.1511
+Strength Of Strongest Beat Overall Standard Deviation0                    17307.7072
+MFCC Overall Standard Deviation0                                             -0.2053
+MFCC Overall Standard Deviation1                                              22.661
+MFCC Overall Standard Deviation2                                            -38.3685
+MFCC Overall Standard Deviation3                                             -48.746
+MFCC Overall Standard Deviation4                                            -36.8199
+MFCC Overall Standard Deviation5                                             28.9938
+MFCC Overall Standard Deviation6                                              8.2685
+MFCC Overall Standard Deviation7                                             37.5452
+MFCC Overall Standard Deviation8                                              -2.566
+MFCC Overall Standard Deviation9                                            -43.4772
+MFCC Overall Standard Deviation10                                             6.6894
+MFCC Overall Standard Deviation11                                            19.5201
+MFCC Overall Standard Deviation12                                            30.2466
+LPC Overall Standard Deviation0                                             -79.0692
+LPC Overall Standard Deviation1                                             273.3483
+LPC Overall Standard Deviation2                                            -171.4065
+LPC Overall Standard Deviation3                                             164.6554
+LPC Overall Standard Deviation4                                            -332.3993
+LPC Overall Standard Deviation5                                              97.5717
+LPC Overall Standard Deviation6                                             -85.2404
+LPC Overall Standard Deviation7                                             131.1527
+LPC Overall Standard Deviation8                                            -345.7292
+Spectral Centroid Overall Average0                                            0.2104
+Spectral Rolloff Point Overall Average0                                      -2.4914
+Spectral Flux Overall Average0                                             1589.0637
+Compactness Overall Average0                                                  0.4162
+Spectral Variability Overall Average0                                      3218.6742
+Root Mean Square Overall Average0                                           138.8666
+Fraction Of Low Energy Windows Overall Average0                             301.6991
+Zero Crossings Overall Average0                                              -0.0604
+Strongest Beat Overall Average0                                               0.5174
+Beat Sum Overall Average0                                                     0.0062
+Strength Of Strongest Beat Overall Average0                               -2674.3213
+MFCC Overall Average0                                                        -0.4953
+MFCC Overall Average1                                                         -1.232
+MFCC Overall Average2                                                        -0.6651
+MFCC Overall Average3                                                         2.7877
+MFCC Overall Average4                                                        -3.7349
+MFCC Overall Average5                                                        -2.1206
+MFCC Overall Average6                                                       -11.7969
+MFCC Overall Average7                                                        17.4474
+MFCC Overall Average8                                                        19.5037
+MFCC Overall Average9                                                        -4.8097
+MFCC Overall Average10                                                        13.646
+MFCC Overall Average11                                                       10.5993
+MFCC Overall Average12                                                       -5.6402
+LPC Overall Average0                                                         64.4094
+LPC Overall Average1                                                         -3.0361
+LPC Overall Average2                                                         -81.417
+LPC Overall Average3                                                         60.5188
+LPC Overall Average4                                                         55.5378
+LPC Overall Average5                                                         11.9503
+LPC Overall Average6                                                        -83.0145
+LPC Overall Average7                                                        439.7673
+LPC Overall Average8                                                       -421.7111
+Intercept                                                                  -735.6392
+
+
+Odds Ratios...
+                                                                               Class
+Variable                                                                    neg_Coco
+====================================================================================
+Spectral Centroid Overall Standard Deviation0                                 0.7172
+Spectral Rolloff Point Overall Standard Deviation0                                 0
+Spectral Flux Overall Standard Deviation0                                          0
+Compactness Overall Standard Deviation0                                       0.8251
+Spectral Variability Overall Standard Deviation0               8.658383602456677E180
+Root Mean Square Overall Standard Deviation0                    4.771659263036863E37
+Fraction Of Low Energy Windows Overall Standard Deviation0                  Infinity
+Zero Crossings Overall Standard Deviation0                                    0.7949
+Strongest Beat Overall Standard Deviation0                                    1.1862
+Beat Sum Overall Standard Deviation0                                          0.8598
+Strength Of Strongest Beat Overall Standard Deviation0                      Infinity
+MFCC Overall Standard Deviation0                                              0.8144
+MFCC Overall Standard Deviation1                                     6943320310.8698
+MFCC Overall Standard Deviation2                                                   0
+MFCC Overall Standard Deviation3                                                   0
+MFCC Overall Standard Deviation4                                                   0
+MFCC Overall Standard Deviation5                               3.9069409686562725E12
+MFCC Overall Standard Deviation6                                            3899.021
+MFCC Overall Standard Deviation7                               2.0215326534642796E16
+MFCC Overall Standard Deviation8                                              0.0768
+MFCC Overall Standard Deviation9                                                   0
+MFCC Overall Standard Deviation10                                           803.8394
+MFCC Overall Standard Deviation11                                     300244968.3084
+MFCC Overall Standard Deviation12                               1.367474801337482E13
+LPC Overall Standard Deviation0                                                    0
+LPC Overall Standard Deviation1                                 5.17224630488795E118
+LPC Overall Standard Deviation2                                                    0
+LPC Overall Standard Deviation3                                  3.22811762642339E71
+LPC Overall Standard Deviation4                                                    0
+LPC Overall Standard Deviation5                                2.3704592084196033E42
+LPC Overall Standard Deviation6                                                    0
+LPC Overall Standard Deviation7                                  9.09714435197506E56
+LPC Overall Standard Deviation8                                                    0
+Spectral Centroid Overall Average0                                            1.2342
+Spectral Rolloff Point Overall Average0                                       0.0828
+Spectral Flux Overall Average0                                              Infinity
+Compactness Overall Average0                                                  1.5162
+Spectral Variability Overall Average0                                       Infinity
+Root Mean Square Overall Average0                              2.0370861956132763E60
+Fraction Of Low Energy Windows Overall Average0               1.0622844929246206E131
+Zero Crossings Overall Average0                                               0.9414
+Strongest Beat Overall Average0                                               1.6776
+Beat Sum Overall Average0                                                     1.0062
+Strength Of Strongest Beat Overall Average0                                        0
+MFCC Overall Average0                                                         0.6094
+MFCC Overall Average1                                                         0.2917
+MFCC Overall Average2                                                         0.5142
+MFCC Overall Average3                                                        16.2441
+MFCC Overall Average4                                                         0.0239
+MFCC Overall Average5                                                           0.12
+MFCC Overall Average6                                                              0
+MFCC Overall Average7                                                  37784464.5665
+MFCC Overall Average8                                                 295349529.9486
+MFCC Overall Average9                                                         0.0082
+MFCC Overall Average10                                                    844047.163
+MFCC Overall Average11                                                    40106.1707
+MFCC Overall Average12                                                        0.0036
+LPC Overall Average0                                            9.389769908751057E27
+LPC Overall Average1                                                           0.048
+LPC Overall Average2                                                               0
+LPC Overall Average3                                            1.918629796210159E26
+LPC Overall Average4                                           1.3175872293706792E24
+LPC Overall Average5                                                     154858.4761
+LPC Overall Average6                                                               0
+LPC Overall Average7                                           9.739014107822286E190
+LPC Overall Average8                                                               0
+
+
+Classifier 3, using indicator values: Strings: 3 
+Invert: false
+Cols: 3
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                                                               Class
+Variable                                                                 neg_Ciranda
+====================================================================================
+Spectral Centroid Overall Standard Deviation0                                -0.5151
+Spectral Rolloff Point Overall Standard Deviation0                          143.9563
+Spectral Flux Overall Standard Deviation0                                -11371.7253
+Compactness Overall Standard Deviation0                                        0.294
+Spectral Variability Overall Standard Deviation0                          -5507.8643
+Root Mean Square Overall Standard Deviation0                                129.5489
+Fraction Of Low Energy Windows Overall Standard Deviation0                  383.6932
+Zero Crossings Overall Standard Deviation0                                    -0.428
+Strongest Beat Overall Standard Deviation0                                   -0.7457
+Beat Sum Overall Standard Deviation0                                          0.2081
+Strength Of Strongest Beat Overall Standard Deviation0                      536.7685
+MFCC Overall Standard Deviation0                                              -0.326
+MFCC Overall Standard Deviation1                                             16.0711
+MFCC Overall Standard Deviation2                                               6.647
+MFCC Overall Standard Deviation3                                             -1.1391
+MFCC Overall Standard Deviation4                                             16.6982
+MFCC Overall Standard Deviation5                                             13.3901
+MFCC Overall Standard Deviation6                                             12.6586
+MFCC Overall Standard Deviation7                                                -2.7
+MFCC Overall Standard Deviation8                                            -49.6267
+MFCC Overall Standard Deviation9                                             -0.8206
+MFCC Overall Standard Deviation10                                            14.3117
+MFCC Overall Standard Deviation11                                           -19.5406
+MFCC Overall Standard Deviation12                                             9.8057
+LPC Overall Standard Deviation0                                               4.1194
+LPC Overall Standard Deviation1                                            -185.0304
+LPC Overall Standard Deviation2                                              41.8073
+LPC Overall Standard Deviation3                                             266.3904
+LPC Overall Standard Deviation4                                              94.1841
+LPC Overall Standard Deviation5                                             438.6816
+LPC Overall Standard Deviation6                                            -444.5486
+LPC Overall Standard Deviation7                                            -736.7905
+LPC Overall Standard Deviation8                                             727.4253
+Spectral Centroid Overall Average0                                           -0.1513
+Spectral Rolloff Point Overall Average0                                     -13.2259
+Spectral Flux Overall Average0                                             1495.3827
+Compactness Overall Average0                                                 -0.6631
+Spectral Variability Overall Average0                                      -478.1405
+Root Mean Square Overall Average0                                            54.4536
+Fraction Of Low Energy Windows Overall Average0                             193.9899
+Zero Crossings Overall Average0                                              -0.0044
+Strongest Beat Overall Average0                                               -0.309
+Beat Sum Overall Average0                                                    -0.0037
+Strength Of Strongest Beat Overall Average0                               -5549.0195
+MFCC Overall Average0                                                        -0.1308
+MFCC Overall Average1                                                         1.6209
+MFCC Overall Average2                                                        -4.1027
+MFCC Overall Average3                                                        -0.0577
+MFCC Overall Average4                                                         8.4643
+MFCC Overall Average5                                                        -7.5225
+MFCC Overall Average6                                                        -0.4266
+MFCC Overall Average7                                                       -14.1095
+MFCC Overall Average8                                                         3.0114
+MFCC Overall Average9                                                         1.4147
+MFCC Overall Average10                                                        0.1327
+MFCC Overall Average11                                                        0.7261
+MFCC Overall Average12                                                       18.0976
+LPC Overall Average0                                                          1.0243
+LPC Overall Average1                                                        -39.4856
+LPC Overall Average2                                                         16.6232
+LPC Overall Average3                                                        -54.2935
+LPC Overall Average4                                                        115.4717
+LPC Overall Average5                                                         123.362
+LPC Overall Average6                                                        -19.5614
+LPC Overall Average7                                                       -107.3664
+LPC Overall Average8                                                       -165.9636
+Intercept                                                                    957.636
+
+
+Odds Ratios...
+                                                                               Class
+Variable                                                                 neg_Ciranda
+====================================================================================
+Spectral Centroid Overall Standard Deviation0                                 0.5975
+Spectral Rolloff Point Overall Standard Deviation0              3.306901737353001E62
+Spectral Flux Overall Standard Deviation0                                          0
+Compactness Overall Standard Deviation0                                       1.3418
+Spectral Variability Overall Standard Deviation0                                   0
+Root Mean Square Overall Standard Deviation0                   1.8295959960428816E56
+Fraction Of Low Energy Windows Overall Standard Deviation0     4.323540115338515E166
+Zero Crossings Overall Standard Deviation0                                    0.6518
+Strongest Beat Overall Standard Deviation0                                    0.4744
+Beat Sum Overall Standard Deviation0                                          1.2313
+Strength Of Strongest Beat Overall Standard Deviation0        1.3050260632386917E233
+MFCC Overall Standard Deviation0                                              0.7218
+MFCC Overall Standard Deviation1                                        9540918.4327
+MFCC Overall Standard Deviation2                                            770.4915
+MFCC Overall Standard Deviation3                                              0.3201
+MFCC Overall Standard Deviation4                                       17863111.4344
+MFCC Overall Standard Deviation5                                          653497.997
+MFCC Overall Standard Deviation6                                         314463.9861
+MFCC Overall Standard Deviation7                                              0.0672
+MFCC Overall Standard Deviation8                                                   0
+MFCC Overall Standard Deviation9                                              0.4402
+MFCC Overall Standard Deviation10                                       1642464.2281
+MFCC Overall Standard Deviation11                                                  0
+MFCC Overall Standard Deviation12                                         18136.0909
+LPC Overall Standard Deviation0                                              61.5219
+LPC Overall Standard Deviation1                                                    0
+LPC Overall Standard Deviation2                               1.43442802265396147E18
+LPC Overall Standard Deviation3                                4.919265313385434E115
+LPC Overall Standard Deviation4                                 8.010090011353276E40
+LPC Overall Standard Deviation5                                3.288464652481318E190
+LPC Overall Standard Deviation6                                                    0
+LPC Overall Standard Deviation7                                                    0
+LPC Overall Standard Deviation8                                             Infinity
+Spectral Centroid Overall Average0                                            0.8596
+Spectral Rolloff Point Overall Average0                                            0
+Spectral Flux Overall Average0                                              Infinity
+Compactness Overall Average0                                                  0.5152
+Spectral Variability Overall Average0                                              0
+Root Mean Square Overall Average0                               4.455415328695745E23
+Fraction Of Low Energy Windows Overall Average0                1.7731591202854904E84
+Zero Crossings Overall Average0                                               0.9956
+Strongest Beat Overall Average0                                               0.7342
+Beat Sum Overall Average0                                                     0.9963
+Strength Of Strongest Beat Overall Average0                                        0
+MFCC Overall Average0                                                         0.8774
+MFCC Overall Average1                                                         5.0576
+MFCC Overall Average2                                                         0.0165
+MFCC Overall Average3                                                         0.9439
+MFCC Overall Average4                                                      4742.2617
+MFCC Overall Average5                                                         0.0005
+MFCC Overall Average6                                                         0.6527
+MFCC Overall Average7                                                              0
+MFCC Overall Average8                                                        20.3167
+MFCC Overall Average9                                                         4.1152
+MFCC Overall Average10                                                        1.1419
+MFCC Overall Average11                                                         2.067
+MFCC Overall Average12                                                 72395103.9433
+LPC Overall Average0                                                           2.785
+LPC Overall Average1                                                               0
+LPC Overall Average2                                                   16571412.0398
+LPC Overall Average3                                                               0
+LPC Overall Average4                                              1.4084271917281E50
+LPC Overall Average5                                            3.762104664588683E53
+LPC Overall Average6                                                               0
+LPC Overall Average7                                                               0
+LPC Overall Average8                                                               0
+
+
+Classifier 4, using indicator values: Strings: 4 
+Invert: false
+Cols: 4
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                                                               Class
+Variable                                                           neg_MaracatuSolto
+====================================================================================
+Spectral Centroid Overall Standard Deviation0                                 0.2113
+Spectral Rolloff Point Overall Standard Deviation0                           35.0723
+Spectral Flux Overall Standard Deviation0                                   704.7734
+Compactness Overall Standard Deviation0                                       0.0117
+Spectral Variability Overall Standard Deviation0                           5158.3606
+Root Mean Square Overall Standard Deviation0                                 84.0947
+Fraction Of Low Energy Windows Overall Standard Deviation0                 -233.3715
+Zero Crossings Overall Standard Deviation0                                    0.1171
+Strongest Beat Overall Standard Deviation0                                    0.2486
+Beat Sum Overall Standard Deviation0                                         -0.0774
+Strength Of Strongest Beat Overall Standard Deviation0                     4645.1895
+MFCC Overall Standard Deviation0                                             -0.1129
+MFCC Overall Standard Deviation1                                              -1.764
+MFCC Overall Standard Deviation2                                              9.2545
+MFCC Overall Standard Deviation3                                              4.5977
+MFCC Overall Standard Deviation4                                             -3.6333
+MFCC Overall Standard Deviation5                                              4.9969
+MFCC Overall Standard Deviation6                                            -22.1765
+MFCC Overall Standard Deviation7                                            -23.3754
+MFCC Overall Standard Deviation8                                             25.1393
+MFCC Overall Standard Deviation9                                              -7.593
+MFCC Overall Standard Deviation10                                            -2.0085
+MFCC Overall Standard Deviation11                                             2.3162
+MFCC Overall Standard Deviation12                                             6.7308
+LPC Overall Standard Deviation0                                              35.6408
+LPC Overall Standard Deviation1                                               2.8385
+LPC Overall Standard Deviation2                                            -126.3707
+LPC Overall Standard Deviation3                                             -108.099
+LPC Overall Standard Deviation4                                             -78.8057
+LPC Overall Standard Deviation5                                             -80.6858
+LPC Overall Standard Deviation6                                              33.3662
+LPC Overall Standard Deviation7                                             114.3296
+LPC Overall Standard Deviation8                                             -87.2284
+Spectral Centroid Overall Average0                                            0.0264
+Spectral Rolloff Point Overall Average0                                      -4.9768
+Spectral Flux Overall Average0                                             -545.0262
+Compactness Overall Average0                                                   0.038
+Spectral Variability Overall Average0                                      1407.7705
+Root Mean Square Overall Average0                                            33.1947
+Fraction Of Low Energy Windows Overall Average0                               4.0809
+Zero Crossings Overall Average0                                               0.0019
+Strongest Beat Overall Average0                                              -0.0535
+Beat Sum Overall Average0                                                    -0.0005
+Strength Of Strongest Beat Overall Average0                                5477.2232
+MFCC Overall Average0                                                          0.301
+MFCC Overall Average1                                                        -1.1204
+MFCC Overall Average2                                                         0.8055
+MFCC Overall Average3                                                         0.0299
+MFCC Overall Average4                                                        -2.7394
+MFCC Overall Average5                                                         0.2164
+MFCC Overall Average6                                                         9.8002
+MFCC Overall Average7                                                         4.9436
+MFCC Overall Average8                                                        -6.2267
+MFCC Overall Average9                                                         0.5515
+MFCC Overall Average10                                                        9.7863
+MFCC Overall Average11                                                       -7.3885
+MFCC Overall Average12                                                         6.548
+LPC Overall Average0                                                         -3.1021
+LPC Overall Average1                                                         10.3845
+LPC Overall Average2                                                         -4.1766
+LPC Overall Average3                                                         80.7218
+LPC Overall Average4                                                        -48.7008
+LPC Overall Average5                                                         -8.7766
+LPC Overall Average6                                                         15.0648
+LPC Overall Average7                                                        -54.6387
+LPC Overall Average8                                                        159.5381
+Intercept                                                                   -33.7532
+
+
+Odds Ratios...
+                                                                               Class
+Variable                                                           neg_MaracatuSolto
+====================================================================================
+Spectral Centroid Overall Standard Deviation0                                 1.2352
+Spectral Rolloff Point Overall Standard Deviation0             1.7049122828522592E15
+Spectral Flux Overall Standard Deviation0                     1.2001045266224843E306
+Compactness Overall Standard Deviation0                                       1.0117
+Spectral Variability Overall Standard Deviation0                            Infinity
+Root Mean Square Overall Standard Deviation0                   3.3255848949668786E36
+Fraction Of Low Energy Windows Overall Standard Deviation0                         0
+Zero Crossings Overall Standard Deviation0                                    1.1242
+Strongest Beat Overall Standard Deviation0                                    1.2823
+Beat Sum Overall Standard Deviation0                                          0.9255
+Strength Of Strongest Beat Overall Standard Deviation0                      Infinity
+MFCC Overall Standard Deviation0                                              0.8932
+MFCC Overall Standard Deviation1                                              0.1714
+MFCC Overall Standard Deviation2                                          10451.3044
+MFCC Overall Standard Deviation3                                             99.2577
+MFCC Overall Standard Deviation4                                              0.0264
+MFCC Overall Standard Deviation5                                            147.9543
+MFCC Overall Standard Deviation6                                                   0
+MFCC Overall Standard Deviation7                                                   0
+MFCC Overall Standard Deviation8                                8.276890344618927E10
+MFCC Overall Standard Deviation9                                              0.0005
+MFCC Overall Standard Deviation10                                             0.1342
+MFCC Overall Standard Deviation11                                            10.1372
+MFCC Overall Standard Deviation12                                           837.7998
+LPC Overall Standard Deviation0                                3.0103667026549185E15
+LPC Overall Standard Deviation1                                              17.0904
+LPC Overall Standard Deviation2                                                    0
+LPC Overall Standard Deviation3                                                    0
+LPC Overall Standard Deviation4                                                    0
+LPC Overall Standard Deviation5                                                    0
+LPC Overall Standard Deviation6                                 3.095749431907546E14
+LPC Overall Standard Deviation7                                4.4950309770290024E49
+LPC Overall Standard Deviation8                                                    0
+Spectral Centroid Overall Average0                                            1.0267
+Spectral Rolloff Point Overall Average0                                       0.0069
+Spectral Flux Overall Average0                                                     0
+Compactness Overall Average0                                                  1.0388
+Spectral Variability Overall Average0                                       Infinity
+Root Mean Square Overall Average0                                2.60771949644133E14
+Fraction Of Low Energy Windows Overall Average0                              59.1972
+Zero Crossings Overall Average0                                               1.0019
+Strongest Beat Overall Average0                                               0.9479
+Beat Sum Overall Average0                                                     0.9995
+Strength Of Strongest Beat Overall Average0                                 Infinity
+MFCC Overall Average0                                                         1.3512
+MFCC Overall Average1                                                         0.3261
+MFCC Overall Average2                                                         2.2377
+MFCC Overall Average3                                                         1.0303
+MFCC Overall Average4                                                         0.0646
+MFCC Overall Average5                                                         1.2416
+MFCC Overall Average6                                                     18036.5392
+MFCC Overall Average7                                                       140.2712
+MFCC Overall Average8                                                          0.002
+MFCC Overall Average9                                                         1.7358
+MFCC Overall Average10                                                    17789.0136
+MFCC Overall Average11                                                        0.0006
+MFCC Overall Average12                                                      697.8515
+LPC Overall Average0                                                           0.045
+LPC Overall Average1                                                       32353.126
+LPC Overall Average2                                                          0.0154
+LPC Overall Average3                                           1.1403082375772725E35
+LPC Overall Average4                                                               0
+LPC Overall Average5                                                          0.0002
+LPC Overall Average6                                                    3487787.4518
+LPC Overall Average7                                                               0
+LPC Overall Average8                                            1.934278234147572E69
+
+
+Classifier 5, using indicator values: Strings: 5 
+Invert: false
+Cols: 5
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                                                              Class
+Variable                                                         neg_MaracatuVirado
+===================================================================================
+Spectral Centroid Overall Standard Deviation0                                0.2465
+Spectral Rolloff Point Overall Standard Deviation0                         -80.6141
+Spectral Flux Overall Standard Deviation0                                 4306.7412
+Compactness Overall Standard Deviation0                                     -0.3098
+Spectral Variability Overall Standard Deviation0                          3080.6523
+Root Mean Square Overall Standard Deviation0                                 27.831
+Fraction Of Low Energy Windows Overall Standard Deviation0                 -186.068
+Zero Crossings Overall Standard Deviation0                                   0.4102
+Strongest Beat Overall Standard Deviation0                                   0.0668
+Beat Sum Overall Standard Deviation0                                        -0.0012
+Strength Of Strongest Beat Overall Standard Deviation0                   -5544.6681
+MFCC Overall Standard Deviation0                                              0.393
+MFCC Overall Standard Deviation1                                           -10.7873
+MFCC Overall Standard Deviation2                                            -2.7684
+MFCC Overall Standard Deviation3                                             11.726
+MFCC Overall Standard Deviation4                                             9.5935
+MFCC Overall Standard Deviation5                                              2.801
+MFCC Overall Standard Deviation6                                            -3.5684
+MFCC Overall Standard Deviation7                                            -6.8391
+MFCC Overall Standard Deviation8                                            20.7622
+MFCC Overall Standard Deviation9                                            24.9735
+MFCC Overall Standard Deviation10                                           -7.4882
+MFCC Overall Standard Deviation11                                            3.4741
+MFCC Overall Standard Deviation12                                           -2.9585
+LPC Overall Standard Deviation0                                              14.989
+LPC Overall Standard Deviation1                                             11.7046
+LPC Overall Standard Deviation2                                             38.0968
+LPC Overall Standard Deviation3                                              3.4737
+LPC Overall Standard Deviation4                                            136.8549
+LPC Overall Standard Deviation5                                            -59.0355
+LPC Overall Standard Deviation6                                             -64.777
+LPC Overall Standard Deviation7                                            104.4922
+LPC Overall Standard Deviation8                                             -0.2008
+Spectral Centroid Overall Average0                                           0.1942
+Spectral Rolloff Point Overall Average0                                      6.4385
+Spectral Flux Overall Average0                                           -2758.3853
+Compactness Overall Average0                                                 0.1823
+Spectral Variability Overall Average0                                      679.2547
+Root Mean Square Overall Average0                                          -16.6186
+Fraction Of Low Energy Windows Overall Average0                             36.9412
+Zero Crossings Overall Average0                                              0.0655
+Strongest Beat Overall Average0                                              0.0544
+Beat Sum Overall Average0                                                    0.0015
+Strength Of Strongest Beat Overall Average0                               1798.4183
+MFCC Overall Average0                                                        0.1599
+MFCC Overall Average1                                                       -0.1566
+MFCC Overall Average2                                                       -0.7161
+MFCC Overall Average3                                                       -0.8172
+MFCC Overall Average4                                                       -0.5656
+MFCC Overall Average5                                                         6.244
+MFCC Overall Average6                                                        0.1901
+MFCC Overall Average7                                                       -4.5248
+MFCC Overall Average8                                                       -8.5439
+MFCC Overall Average9                                                        6.1253
+MFCC Overall Average10                                                      -6.7648
+MFCC Overall Average11                                                       -10.63
+MFCC Overall Average12                                                      -2.7513
+LPC Overall Average0                                                         19.007
+LPC Overall Average1                                                         -4.913
+LPC Overall Average2                                                        18.0525
+LPC Overall Average3                                                        47.2868
+LPC Overall Average4                                                       -62.9368
+LPC Overall Average5                                                         5.0724
+LPC Overall Average6                                                         5.0169
+LPC Overall Average7                                                        -93.812
+LPC Overall Average8                                                         7.6153
+Intercept                                                                 -367.6701
+
+
+Odds Ratios...
+                                                                              Class
+Variable                                                         neg_MaracatuVirado
+===================================================================================
+Spectral Centroid Overall Standard Deviation0                                1.2796
+Spectral Rolloff Point Overall Standard Deviation0                                0
+Spectral Flux Overall Standard Deviation0                                  Infinity
+Compactness Overall Standard Deviation0                                      0.7336
+Spectral Variability Overall Standard Deviation0                           Infinity
+Root Mean Square Overall Standard Deviation0                  1.2213900574275754E12
+Fraction Of Low Energy Windows Overall Standard Deviation0                        0
+Zero Crossings Overall Standard Deviation0                                   1.5071
+Strongest Beat Overall Standard Deviation0                                   1.0691
+Beat Sum Overall Standard Deviation0                                         0.9988
+Strength Of Strongest Beat Overall Standard Deviation0                            0
+MFCC Overall Standard Deviation0                                             1.4815
+MFCC Overall Standard Deviation1                                                  0
+MFCC Overall Standard Deviation2                                             0.0628
+MFCC Overall Standard Deviation3                                        123743.1436
+MFCC Overall Standard Deviation4                                         14669.5057
+MFCC Overall Standard Deviation5                                            16.4616
+MFCC Overall Standard Deviation6                                             0.0282
+MFCC Overall Standard Deviation7                                             0.0011
+MFCC Overall Standard Deviation8                                    1039727564.4774
+MFCC Overall Standard Deviation9                               7.011876086784767E10
+MFCC Overall Standard Deviation10                                            0.0006
+MFCC Overall Standard Deviation11                                           32.2695
+MFCC Overall Standard Deviation12                                            0.0519
+LPC Overall Standard Deviation0                                        3233309.0906
+LPC Overall Standard Deviation1                                         121131.0754
+LPC Overall Standard Deviation2                               3.5092466715567368E16
+LPC Overall Standard Deviation3                                             32.2562
+LPC Overall Standard Deviation4                               2.7247664150477327E59
+LPC Overall Standard Deviation5                                                   0
+LPC Overall Standard Deviation6                                                   0
+LPC Overall Standard Deviation7                               2.4008953182471047E45
+LPC Overall Standard Deviation8                                              0.8181
+Spectral Centroid Overall Average0                                           1.2144
+Spectral Rolloff Point Overall Average0                                    625.4904
+Spectral Flux Overall Average0                                                    0
+Compactness Overall Average0                                                 1.1999
+Spectral Variability Overall Average0                         9.921364013125801E294
+Root Mean Square Overall Average0                                                 0
+Fraction Of Low Energy Windows Overall Average0                1.104989462087931E16
+Zero Crossings Overall Average0                                              1.0677
+Strongest Beat Overall Average0                                              1.0559
+Beat Sum Overall Average0                                                    1.0015
+Strength Of Strongest Beat Overall Average0                                Infinity
+MFCC Overall Average0                                                        1.1734
+MFCC Overall Average1                                                        0.8551
+MFCC Overall Average2                                                        0.4887
+MFCC Overall Average3                                                        0.4417
+MFCC Overall Average4                                                         0.568
+MFCC Overall Average5                                                      514.9027
+MFCC Overall Average6                                                        1.2094
+MFCC Overall Average7                                                        0.0108
+MFCC Overall Average8                                                        0.0002
+MFCC Overall Average9                                                      457.2969
+MFCC Overall Average10                                                       0.0012
+MFCC Overall Average11                                                            0
+MFCC Overall Average12                                                       0.0638
+LPC Overall Average0                                                 179727813.0901
+LPC Overall Average1                                                         0.0074
+LPC Overall Average2                                                  69200053.6564
+LPC Overall Average3                                           3.438611333943847E20
+LPC Overall Average4                                                              0
+LPC Overall Average5                                                       159.5546
+LPC Overall Average6                                                       150.9425
+LPC Overall Average7                                                              0
+LPC Overall Average8                                                      2028.9079
+
+
+
+
+Time taken to build model: 0.26 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          41               54.6667 %
+Incorrectly Classified Instances        34               45.3333 %
+Kappa statistic                          0.4333
+Mean absolute error                      0.305 
+Root mean squared error                  0.3844
+Relative absolute error                 95.3118 %
+Root relative squared error             96.1032 %
+Total Number of Instances               75     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.533     0.083      0.615     0.533     0.571      0.851    CavaloMarinho
+                 0.267     0.117      0.364     0.267     0.308      0.584    Coco
+                 0.6       0.167      0.474     0.6       0.529      0.782    Ciranda
+                 0.733     0.067      0.733     0.733     0.733      0.857    MaracatuSolto
+                 0.6       0.133      0.529     0.6       0.563      0.691    MaracatuVirado
+Weighted Avg.    0.547     0.113      0.543     0.547     0.541      0.753
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+  8  4  1  1  1 |  a = CavaloMarinho
+  2  4  3  2  4 |  b = Coco
+  1  1  9  1  3 |  c = Ciranda
+  1  1  2 11  0 |  d = MaracatuSolto
+  1  1  4  0  9 |  e = MaracatuVirado
+

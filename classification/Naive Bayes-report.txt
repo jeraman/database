@@ -1,0 +1,528 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     jAudio
+Instances:    75
+Attributes:   69
+              Class
+              Spectral Centroid Overall Standard Deviation0
+              Spectral Rolloff Point Overall Standard Deviation0
+              Spectral Flux Overall Standard Deviation0
+              Compactness Overall Standard Deviation0
+              Spectral Variability Overall Standard Deviation0
+              Root Mean Square Overall Standard Deviation0
+              Fraction Of Low Energy Windows Overall Standard Deviation0
+              Zero Crossings Overall Standard Deviation0
+              Strongest Beat Overall Standard Deviation0
+              Beat Sum Overall Standard Deviation0
+              Strength Of Strongest Beat Overall Standard Deviation0
+              MFCC Overall Standard Deviation0
+              MFCC Overall Standard Deviation1
+              MFCC Overall Standard Deviation2
+              MFCC Overall Standard Deviation3
+              MFCC Overall Standard Deviation4
+              MFCC Overall Standard Deviation5
+              MFCC Overall Standard Deviation6
+              MFCC Overall Standard Deviation7
+              MFCC Overall Standard Deviation8
+              MFCC Overall Standard Deviation9
+              MFCC Overall Standard Deviation10
+              MFCC Overall Standard Deviation11
+              MFCC Overall Standard Deviation12
+              LPC Overall Standard Deviation0
+              LPC Overall Standard Deviation1
+              LPC Overall Standard Deviation2
+              LPC Overall Standard Deviation3
+              LPC Overall Standard Deviation4
+              LPC Overall Standard Deviation5
+              LPC Overall Standard Deviation6
+              LPC Overall Standard Deviation7
+              LPC Overall Standard Deviation8
+              LPC Overall Standard Deviation9
+              Spectral Centroid Overall Average0
+              Spectral Rolloff Point Overall Average0
+              Spectral Flux Overall Average0
+              Compactness Overall Average0
+              Spectral Variability Overall Average0
+              Root Mean Square Overall Average0
+              Fraction Of Low Energy Windows Overall Average0
+              Zero Crossings Overall Average0
+              Strongest Beat Overall Average0
+              Beat Sum Overall Average0
+              Strength Of Strongest Beat Overall Average0
+              MFCC Overall Average0
+              MFCC Overall Average1
+              MFCC Overall Average2
+              MFCC Overall Average3
+              MFCC Overall Average4
+              MFCC Overall Average5
+              MFCC Overall Average6
+              MFCC Overall Average7
+              MFCC Overall Average8
+              MFCC Overall Average9
+              MFCC Overall Average10
+              MFCC Overall Average11
+              MFCC Overall Average12
+              LPC Overall Average0
+              LPC Overall Average1
+              LPC Overall Average2
+              LPC Overall Average3
+              LPC Overall Average4
+              LPC Overall Average5
+              LPC Overall Average6
+              LPC Overall Average7
+              LPC Overall Average8
+              LPC Overall Average9
+Test mode:5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                                                      Class
+Attribute                                                     CavaloMarinho           Coco        Ciranda  MaracatuSolto MaracatuVirado
+                                                                      (0.2)          (0.2)          (0.2)          (0.2)          (0.2)
+========================================================================================================================================
+Spectral Centroid Overall Standard Deviation0
+  mean                                                               26.4596        21.4334        15.6532         17.556        15.3301
+  std. dev.                                                           8.1999        10.1993         6.7275         5.4523         7.2887
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.5385         0.5385         0.5385         0.5385         0.5385
+
+Spectral Rolloff Point Overall Standard Deviation0
+  mean                                                                0.2131         0.1891          0.123         0.1396         0.1411
+  std. dev.                                                           0.0564         0.0852         0.0522         0.0432         0.0729
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0044         0.0044         0.0044         0.0044         0.0044
+
+Spectral Flux Overall Standard Deviation0
+  mean                                                                0.0015         0.0026          0.002         0.0016         0.0027
+  std. dev.                                                           0.0012         0.0019         0.0015         0.0019         0.0018
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0001         0.0001         0.0001         0.0001         0.0001
+
+Compactness Overall Standard Deviation0
+  mean                                                              168.6593       166.6071       160.0771       164.7414       160.4502
+  std. dev.                                                          44.7356         20.663          16.61         9.7945        15.3169
+  weight sum                                                              15             15             15             15             15
+  precision                                                           2.7986         2.7986         2.7986         2.7986         2.7986
+
+Spectral Variability Overall Standard Deviation0
+  mean                                                                0.0011         0.0015         0.0013          0.001         0.0016
+  std. dev.                                                           0.0004         0.0007         0.0006         0.0006         0.0007
+  weight sum                                                              15             15             15             15             15
+  precision                                                                0              0              0              0              0
+
+Root Mean Square Overall Standard Deviation0
+  mean                                                                0.0402         0.0559         0.0477         0.0369         0.0579
+  std. dev.                                                           0.0154         0.0253         0.0207         0.0195         0.0247
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0015         0.0015         0.0015         0.0015         0.0015
+
+Fraction Of Low Energy Windows Overall Standard Deviation0
+  mean                                                                0.0411          0.037         0.0398          0.055         0.0334
+  std. dev.                                                           0.0146         0.0116         0.0126         0.0161         0.0093
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0009         0.0009         0.0009         0.0009         0.0009
+
+Zero Crossings Overall Standard Deviation0
+  mean                                                               48.4832        41.3467        31.8313        35.6261        31.5481
+  std. dev.                                                          12.6566        15.1429        10.3537         7.7461        12.5358
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.8496         0.8496         0.8496         0.8496         0.8496
+
+Strongest Beat Overall Standard Deviation0
+  mean                                                               17.4409        20.5126        12.1306        15.2022        12.1826
+  std. dev.                                                          13.0229        13.1713         9.5213        13.2157        15.2308
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.7809         0.7809         0.7809         0.7809         0.7809
+
+Beat Sum Overall Standard Deviation0
+  mean                                                               53.9052        77.5133        49.9705        51.5444        84.9892
+  std. dev.                                                          46.9136       103.3527        55.9445        58.3263         88.223
+  weight sum                                                              15             15             15             15             15
+  precision                                                            5.902          5.902          5.902          5.902          5.902
+
+Strength Of Strongest Beat Overall Standard Deviation0
+  mean                                                                0.0004         0.0003         0.0002         0.0003         0.0006
+  std. dev.                                                           0.0006         0.0003         0.0002         0.0002         0.0018
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0001         0.0001         0.0001         0.0001         0.0001
+
+MFCC Overall Standard Deviation0
+  mean                                                                25.422        18.6538        13.2062        16.3427        15.5173
+  std. dev.                                                          44.8404         9.3906         1.1673         2.3578         6.6114
+  weight sum                                                              15             15             15             15             15
+  precision                                                           2.4762         2.4762         2.4762         2.4762         2.4762
+
+MFCC Overall Standard Deviation1
+  mean                                                                4.1055         4.2596         3.8336         4.5723         3.7611
+  std. dev.                                                           0.8718         1.0721         1.1387         0.5775         0.8931
+  weight sum                                                              15             15             15             15             15
+  precision                                                            0.068          0.068          0.068          0.068          0.068
+
+MFCC Overall Standard Deviation2
+  mean                                                                3.2564          3.706         3.0902         3.5964         2.7011
+  std. dev.                                                            0.576         0.8546         0.7711         0.6708         1.0585
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0567         0.0567         0.0567         0.0567         0.0567
+
+MFCC Overall Standard Deviation3
+  mean                                                                2.3942         2.5447         2.3566          2.524         2.0237
+  std. dev.                                                           0.3535         0.2734         0.4133          0.373         0.4622
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0282         0.0282         0.0282         0.0282         0.0282
+
+MFCC Overall Standard Deviation4
+  mean                                                                2.4377         2.6604         2.3848         2.7589         1.8903
+  std. dev.                                                           0.4016          0.443         0.3909         0.4946         0.4257
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0274         0.0274         0.0274         0.0274         0.0274
+
+MFCC Overall Standard Deviation5
+  mean                                                                 2.082          2.121         2.0565         2.3055         1.6695
+  std. dev.                                                           0.2861         0.2512         0.2544          0.363         0.2708
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0225         0.0225         0.0225         0.0225         0.0225
+
+MFCC Overall Standard Deviation6
+  mean                                                                2.1015         2.0697          1.981         2.3976         1.5912
+  std. dev.                                                            0.217         0.2569         0.3004         0.3669         0.2199
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0251         0.0251         0.0251         0.0251         0.0251
+
+MFCC Overall Standard Deviation7
+  mean                                                                1.9629         1.9434         1.8382         2.2303         1.5176
+  std. dev.                                                           0.1945         0.2492         0.2839         0.3569         0.1794
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0195         0.0195         0.0195         0.0195         0.0195
+
+MFCC Overall Standard Deviation8
+  mean                                                                2.1289         1.9929         1.8938         2.1346          1.568
+  std. dev.                                                           0.2681         0.2577         0.3291         0.2528         0.2999
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0212         0.0212         0.0212         0.0212         0.0212
+
+MFCC Overall Standard Deviation9
+  mean                                                                2.1728         2.0359         1.8935         2.2203         1.4662
+  std. dev.                                                           0.3345         0.3153         0.3105         0.3734          0.253
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0209         0.0209         0.0209         0.0209         0.0209
+
+MFCC Overall Standard Deviation10
+  mean                                                                2.1797         1.9491         1.8901         2.2977         1.4269
+  std. dev.                                                           0.4866         0.3637         0.3674          0.408         0.2825
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0268         0.0268         0.0268         0.0268         0.0268
+
+MFCC Overall Standard Deviation11
+  mean                                                                2.0624         1.9856         1.9009         2.3954         1.3336
+  std. dev.                                                           0.4049         0.4255         0.3808         0.4874         0.2316
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0295         0.0295         0.0295         0.0295         0.0295
+
+MFCC Overall Standard Deviation12
+  mean                                                                2.0704         1.9385         1.8195         2.3387         1.2894
+  std. dev.                                                           0.5751         0.4576         0.3947         0.5475         0.2436
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0325         0.0325         0.0325         0.0325         0.0325
+
+LPC Overall Standard Deviation0
+  mean                                                                0.2301          0.173         0.1139         0.1343         0.1142
+  std. dev.                                                           0.0781         0.1007         0.0665         0.0498         0.0646
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0051         0.0051         0.0051         0.0051         0.0051
+
+LPC Overall Standard Deviation1
+  mean                                                                0.2521         0.2409         0.2216         0.2557         0.2048
+  std. dev.                                                            0.072         0.0774         0.0647         0.0658         0.0755
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0037         0.0037         0.0037         0.0037         0.0037
+
+LPC Overall Standard Deviation2
+  mean                                                                0.1708         0.1994         0.1627         0.2325         0.1361
+  std. dev.                                                           0.0313         0.0426         0.0307         0.0456         0.0345
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0035         0.0035         0.0035         0.0035         0.0035
+
+LPC Overall Standard Deviation3
+  mean                                                                0.1406         0.1644         0.1485         0.1834         0.1152
+  std. dev.                                                           0.0223         0.0304         0.0393          0.039         0.0324
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0024         0.0024         0.0024         0.0024         0.0024
+
+LPC Overall Standard Deviation4
+  mean                                                                0.1238          0.155         0.1381         0.1503         0.0945
+  std. dev.                                                           0.0192         0.0428         0.0356         0.0277         0.0234
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0029         0.0029         0.0029         0.0029         0.0029
+
+LPC Overall Standard Deviation5
+  mean                                                                0.1155         0.1391         0.1317         0.1473         0.0833
+  std. dev.                                                           0.0223         0.0327         0.0388         0.0324         0.0206
+  weight sum                                                              15             15             15             15             15
+  precision                                                            0.002          0.002          0.002          0.002          0.002
+
+LPC Overall Standard Deviation6
+  mean                                                                0.1043         0.1281         0.1302         0.1323         0.0781
+  std. dev.                                                           0.0165         0.0291         0.0417         0.0271          0.018
+  weight sum                                                              15             15             15             15             15
+  precision                                                            0.002          0.002          0.002          0.002          0.002
+
+LPC Overall Standard Deviation7
+  mean                                                                0.0994          0.119         0.1224         0.1265         0.0751
+  std. dev.                                                           0.0186         0.0247         0.0374         0.0281         0.0189
+  weight sum                                                              15             15             15             15             15
+  precision                                                            0.002          0.002          0.002          0.002          0.002
+
+LPC Overall Standard Deviation8
+  mean                                                                0.0948          0.111         0.1063         0.1199         0.0723
+  std. dev.                                                             0.02          0.021         0.0275         0.0213          0.017
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0016         0.0016         0.0016         0.0016         0.0016
+
+LPC Overall Standard Deviation9
+  mean                                                                     0              0              0              0              0
+  std. dev.                                                           0.0017         0.0017         0.0017         0.0017         0.0017
+  weight sum                                                              15             15             15             15             15
+  precision                                                             0.01           0.01           0.01           0.01           0.01
+
+Spectral Centroid Overall Average0
+  mean                                                               64.5916        41.1447        37.5375        38.3266        29.3086
+  std. dev.                                                          25.6003        18.1028         18.962         13.829        15.3695
+  weight sum                                                              15             15             15             15             15
+  precision                                                           1.6909         1.6909         1.6909         1.6909         1.6909
+
+Spectral Rolloff Point Overall Average0
+  mean                                                                0.4435         0.2977         0.2504         0.2543         0.2156
+  std. dev.                                                           0.1794         0.1661         0.1474         0.1182          0.137
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0116         0.0116         0.0116         0.0116         0.0116
+
+Spectral Flux Overall Average0
+  mean                                                                0.0016         0.0028         0.0021         0.0016         0.0032
+  std. dev.                                                           0.0016         0.0021         0.0018          0.002         0.0022
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0001         0.0001         0.0001         0.0001         0.0001
+
+Compactness Overall Average0
+  mean                                                             1564.2476      1561.1238      1585.3333      1607.7857      1521.2952
+  std. dev.                                                          37.8359        28.6035        38.2687        25.8423        12.7818
+  weight sum                                                              15             15             15             15             15
+  precision                                                           2.9286         2.9286         2.9286         2.9286         2.9286
+
+Spectral Variability Overall Average0
+  mean                                                                0.0024         0.0033         0.0031         0.0024         0.0036
+  std. dev.                                                           0.0013         0.0016         0.0015         0.0018         0.0018
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0001         0.0001         0.0001         0.0001         0.0001
+
+Root Mean Square Overall Average0
+  mean                                                                0.1123          0.146         0.1339         0.1007         0.1573
+  std. dev.                                                           0.0582         0.0665         0.0625         0.0713         0.0709
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0039         0.0039         0.0039         0.0039         0.0039
+
+Fraction Of Low Energy Windows Overall Average0
+  mean                                                                0.5608         0.5392         0.5197         0.5225          0.552
+  std. dev.                                                           0.0518         0.0401         0.0733         0.0433           0.05
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0043         0.0043         0.0043         0.0043         0.0043
+
+Zero Crossings Overall Average0
+  mean                                                              138.3239        97.5905        89.3165        89.5286        77.0116
+  std. dev.                                                          47.2421        39.0903        37.2291        30.4098        36.8414
+  weight sum                                                              15             15             15             15             15
+  precision                                                           3.1823         3.1823         3.1823         3.1823         3.1823
+
+Strongest Beat Overall Average0
+  mean                                                               195.344       185.7452        209.658       198.0384        203.764
+  std. dev.                                                          21.0466        37.0312          5.906        18.5117        33.4307
+  weight sum                                                              15             15             15             15             15
+  precision                                                            2.526          2.526          2.526          2.526          2.526
+
+Beat Sum Overall Average0
+  mean                                                              425.9855       691.1824       580.5097       390.4867       793.5025
+  std. dev.                                                         425.4632       528.9036       555.1376       557.0196       596.7914
+  weight sum                                                              15             15             15             15             15
+  precision                                                          31.3225        31.3225        31.3225        31.3225        31.3225
+
+Strength Of Strongest Beat Overall Average0
+  mean                                                                0.0097         0.0095         0.0094         0.0094         0.0099
+  std. dev.                                                           0.0009         0.0005         0.0006         0.0003         0.0017
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0001         0.0001         0.0001         0.0001         0.0001
+
+MFCC Overall Average0
+  mean                                                             -112.4777      -104.2109      -102.9584      -115.7343      -100.5368
+  std. dev.                                                          18.7919        16.7684        12.7996         17.032        19.0642
+  weight sum                                                              15             15             15             15             15
+  precision                                                           1.2525         1.2525         1.2525         1.2525         1.2525
+
+MFCC Overall Average1
+  mean                                                               -5.7934         2.1273          1.041         0.2489         4.7072
+  std. dev.                                                           4.5025           3.05         5.3965         2.9449         3.9057
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.3395         0.3395         0.3395         0.3395         0.3395
+
+MFCC Overall Average2
+  mean                                                                 -4.66         0.5453        -0.3718        -2.7886         2.0697
+  std. dev.                                                           2.7106         2.1169          1.495          2.303         2.1785
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.1859         0.1859         0.1859         0.1859         0.1859
+
+MFCC Overall Average3
+  mean                                                               -4.2838         -0.906        -1.5461        -2.7771          0.128
+  std. dev.                                                            1.797         1.2215         2.4295         1.1096         1.5917
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.1477         0.1477         0.1477         0.1477         0.1477
+
+MFCC Overall Average4
+  mean                                                               -1.2185         0.5799        -0.1303        -1.8767         0.4627
+  std. dev.                                                           1.1291         1.2691         1.5137         1.4098         0.5945
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0977         0.0977         0.0977         0.0977         0.0977
+
+MFCC Overall Average5
+  mean                                                               -0.9167           0.65         0.2945        -1.0334         0.5111
+  std. dev.                                                           1.1903         0.8279         1.0899         1.4985         0.6871
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0833         0.0833         0.0833         0.0833         0.0833
+
+MFCC Overall Average6
+  mean                                                               -0.2757         0.2196        -0.0654        -1.7804         0.1402
+  std. dev.                                                           0.7945          0.751         1.3279         1.0377           0.61
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0701         0.0701         0.0701         0.0701         0.0701
+
+MFCC Overall Average7
+  mean                                                                -0.712        -0.6436        -0.3258        -1.5849        -0.6195
+  std. dev.                                                           0.7017         0.7346          0.822         1.1494         0.5632
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0603         0.0603         0.0603         0.0603         0.0603
+
+MFCC Overall Average8
+  mean                                                               -0.9826        -1.5014        -0.9765         -2.368        -0.8789
+  std. dev.                                                           1.6646         0.4146         0.4468         0.8862         0.5056
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0915         0.0915         0.0915         0.0915         0.0915
+
+MFCC Overall Average9
+  mean                                                               -1.1754        -1.0296        -0.6925        -2.1139        -0.7654
+  std. dev.                                                           1.1897         0.8646         0.6482         0.7733         0.3686
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0683         0.0683         0.0683         0.0683         0.0683
+
+MFCC Overall Average10
+  mean                                                               -1.0152         -0.324        -0.6336        -1.4472         -0.414
+  std. dev.                                                           1.0654         0.7383         0.5102         0.7331         0.3425
+  weight sum                                                              15             15             15             15             15
+  precision                                                            0.054          0.054          0.054          0.054          0.054
+
+MFCC Overall Average11
+  mean                                                               -1.0418        -0.5156        -0.7205        -1.0383        -0.5792
+  std. dev.                                                           1.0206         0.6984          0.331         0.6797         0.3055
+  weight sum                                                              15             15             15             15             15
+  precision                                                            0.053          0.053          0.053          0.053          0.053
+
+MFCC Overall Average12
+  mean                                                               -0.6129        -0.4051        -0.9943        -0.5787        -0.8391
+  std. dev.                                                           0.4892         0.4769         0.5004         0.7682          0.208
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0395         0.0395         0.0395         0.0395         0.0395
+
+LPC Overall Average0
+  mean                                                               -0.5833        -0.7614        -0.8055        -0.8074        -0.8409
+  std. dev.                                                           0.2353         0.1599          0.152         0.1228         0.1155
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0144         0.0144         0.0144         0.0144         0.0144
+
+LPC Overall Average1
+  mean                                                                0.0812         0.1343          0.338         0.3943         0.1517
+  std. dev.                                                           0.2016         0.3568         0.1932         0.2238         0.2412
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0162         0.0162         0.0162         0.0162         0.0162
+
+LPC Overall Average2
+  mean                                                                0.0472        -0.0858        -0.1165        -0.1251        -0.0858
+  std. dev.                                                           0.0922         0.2465         0.2317         0.1207         0.1225
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0118         0.0118         0.0118         0.0118         0.0118
+
+LPC Overall Average3
+  mean                                                                0.1215         0.1445         0.1747         0.0947         0.0476
+  std. dev.                                                           0.0818         0.1645         0.1781         0.0622         0.0549
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0082         0.0082         0.0082         0.0082         0.0082
+
+LPC Overall Average4
+  mean                                                                0.0683          0.012        -0.0581         0.0341         0.0189
+  std. dev.                                                           0.0857         0.0686         0.1192         0.0502         0.0581
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0069         0.0069         0.0069         0.0069         0.0069
+
+LPC Overall Average5
+  mean                                                                0.1214         0.0795         0.1127         0.0991         0.0593
+  std. dev.                                                           0.0457         0.0746         0.1533         0.0501         0.0486
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0082         0.0082         0.0082         0.0082         0.0082
+
+LPC Overall Average6
+  mean                                                                 0.037         0.0263         -0.011         0.0272         0.0334
+  std. dev.                                                           0.0576         0.0626         0.0802         0.0508         0.0278
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0049         0.0049         0.0049         0.0049         0.0049
+
+LPC Overall Average7
+  mean                                                                0.0796         0.0286         0.0363         0.0483         0.0444
+  std. dev.                                                           0.0465         0.0294         0.0842         0.0422         0.0393
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0041         0.0041         0.0041         0.0041         0.0041
+
+LPC Overall Average8
+  mean                                                                0.0542         0.0317         0.0411         0.0382         0.0209
+  std. dev.                                                           0.0568         0.0298         0.0543         0.0421         0.0238
+  weight sum                                                              15             15             15             15             15
+  precision                                                           0.0034         0.0034         0.0034         0.0034         0.0034
+
+LPC Overall Average9
+  mean                                                                     0              0              0              0              0
+  std. dev.                                                           0.0017         0.0017         0.0017         0.0017         0.0017
+  weight sum                                                              15             15             15             15             15
+  precision                                                             0.01           0.01           0.01           0.01           0.01
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          45               60      %
+Incorrectly Classified Instances        30               40      %
+Kappa statistic                          0.5   
+Mean absolute error                      0.1574
+Root mean squared error                  0.3822
+Relative absolute error                 49.2013 %
+Root relative squared error             95.5457 %
+Total Number of Instances               75     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.6       0.067      0.692     0.6       0.643      0.84     CavaloMarinho
+                 0.333     0.117      0.417     0.333     0.37       0.733    Coco
+                 0.4       0.083      0.545     0.4       0.462      0.779    Ciranda
+                 0.8       0.133      0.6       0.8       0.686      0.877    MaracatuSolto
+                 0.867     0.1        0.684     0.867     0.765      0.909    MaracatuVirado
+Weighted Avg.    0.6       0.1        0.588     0.6       0.585      0.828
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+  9  2  0  4  0 |  a = CavaloMarinho
+  2  5  4  1  3 |  b = Coco
+  1  2  6  3  3 |  c = Ciranda
+  1  1  1 12  0 |  d = MaracatuSolto
+  0  2  0  0 13 |  e = MaracatuVirado
+

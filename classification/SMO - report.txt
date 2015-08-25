@@ -1,0 +1,879 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     jAudio
+Instances:    75
+Attributes:   69
+              Class
+              Spectral Centroid Overall Standard Deviation0
+              Spectral Rolloff Point Overall Standard Deviation0
+              Spectral Flux Overall Standard Deviation0
+              Compactness Overall Standard Deviation0
+              Spectral Variability Overall Standard Deviation0
+              Root Mean Square Overall Standard Deviation0
+              Fraction Of Low Energy Windows Overall Standard Deviation0
+              Zero Crossings Overall Standard Deviation0
+              Strongest Beat Overall Standard Deviation0
+              Beat Sum Overall Standard Deviation0
+              Strength Of Strongest Beat Overall Standard Deviation0
+              MFCC Overall Standard Deviation0
+              MFCC Overall Standard Deviation1
+              MFCC Overall Standard Deviation2
+              MFCC Overall Standard Deviation3
+              MFCC Overall Standard Deviation4
+              MFCC Overall Standard Deviation5
+              MFCC Overall Standard Deviation6
+              MFCC Overall Standard Deviation7
+              MFCC Overall Standard Deviation8
+              MFCC Overall Standard Deviation9
+              MFCC Overall Standard Deviation10
+              MFCC Overall Standard Deviation11
+              MFCC Overall Standard Deviation12
+              LPC Overall Standard Deviation0
+              LPC Overall Standard Deviation1
+              LPC Overall Standard Deviation2
+              LPC Overall Standard Deviation3
+              LPC Overall Standard Deviation4
+              LPC Overall Standard Deviation5
+              LPC Overall Standard Deviation6
+              LPC Overall Standard Deviation7
+              LPC Overall Standard Deviation8
+              LPC Overall Standard Deviation9
+              Spectral Centroid Overall Average0
+              Spectral Rolloff Point Overall Average0
+              Spectral Flux Overall Average0
+              Compactness Overall Average0
+              Spectral Variability Overall Average0
+              Root Mean Square Overall Average0
+              Fraction Of Low Energy Windows Overall Average0
+              Zero Crossings Overall Average0
+              Strongest Beat Overall Average0
+              Beat Sum Overall Average0
+              Strength Of Strongest Beat Overall Average0
+              MFCC Overall Average0
+              MFCC Overall Average1
+              MFCC Overall Average2
+              MFCC Overall Average3
+              MFCC Overall Average4
+              MFCC Overall Average5
+              MFCC Overall Average6
+              MFCC Overall Average7
+              MFCC Overall Average8
+              MFCC Overall Average9
+              MFCC Overall Average10
+              MFCC Overall Average11
+              MFCC Overall Average12
+              LPC Overall Average0
+              LPC Overall Average1
+              LPC Overall Average2
+              LPC Overall Average3
+              LPC Overall Average4
+              LPC Overall Average5
+              LPC Overall Average6
+              LPC Overall Average7
+              LPC Overall Average8
+              LPC Overall Average9
+Test mode:5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: CavaloMarinho, Coco
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2444 * (normalized) Spectral Centroid Overall Standard Deviation0
+ +       0.1207 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +      -0.1562 * (normalized) Spectral Flux Overall Standard Deviation0
+ +       0.0221 * (normalized) Compactness Overall Standard Deviation0
+ +       0.0451 * (normalized) Spectral Variability Overall Standard Deviation0
+ +       0.071  * (normalized) Root Mean Square Overall Standard Deviation0
+ +      -0.0874 * (normalized) Fraction Of Low Energy Windows Overall Standard Deviation0
+ +      -0.1342 * (normalized) Zero Crossings Overall Standard Deviation0
+ +      -0.108  * (normalized) Strongest Beat Overall Standard Deviation0
+ +      -0.1946 * (normalized) Beat Sum Overall Standard Deviation0
+ +      -0.0573 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +       0.008  * (normalized) MFCC Overall Standard Deviation0
+ +      -0.3627 * (normalized) MFCC Overall Standard Deviation1
+ +       0.4025 * (normalized) MFCC Overall Standard Deviation2
+ +       0.036  * (normalized) MFCC Overall Standard Deviation3
+ +       0.3339 * (normalized) MFCC Overall Standard Deviation4
+ +      -0.0989 * (normalized) MFCC Overall Standard Deviation5
+ +      -0.0326 * (normalized) MFCC Overall Standard Deviation6
+ +       0.1247 * (normalized) MFCC Overall Standard Deviation7
+ +      -0.6496 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.4104 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.3242 * (normalized) MFCC Overall Standard Deviation10
+ +      -0.247  * (normalized) MFCC Overall Standard Deviation11
+ +      -0.291  * (normalized) MFCC Overall Standard Deviation12
+ +      -0.2205 * (normalized) LPC Overall Standard Deviation0
+ +      -0.0961 * (normalized) LPC Overall Standard Deviation1
+ +       0.1845 * (normalized) LPC Overall Standard Deviation2
+ +       0.4813 * (normalized) LPC Overall Standard Deviation3
+ +       0.1901 * (normalized) LPC Overall Standard Deviation4
+ +       0.3618 * (normalized) LPC Overall Standard Deviation5
+ +       0.252  * (normalized) LPC Overall Standard Deviation6
+ +       0.1273 * (normalized) LPC Overall Standard Deviation7
+ +       0.0346 * (normalized) LPC Overall Standard Deviation8
+ +      -0.4994 * (normalized) Spectral Centroid Overall Average0
+ +      -0.4171 * (normalized) Spectral Rolloff Point Overall Average0
+ +      -0.0827 * (normalized) Spectral Flux Overall Average0
+ +      -0.1773 * (normalized) Compactness Overall Average0
+ +       0.0554 * (normalized) Spectral Variability Overall Average0
+ +       0.0084 * (normalized) Root Mean Square Overall Average0
+ +      -0.3374 * (normalized) Fraction Of Low Energy Windows Overall Average0
+ +      -0.4155 * (normalized) Zero Crossings Overall Average0
+ +       0.129  * (normalized) Strongest Beat Overall Average0
+ +      -0.0616 * (normalized) Beat Sum Overall Average0
+ +      -0.0864 * (normalized) Strength Of Strongest Beat Overall Average0
+ +       0.1508 * (normalized) MFCC Overall Average0
+ +       0.4044 * (normalized) MFCC Overall Average1
+ +       0.8807 * (normalized) MFCC Overall Average2
+ +       0.8966 * (normalized) MFCC Overall Average3
+ +       0.5949 * (normalized) MFCC Overall Average4
+ +       0.9853 * (normalized) MFCC Overall Average5
+ +       0.2614 * (normalized) MFCC Overall Average6
+ +      -0.1271 * (normalized) MFCC Overall Average7
+ +      -0.2577 * (normalized) MFCC Overall Average8
+ +      -0.7221 * (normalized) MFCC Overall Average9
+ +      -0.0228 * (normalized) MFCC Overall Average10
+ +       0.4388 * (normalized) MFCC Overall Average11
+ +       0.3893 * (normalized) MFCC Overall Average12
+ +      -0.5127 * (normalized) LPC Overall Average0
+ +       0.1266 * (normalized) LPC Overall Average1
+ +       0.0055 * (normalized) LPC Overall Average2
+ +      -0.4182 * (normalized) LPC Overall Average3
+ +      -0.4083 * (normalized) LPC Overall Average4
+ +      -0.3437 * (normalized) LPC Overall Average5
+ +       0.3209 * (normalized) LPC Overall Average6
+ +      -0.4554 * (normalized) LPC Overall Average7
+ +       0.0684 * (normalized) LPC Overall Average8
+ -       0.2029
+
+Number of kernel evaluations: 406 (95.226% cached)
+
+Classifier for classes: CavaloMarinho, Ciranda
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2306 * (normalized) Spectral Centroid Overall Standard Deviation0
+ +      -0.2627 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +      -0.0783 * (normalized) Spectral Flux Overall Standard Deviation0
+ +       0.2091 * (normalized) Compactness Overall Standard Deviation0
+ +       0.0812 * (normalized) Spectral Variability Overall Standard Deviation0
+ +       0.1124 * (normalized) Root Mean Square Overall Standard Deviation0
+ +       0.1503 * (normalized) Fraction Of Low Energy Windows Overall Standard Deviation0
+ +      -0.1722 * (normalized) Zero Crossings Overall Standard Deviation0
+ +      -0.353  * (normalized) Strongest Beat Overall Standard Deviation0
+ +      -0.2952 * (normalized) Beat Sum Overall Standard Deviation0
+ +      -0.0558 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +       0.0156 * (normalized) MFCC Overall Standard Deviation0
+ +      -0.0735 * (normalized) MFCC Overall Standard Deviation1
+ +       0.1445 * (normalized) MFCC Overall Standard Deviation2
+ +       0.1098 * (normalized) MFCC Overall Standard Deviation3
+ +       0.0208 * (normalized) MFCC Overall Standard Deviation4
+ +      -0.3078 * (normalized) MFCC Overall Standard Deviation5
+ +      -0.2015 * (normalized) MFCC Overall Standard Deviation6
+ +      -0.0831 * (normalized) MFCC Overall Standard Deviation7
+ +      -0.0239 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.3597 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.2438 * (normalized) MFCC Overall Standard Deviation10
+ +      -0.175  * (normalized) MFCC Overall Standard Deviation11
+ +      -0.2478 * (normalized) MFCC Overall Standard Deviation12
+ +      -0.2484 * (normalized) LPC Overall Standard Deviation0
+ +      -0.2153 * (normalized) LPC Overall Standard Deviation1
+ +      -0.2739 * (normalized) LPC Overall Standard Deviation2
+ +       0.4048 * (normalized) LPC Overall Standard Deviation3
+ +       0.0763 * (normalized) LPC Overall Standard Deviation4
+ +       0.2279 * (normalized) LPC Overall Standard Deviation5
+ +       0.1991 * (normalized) LPC Overall Standard Deviation6
+ +       0.3907 * (normalized) LPC Overall Standard Deviation7
+ +       0.2795 * (normalized) LPC Overall Standard Deviation8
+ +      -0.2938 * (normalized) Spectral Centroid Overall Average0
+ +      -0.2233 * (normalized) Spectral Rolloff Point Overall Average0
+ +      -0.0126 * (normalized) Spectral Flux Overall Average0
+ +       0.4356 * (normalized) Compactness Overall Average0
+ +       0.0436 * (normalized) Spectral Variability Overall Average0
+ +      -0.012  * (normalized) Root Mean Square Overall Average0
+ +      -1.0233 * (normalized) Fraction Of Low Energy Windows Overall Average0
+ +      -0.2718 * (normalized) Zero Crossings Overall Average0
+ +       0.3476 * (normalized) Strongest Beat Overall Average0
+ +      -0.1128 * (normalized) Beat Sum Overall Average0
+ +      -0.0587 * (normalized) Strength Of Strongest Beat Overall Average0
+ +       0.1235 * (normalized) MFCC Overall Average0
+ +       0.3605 * (normalized) MFCC Overall Average1
+ +       0.7394 * (normalized) MFCC Overall Average2
+ +       0.8569 * (normalized) MFCC Overall Average3
+ +       0.2112 * (normalized) MFCC Overall Average4
+ +       0.7036 * (normalized) MFCC Overall Average5
+ +      -0.3941 * (normalized) MFCC Overall Average6
+ +      -0.06   * (normalized) MFCC Overall Average7
+ +      -0.4188 * (normalized) MFCC Overall Average8
+ +      -0.3281 * (normalized) MFCC Overall Average9
+ +       0.1863 * (normalized) MFCC Overall Average10
+ +       0.6293 * (normalized) MFCC Overall Average11
+ +       0.0749 * (normalized) MFCC Overall Average12
+ +      -0.311  * (normalized) LPC Overall Average0
+ +       0.4236 * (normalized) LPC Overall Average1
+ +      -0.439  * (normalized) LPC Overall Average2
+ +      -0.2295 * (normalized) LPC Overall Average3
+ +      -0.603  * (normalized) LPC Overall Average4
+ +      -0.4008 * (normalized) LPC Overall Average5
+ +       0.1479 * (normalized) LPC Overall Average6
+ +       0.108  * (normalized) LPC Overall Average7
+ +       0.0823 * (normalized) LPC Overall Average8
+ +       0.072 
+
+Number of kernel evaluations: 378 (93.778% cached)
+
+Classifier for classes: CavaloMarinho, MaracatuSolto
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1973 * (normalized) Spectral Centroid Overall Standard Deviation0
+ +      -0.3824 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +       0.0626 * (normalized) Spectral Flux Overall Standard Deviation0
+ +       0.2027 * (normalized) Compactness Overall Standard Deviation0
+ +      -0.0153 * (normalized) Spectral Variability Overall Standard Deviation0
+ +       0.0311 * (normalized) Root Mean Square Overall Standard Deviation0
+ +       0.7911 * (normalized) Fraction Of Low Energy Windows Overall Standard Deviation0
+ +      -0.21   * (normalized) Zero Crossings Overall Standard Deviation0
+ +      -0.3099 * (normalized) Strongest Beat Overall Standard Deviation0
+ +       0.0433 * (normalized) Beat Sum Overall Standard Deviation0
+ +      -0.0413 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +       0.0635 * (normalized) MFCC Overall Standard Deviation0
+ +      -0.013  * (normalized) MFCC Overall Standard Deviation1
+ +      -0.0592 * (normalized) MFCC Overall Standard Deviation2
+ +      -0.1452 * (normalized) MFCC Overall Standard Deviation3
+ +       0.0057 * (normalized) MFCC Overall Standard Deviation4
+ +      -0.2507 * (normalized) MFCC Overall Standard Deviation5
+ +       0.4612 * (normalized) MFCC Overall Standard Deviation6
+ +       0.3054 * (normalized) MFCC Overall Standard Deviation7
+ +      -0.4797 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.0919 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.3484 * (normalized) MFCC Overall Standard Deviation10
+ +      -0.2449 * (normalized) MFCC Overall Standard Deviation11
+ +      -0.2567 * (normalized) MFCC Overall Standard Deviation12
+ +      -0.3834 * (normalized) LPC Overall Standard Deviation0
+ +      -0.0809 * (normalized) LPC Overall Standard Deviation1
+ +       0.3932 * (normalized) LPC Overall Standard Deviation2
+ +       0.6641 * (normalized) LPC Overall Standard Deviation3
+ +       0.3887 * (normalized) LPC Overall Standard Deviation4
+ +       0.6833 * (normalized) LPC Overall Standard Deviation5
+ +       0.2923 * (normalized) LPC Overall Standard Deviation6
+ +       0.1212 * (normalized) LPC Overall Standard Deviation7
+ +       0.4939 * (normalized) LPC Overall Standard Deviation8
+ +      -0.1841 * (normalized) Spectral Centroid Overall Average0
+ +      -0.1321 * (normalized) Spectral Rolloff Point Overall Average0
+ +       0.0681 * (normalized) Spectral Flux Overall Average0
+ +       0.4091 * (normalized) Compactness Overall Average0
+ +      -0.1119 * (normalized) Spectral Variability Overall Average0
+ +      -0.1474 * (normalized) Root Mean Square Overall Average0
+ +      -0.3389 * (normalized) Fraction Of Low Energy Windows Overall Average0
+ +      -0.1505 * (normalized) Zero Crossings Overall Average0
+ +      -0.1166 * (normalized) Strongest Beat Overall Average0
+ +      -0.0975 * (normalized) Beat Sum Overall Average0
+ +      -0.0846 * (normalized) Strength Of Strongest Beat Overall Average0
+ +      -0.2732 * (normalized) MFCC Overall Average0
+ +       0.717  * (normalized) MFCC Overall Average1
+ +       0.6832 * (normalized) MFCC Overall Average2
+ +       0.6412 * (normalized) MFCC Overall Average3
+ +       0.4297 * (normalized) MFCC Overall Average4
+ +       0.3012 * (normalized) MFCC Overall Average5
+ +      -0.8204 * (normalized) MFCC Overall Average6
+ +      -0.8206 * (normalized) MFCC Overall Average7
+ +      -0.3676 * (normalized) MFCC Overall Average8
+ +      -0.4296 * (normalized) MFCC Overall Average9
+ +      -0.3456 * (normalized) MFCC Overall Average10
+ +       0.3724 * (normalized) MFCC Overall Average11
+ +      -0.3468 * (normalized) MFCC Overall Average12
+ +      -0.1259 * (normalized) LPC Overall Average0
+ +       0.0399 * (normalized) LPC Overall Average1
+ +      -0.2832 * (normalized) LPC Overall Average2
+ +      -0.3185 * (normalized) LPC Overall Average3
+ +      -0.5628 * (normalized) LPC Overall Average4
+ +      -0.2366 * (normalized) LPC Overall Average5
+ +      -0.1351 * (normalized) LPC Overall Average6
+ +      -0.2209 * (normalized) LPC Overall Average7
+ +       0.0716 * (normalized) LPC Overall Average8
+ +       1.0297
+
+Number of kernel evaluations: 327 (88.118% cached)
+
+Classifier for classes: CavaloMarinho, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2698 * (normalized) Spectral Centroid Overall Standard Deviation0
+ +      -0.0742 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +      -0.0553 * (normalized) Spectral Flux Overall Standard Deviation0
+ +      -0.1483 * (normalized) Compactness Overall Standard Deviation0
+ +       0.0737 * (normalized) Spectral Variability Overall Standard Deviation0
+ +       0.1603 * (normalized) Root Mean Square Overall Standard Deviation0
+ +       0.0502 * (normalized) Fraction Of Low Energy Windows Overall Standard Deviation0
+ +      -0.254  * (normalized) Zero Crossings Overall Standard Deviation0
+ +      -0.0626 * (normalized) Strongest Beat Overall Standard Deviation0
+ +      -0.1089 * (normalized) Beat Sum Overall Standard Deviation0
+ +       0.4221 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +      -0.1197 * (normalized) MFCC Overall Standard Deviation0
+ +       0.2293 * (normalized) MFCC Overall Standard Deviation1
+ +       0.3971 * (normalized) MFCC Overall Standard Deviation2
+ +      -0.0487 * (normalized) MFCC Overall Standard Deviation3
+ +       0.0082 * (normalized) MFCC Overall Standard Deviation4
+ +      -0.1091 * (normalized) MFCC Overall Standard Deviation5
+ +      -0.3787 * (normalized) MFCC Overall Standard Deviation6
+ +      -0.3431 * (normalized) MFCC Overall Standard Deviation7
+ +      -0.3789 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.558  * (normalized) MFCC Overall Standard Deviation9
+ +      -0.3717 * (normalized) MFCC Overall Standard Deviation10
+ +      -0.5388 * (normalized) MFCC Overall Standard Deviation11
+ +      -0.4365 * (normalized) MFCC Overall Standard Deviation12
+ +      -0.3101 * (normalized) LPC Overall Standard Deviation0
+ +      -0.008  * (normalized) LPC Overall Standard Deviation1
+ +      -0.0964 * (normalized) LPC Overall Standard Deviation2
+ +       0.1776 * (normalized) LPC Overall Standard Deviation3
+ +      -0.0838 * (normalized) LPC Overall Standard Deviation4
+ +      -0.1606 * (normalized) LPC Overall Standard Deviation5
+ +      -0.1821 * (normalized) LPC Overall Standard Deviation6
+ +      -0.0917 * (normalized) LPC Overall Standard Deviation7
+ +      -0.0885 * (normalized) LPC Overall Standard Deviation8
+ +      -0.3644 * (normalized) Spectral Centroid Overall Average0
+ +      -0.2722 * (normalized) Spectral Rolloff Point Overall Average0
+ +       0.0352 * (normalized) Spectral Flux Overall Average0
+ +      -0.5423 * (normalized) Compactness Overall Average0
+ +      -0.0231 * (normalized) Spectral Variability Overall Average0
+ +      -0.0039 * (normalized) Root Mean Square Overall Average0
+ +      -0.1384 * (normalized) Fraction Of Low Energy Windows Overall Average0
+ +      -0.3002 * (normalized) Zero Crossings Overall Average0
+ +       0.3475 * (normalized) Strongest Beat Overall Average0
+ +      -0.0158 * (normalized) Beat Sum Overall Average0
+ +       0.4238 * (normalized) Strength Of Strongest Beat Overall Average0
+ +      -0.0263 * (normalized) MFCC Overall Average0
+ +       0.508  * (normalized) MFCC Overall Average1
+ +       0.6598 * (normalized) MFCC Overall Average2
+ +       0.2856 * (normalized) MFCC Overall Average3
+ +       0.3306 * (normalized) MFCC Overall Average4
+ +      -0.0688 * (normalized) MFCC Overall Average5
+ +       0.3197 * (normalized) MFCC Overall Average6
+ +       0.0105 * (normalized) MFCC Overall Average7
+ +      -0.111  * (normalized) MFCC Overall Average8
+ +      -0.2018 * (normalized) MFCC Overall Average9
+ +       0.1047 * (normalized) MFCC Overall Average10
+ +      -0.016  * (normalized) MFCC Overall Average11
+ +      -0.2879 * (normalized) MFCC Overall Average12
+ +      -0.3138 * (normalized) LPC Overall Average0
+ +      -0.0536 * (normalized) LPC Overall Average1
+ +      -0.4467 * (normalized) LPC Overall Average2
+ +      -0.0098 * (normalized) LPC Overall Average3
+ +      -0.1178 * (normalized) LPC Overall Average4
+ +      -0.073  * (normalized) LPC Overall Average5
+ +      -0.1637 * (normalized) LPC Overall Average6
+ +      -0.1231 * (normalized) LPC Overall Average7
+ +      -0.048  * (normalized) LPC Overall Average8
+ +       1.4305
+
+Number of kernel evaluations: 329 (85.714% cached)
+
+Classifier for classes: Coco, Ciranda
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2352 * (normalized) Spectral Centroid Overall Standard Deviation0
+ +      -0.8979 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +       0.2575 * (normalized) Spectral Flux Overall Standard Deviation0
+ +      -0.1476 * (normalized) Compactness Overall Standard Deviation0
+ +       0.1356 * (normalized) Spectral Variability Overall Standard Deviation0
+ +       0.1378 * (normalized) Root Mean Square Overall Standard Deviation0
+ +      -0.2163 * (normalized) Fraction Of Low Energy Windows Overall Standard Deviation0
+ +      -0.3233 * (normalized) Zero Crossings Overall Standard Deviation0
+ +      -0.9498 * (normalized) Strongest Beat Overall Standard Deviation0
+ +       0.1439 * (normalized) Beat Sum Overall Standard Deviation0
+ +      -0.0287 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +      -0.1693 * (normalized) MFCC Overall Standard Deviation0
+ +       0.0489 * (normalized) MFCC Overall Standard Deviation1
+ +      -0.5977 * (normalized) MFCC Overall Standard Deviation2
+ +      -0.3514 * (normalized) MFCC Overall Standard Deviation3
+ +      -0.2982 * (normalized) MFCC Overall Standard Deviation4
+ +       0.1031 * (normalized) MFCC Overall Standard Deviation5
+ +       0.1387 * (normalized) MFCC Overall Standard Deviation6
+ +       0      * (normalized) MFCC Overall Standard Deviation7
+ +      -0.0726 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.373  * (normalized) MFCC Overall Standard Deviation9
+ +       0.2909 * (normalized) MFCC Overall Standard Deviation10
+ +       0.1787 * (normalized) MFCC Overall Standard Deviation11
+ +       0.008  * (normalized) MFCC Overall Standard Deviation12
+ +      -0.3433 * (normalized) LPC Overall Standard Deviation0
+ +       0.1826 * (normalized) LPC Overall Standard Deviation1
+ +      -0.5487 * (normalized) LPC Overall Standard Deviation2
+ +       0.1232 * (normalized) LPC Overall Standard Deviation3
+ +      -0.3798 * (normalized) LPC Overall Standard Deviation4
+ +      -0.3965 * (normalized) LPC Overall Standard Deviation5
+ +       0.1845 * (normalized) LPC Overall Standard Deviation6
+ +       0.4691 * (normalized) LPC Overall Standard Deviation7
+ +      -0.1184 * (normalized) LPC Overall Standard Deviation8
+ +       0.0345 * (normalized) Spectral Centroid Overall Average0
+ +      -0.0296 * (normalized) Spectral Rolloff Point Overall Average0
+ +      -0.2147 * (normalized) Spectral Flux Overall Average0
+ +       1.3391 * (normalized) Compactness Overall Average0
+ +      -0.0133 * (normalized) Spectral Variability Overall Average0
+ +      -0.0637 * (normalized) Root Mean Square Overall Average0
+ +      -0.3482 * (normalized) Fraction Of Low Energy Windows Overall Average0
+ +      -0.0201 * (normalized) Zero Crossings Overall Average0
+ +       0.9863 * (normalized) Strongest Beat Overall Average0
+ +      -0.0649 * (normalized) Beat Sum Overall Average0
+ +       0.0421 * (normalized) Strength Of Strongest Beat Overall Average0
+ +       0.0633 * (normalized) MFCC Overall Average0
+ +      -0.4233 * (normalized) MFCC Overall Average1
+ +      -0.2715 * (normalized) MFCC Overall Average2
+ +      -0.2986 * (normalized) MFCC Overall Average3
+ +      -0.8729 * (normalized) MFCC Overall Average4
+ +      -0.3842 * (normalized) MFCC Overall Average5
+ +      -0.243  * (normalized) MFCC Overall Average6
+ +       0.7689 * (normalized) MFCC Overall Average7
+ +       0.8296 * (normalized) MFCC Overall Average8
+ +       0.0787 * (normalized) MFCC Overall Average9
+ +      -0.5125 * (normalized) MFCC Overall Average10
+ +       0.0768 * (normalized) MFCC Overall Average11
+ +      -0.7654 * (normalized) MFCC Overall Average12
+ +      -0.0327 * (normalized) LPC Overall Average0
+ +       0.7188 * (normalized) LPC Overall Average1
+ +      -0.0293 * (normalized) LPC Overall Average2
+ +      -0.1777 * (normalized) LPC Overall Average3
+ +      -0.5537 * (normalized) LPC Overall Average4
+ +      -0.0361 * (normalized) LPC Overall Average5
+ +      -0.1844 * (normalized) LPC Overall Average6
+ +       0.5655 * (normalized) LPC Overall Average7
+ +       0.0997 * (normalized) LPC Overall Average8
+ +       1.1343
+
+Number of kernel evaluations: 346 (93.853% cached)
+
+Classifier for classes: Coco, MaracatuSolto
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0488 * (normalized) Spectral Centroid Overall Standard Deviation0
+ +      -0.1501 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +       0.1699 * (normalized) Spectral Flux Overall Standard Deviation0
+ +      -0.0491 * (normalized) Compactness Overall Standard Deviation0
+ +      -0.1517 * (normalized) Spectral Variability Overall Standard Deviation0
+ +      -0.1346 * (normalized) Root Mean Square Overall Standard Deviation0
+ +       0.5558 * (normalized) Fraction Of Low Energy Windows Overall Standard Deviation0
+ +      -0.1308 * (normalized) Zero Crossings Overall Standard Deviation0
+ +      -0.2646 * (normalized) Strongest Beat Overall Standard Deviation0
+ +       0.1765 * (normalized) Beat Sum Overall Standard Deviation0
+ +      -0.0515 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +      -0.1342 * (normalized) MFCC Overall Standard Deviation0
+ +       0.2744 * (normalized) MFCC Overall Standard Deviation1
+ +      -0.7015 * (normalized) MFCC Overall Standard Deviation2
+ +      -0.1681 * (normalized) MFCC Overall Standard Deviation3
+ +      -0.2536 * (normalized) MFCC Overall Standard Deviation4
+ +       0.2071 * (normalized) MFCC Overall Standard Deviation5
+ +       0.1559 * (normalized) MFCC Overall Standard Deviation6
+ +       0.2228 * (normalized) MFCC Overall Standard Deviation7
+ +      -0.1527 * (normalized) MFCC Overall Standard Deviation8
+ +       0.2613 * (normalized) MFCC Overall Standard Deviation9
+ +       0.1911 * (normalized) MFCC Overall Standard Deviation10
+ +       0.0735 * (normalized) MFCC Overall Standard Deviation11
+ +       0.1227 * (normalized) MFCC Overall Standard Deviation12
+ +      -0.1382 * (normalized) LPC Overall Standard Deviation0
+ +      -0.207  * (normalized) LPC Overall Standard Deviation1
+ +       0.396  * (normalized) LPC Overall Standard Deviation2
+ +       0.2187 * (normalized) LPC Overall Standard Deviation3
+ +      -0.0184 * (normalized) LPC Overall Standard Deviation4
+ +       0.1362 * (normalized) LPC Overall Standard Deviation5
+ +       0.1578 * (normalized) LPC Overall Standard Deviation6
+ +       0.3732 * (normalized) LPC Overall Standard Deviation7
+ +       0.108  * (normalized) LPC Overall Standard Deviation8
+ +       0.1294 * (normalized) Spectral Centroid Overall Average0
+ +       0.1532 * (normalized) Spectral Rolloff Point Overall Average0
+ +       0.0046 * (normalized) Spectral Flux Overall Average0
+ +       0.4255 * (normalized) Compactness Overall Average0
+ +      -0.018  * (normalized) Spectral Variability Overall Average0
+ +      -0.0808 * (normalized) Root Mean Square Overall Average0
+ +       0.1475 * (normalized) Fraction Of Low Energy Windows Overall Average0
+ +       0.1213 * (normalized) Zero Crossings Overall Average0
+ +       0.3568 * (normalized) Strongest Beat Overall Average0
+ +       0.0326 * (normalized) Beat Sum Overall Average0
+ +      -0.2056 * (normalized) Strength Of Strongest Beat Overall Average0
+ +      -0.2281 * (normalized) MFCC Overall Average0
+ +      -0.1365 * (normalized) MFCC Overall Average1
+ +      -0.4777 * (normalized) MFCC Overall Average2
+ +      -0.3568 * (normalized) MFCC Overall Average3
+ +      -0.3168 * (normalized) MFCC Overall Average4
+ +      -0.9802 * (normalized) MFCC Overall Average5
+ +      -1.1511 * (normalized) MFCC Overall Average6
+ +      -0.5635 * (normalized) MFCC Overall Average7
+ +      -0.0164 * (normalized) MFCC Overall Average8
+ +      -0.2042 * (normalized) MFCC Overall Average9
+ +      -0.6843 * (normalized) MFCC Overall Average10
+ +      -0.5944 * (normalized) MFCC Overall Average11
+ +      -0.1582 * (normalized) MFCC Overall Average12
+ +       0.1383 * (normalized) LPC Overall Average0
+ +       0.0909 * (normalized) LPC Overall Average1
+ +      -0.0378 * (normalized) LPC Overall Average2
+ +       0.0249 * (normalized) LPC Overall Average3
+ +       0.1255 * (normalized) LPC Overall Average4
+ +      -0.009  * (normalized) LPC Overall Average5
+ +      -0.2619 * (normalized) LPC Overall Average6
+ +      -0.1104 * (normalized) LPC Overall Average7
+ +      -0.3907 * (normalized) LPC Overall Average8
+ +       2.0708
+
+Number of kernel evaluations: 372 (93.734% cached)
+
+Classifier for classes: Coco, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2379 * (normalized) Spectral Centroid Overall Standard Deviation0
+ +      -0.0133 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +      -0.1618 * (normalized) Spectral Flux Overall Standard Deviation0
+ +       0.0886 * (normalized) Compactness Overall Standard Deviation0
+ +      -0.069  * (normalized) Spectral Variability Overall Standard Deviation0
+ +      -0.0183 * (normalized) Root Mean Square Overall Standard Deviation0
+ +      -0.1649 * (normalized) Fraction Of Low Energy Windows Overall Standard Deviation0
+ +      -0.2252 * (normalized) Zero Crossings Overall Standard Deviation0
+ +      -0.4757 * (normalized) Strongest Beat Overall Standard Deviation0
+ +      -0.3828 * (normalized) Beat Sum Overall Standard Deviation0
+ +       0.9073 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +       0.0343 * (normalized) MFCC Overall Standard Deviation0
+ +       0.2698 * (normalized) MFCC Overall Standard Deviation1
+ +       0.1149 * (normalized) MFCC Overall Standard Deviation2
+ +      -0.0444 * (normalized) MFCC Overall Standard Deviation3
+ +      -0.2558 * (normalized) MFCC Overall Standard Deviation4
+ +      -0.0566 * (normalized) MFCC Overall Standard Deviation5
+ +      -0.3031 * (normalized) MFCC Overall Standard Deviation6
+ +      -0.3678 * (normalized) MFCC Overall Standard Deviation7
+ +      -0.2906 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.6844 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.3324 * (normalized) MFCC Overall Standard Deviation10
+ +      -0.3386 * (normalized) MFCC Overall Standard Deviation11
+ +      -0.3516 * (normalized) MFCC Overall Standard Deviation12
+ +      -0.275  * (normalized) LPC Overall Standard Deviation0
+ +       0.6181 * (normalized) LPC Overall Standard Deviation1
+ +      -0.3519 * (normalized) LPC Overall Standard Deviation2
+ +      -0.1963 * (normalized) LPC Overall Standard Deviation3
+ +      -0.3157 * (normalized) LPC Overall Standard Deviation4
+ +      -0.5338 * (normalized) LPC Overall Standard Deviation5
+ +      -0.4329 * (normalized) LPC Overall Standard Deviation6
+ +      -0.2782 * (normalized) LPC Overall Standard Deviation7
+ +      -0.3927 * (normalized) LPC Overall Standard Deviation8
+ +      -0.2615 * (normalized) Spectral Centroid Overall Average0
+ +      -0.2086 * (normalized) Spectral Rolloff Point Overall Average0
+ +       0.2787 * (normalized) Spectral Flux Overall Average0
+ +      -0.6852 * (normalized) Compactness Overall Average0
+ +      -0.0507 * (normalized) Spectral Variability Overall Average0
+ +       0.0158 * (normalized) Root Mean Square Overall Average0
+ +       0.0638 * (normalized) Fraction Of Low Energy Windows Overall Average0
+ +      -0.2661 * (normalized) Zero Crossings Overall Average0
+ +       0.0859 * (normalized) Strongest Beat Overall Average0
+ +       0.1275 * (normalized) Beat Sum Overall Average0
+ +       0.9927 * (normalized) Strength Of Strongest Beat Overall Average0
+ +      -0.3998 * (normalized) MFCC Overall Average0
+ +       0.3256 * (normalized) MFCC Overall Average1
+ +       0.4815 * (normalized) MFCC Overall Average2
+ +       0.0776 * (normalized) MFCC Overall Average3
+ +      -0.1279 * (normalized) MFCC Overall Average4
+ +      -0.2211 * (normalized) MFCC Overall Average5
+ +      -0.1005 * (normalized) MFCC Overall Average6
+ +       0.0152 * (normalized) MFCC Overall Average7
+ +       0.539  * (normalized) MFCC Overall Average8
+ +       0.0794 * (normalized) MFCC Overall Average9
+ +       0.3467 * (normalized) MFCC Overall Average10
+ +       0.2045 * (normalized) MFCC Overall Average11
+ +      -0.3687 * (normalized) MFCC Overall Average12
+ +      -0.1969 * (normalized) LPC Overall Average0
+ +      -0.0843 * (normalized) LPC Overall Average1
+ +      -0.1683 * (normalized) LPC Overall Average2
+ +      -0.0506 * (normalized) LPC Overall Average3
+ +      -0.1056 * (normalized) LPC Overall Average4
+ +       0.0713 * (normalized) LPC Overall Average5
+ +      -0.2764 * (normalized) LPC Overall Average6
+ +       0.5173 * (normalized) LPC Overall Average7
+ +       0.1182 * (normalized) LPC Overall Average8
+ +       1.6494
+
+Number of kernel evaluations: 329 (90.957% cached)
+
+Classifier for classes: Ciranda, MaracatuSolto
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.01   * (normalized) Spectral Centroid Overall Standard Deviation0
+ +       0.1588 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +      -0.0318 * (normalized) Spectral Flux Overall Standard Deviation0
+ +      -0.123  * (normalized) Compactness Overall Standard Deviation0
+ +      -0.4018 * (normalized) Spectral Variability Overall Standard Deviation0
+ +      -0.4173 * (normalized) Root Mean Square Overall Standard Deviation0
+ +       0.3782 * (normalized) Fraction Of Low Energy Windows Overall Standard Deviation0
+ +       0.003  * (normalized) Zero Crossings Overall Standard Deviation0
+ +      -0.0515 * (normalized) Strongest Beat Overall Standard Deviation0
+ +       0.0605 * (normalized) Beat Sum Overall Standard Deviation0
+ +       0.0314 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +       0.037  * (normalized) MFCC Overall Standard Deviation0
+ +      -0.211  * (normalized) MFCC Overall Standard Deviation1
+ +      -0.3007 * (normalized) MFCC Overall Standard Deviation2
+ +      -0.4127 * (normalized) MFCC Overall Standard Deviation3
+ +       0.2258 * (normalized) MFCC Overall Standard Deviation4
+ +      -0.0585 * (normalized) MFCC Overall Standard Deviation5
+ +       0.5787 * (normalized) MFCC Overall Standard Deviation6
+ +       0.3902 * (normalized) MFCC Overall Standard Deviation7
+ +      -0.2336 * (normalized) MFCC Overall Standard Deviation8
+ +       0.2089 * (normalized) MFCC Overall Standard Deviation9
+ +       0.336  * (normalized) MFCC Overall Standard Deviation10
+ +       0.1427 * (normalized) MFCC Overall Standard Deviation11
+ +       0.258  * (normalized) MFCC Overall Standard Deviation12
+ +      -0.0176 * (normalized) LPC Overall Standard Deviation0
+ +       0.194  * (normalized) LPC Overall Standard Deviation1
+ +       0.9168 * (normalized) LPC Overall Standard Deviation2
+ +       0.2026 * (normalized) LPC Overall Standard Deviation3
+ +      -0.0097 * (normalized) LPC Overall Standard Deviation4
+ +       0.0434 * (normalized) LPC Overall Standard Deviation5
+ +      -0.168  * (normalized) LPC Overall Standard Deviation6
+ +      -0.414  * (normalized) LPC Overall Standard Deviation7
+ +       0.1047 * (normalized) LPC Overall Standard Deviation8
+ +      -0.178  * (normalized) Spectral Centroid Overall Average0
+ +      -0.0979 * (normalized) Spectral Rolloff Point Overall Average0
+ +       0.1927 * (normalized) Spectral Flux Overall Average0
+ +      -0.1653 * (normalized) Compactness Overall Average0
+ +      -0.109  * (normalized) Spectral Variability Overall Average0
+ +      -0.1474 * (normalized) Root Mean Square Overall Average0
+ +       0.458  * (normalized) Fraction Of Low Energy Windows Overall Average0
+ +      -0.1748 * (normalized) Zero Crossings Overall Average0
+ +      -0.0232 * (normalized) Strongest Beat Overall Average0
+ +       0.1399 * (normalized) Beat Sum Overall Average0
+ +       0.0016 * (normalized) Strength Of Strongest Beat Overall Average0
+ +      -0.3653 * (normalized) MFCC Overall Average0
+ +       0.4349 * (normalized) MFCC Overall Average1
+ +      -0.4407 * (normalized) MFCC Overall Average2
+ +      -0.2946 * (normalized) MFCC Overall Average3
+ +      -0.2602 * (normalized) MFCC Overall Average4
+ +      -0.7652 * (normalized) MFCC Overall Average5
+ +      -0.7358 * (normalized) MFCC Overall Average6
+ +      -0.6097 * (normalized) MFCC Overall Average7
+ +      -0.5824 * (normalized) MFCC Overall Average8
+ +      -0.4656 * (normalized) MFCC Overall Average9
+ +      -0.774  * (normalized) MFCC Overall Average10
+ +      -0.4439 * (normalized) MFCC Overall Average11
+ +      -0.0376 * (normalized) MFCC Overall Average12
+ +      -0.1503 * (normalized) LPC Overall Average0
+ +      -0.019  * (normalized) LPC Overall Average1
+ +       0.0008 * (normalized) LPC Overall Average2
+ +      -0.64   * (normalized) LPC Overall Average3
+ +       0.5398 * (normalized) LPC Overall Average4
+ +       0.173  * (normalized) LPC Overall Average5
+ +      -0.2039 * (normalized) LPC Overall Average6
+ +      -0.2863 * (normalized) LPC Overall Average7
+ +      -0.5798 * (normalized) LPC Overall Average8
+ +       2.3349
+
+Number of kernel evaluations: 368 (90.679% cached)
+
+Classifier for classes: Ciranda, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1717 * (normalized) Spectral Centroid Overall Standard Deviation0
+ +       0.4143 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +      -0.2157 * (normalized) Spectral Flux Overall Standard Deviation0
+ +       0.4193 * (normalized) Compactness Overall Standard Deviation0
+ +      -0.0683 * (normalized) Spectral Variability Overall Standard Deviation0
+ +       0.0003 * (normalized) Root Mean Square Overall Standard Deviation0
+ +       0.058  * (normalized) Fraction Of Low Energy Windows Overall Standard Deviation0
+ +       0.1914 * (normalized) Zero Crossings Overall Standard Deviation0
+ +       0.1593 * (normalized) Strongest Beat Overall Standard Deviation0
+ +       0.5212 * (normalized) Beat Sum Overall Standard Deviation0
+ +       0.4777 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +       0.0978 * (normalized) MFCC Overall Standard Deviation0
+ +       0.8469 * (normalized) MFCC Overall Standard Deviation1
+ +       0.628  * (normalized) MFCC Overall Standard Deviation2
+ +      -0.0435 * (normalized) MFCC Overall Standard Deviation3
+ +      -0.209  * (normalized) MFCC Overall Standard Deviation4
+ +      -0.5626 * (normalized) MFCC Overall Standard Deviation5
+ +      -0.2064 * (normalized) MFCC Overall Standard Deviation6
+ +      -0.3239 * (normalized) MFCC Overall Standard Deviation7
+ +      -0.1452 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.4198 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.1377 * (normalized) MFCC Overall Standard Deviation10
+ +      -0.4502 * (normalized) MFCC Overall Standard Deviation11
+ +      -0.3506 * (normalized) MFCC Overall Standard Deviation12
+ +       0.1841 * (normalized) LPC Overall Standard Deviation0
+ +      -0.3889 * (normalized) LPC Overall Standard Deviation1
+ +       0.1679 * (normalized) LPC Overall Standard Deviation2
+ +      -0.0663 * (normalized) LPC Overall Standard Deviation3
+ +      -0.1658 * (normalized) LPC Overall Standard Deviation4
+ +      -0.1753 * (normalized) LPC Overall Standard Deviation5
+ +      -0.3325 * (normalized) LPC Overall Standard Deviation6
+ +      -0.4624 * (normalized) LPC Overall Standard Deviation7
+ +      -0.2675 * (normalized) LPC Overall Standard Deviation8
+ +      -0.0588 * (normalized) Spectral Centroid Overall Average0
+ +       0.0431 * (normalized) Spectral Rolloff Point Overall Average0
+ +       0.1009 * (normalized) Spectral Flux Overall Average0
+ +      -1.0526 * (normalized) Compactness Overall Average0
+ +      -0.194  * (normalized) Spectral Variability Overall Average0
+ +      -0.1597 * (normalized) Root Mean Square Overall Average0
+ +       0.2642 * (normalized) Fraction Of Low Energy Windows Overall Average0
+ +      -0.0176 * (normalized) Zero Crossings Overall Average0
+ +      -0.2985 * (normalized) Strongest Beat Overall Average0
+ +      -0.0643 * (normalized) Beat Sum Overall Average0
+ +       0.4035 * (normalized) Strength Of Strongest Beat Overall Average0
+ +      -0.3987 * (normalized) MFCC Overall Average0
+ +       0.2121 * (normalized) MFCC Overall Average1
+ +       0.6551 * (normalized) MFCC Overall Average2
+ +       0.4194 * (normalized) MFCC Overall Average3
+ +       0.7944 * (normalized) MFCC Overall Average4
+ +       0.1469 * (normalized) MFCC Overall Average5
+ +       0.0677 * (normalized) MFCC Overall Average6
+ +      -0.246  * (normalized) MFCC Overall Average7
+ +      -0.0179 * (normalized) MFCC Overall Average8
+ +      -0.1993 * (normalized) MFCC Overall Average9
+ +       0.4253 * (normalized) MFCC Overall Average10
+ +       0.5265 * (normalized) MFCC Overall Average11
+ +       0.0235 * (normalized) MFCC Overall Average12
+ +       0.0325 * (normalized) LPC Overall Average0
+ +      -0.2345 * (normalized) LPC Overall Average1
+ +      -0.4781 * (normalized) LPC Overall Average2
+ +      -0.211  * (normalized) LPC Overall Average3
+ +       0.3843 * (normalized) LPC Overall Average4
+ +      -0.059  * (normalized) LPC Overall Average5
+ +       0.2888 * (normalized) LPC Overall Average6
+ +      -0.0208 * (normalized) LPC Overall Average7
+ +      -0.1301 * (normalized) LPC Overall Average8
+ -       0.1675
+
+Number of kernel evaluations: 332 (93.813% cached)
+
+Classifier for classes: MaracatuSolto, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0137 * (normalized) Spectral Centroid Overall Standard Deviation0
+ +       0.0988 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +      -0.0936 * (normalized) Spectral Flux Overall Standard Deviation0
+ +      -0.0031 * (normalized) Compactness Overall Standard Deviation0
+ +       0.1362 * (normalized) Spectral Variability Overall Standard Deviation0
+ +       0.1801 * (normalized) Root Mean Square Overall Standard Deviation0
+ +      -0.3578 * (normalized) Fraction Of Low Energy Windows Overall Standard Deviation0
+ +       0.0321 * (normalized) Zero Crossings Overall Standard Deviation0
+ +       0.0625 * (normalized) Strongest Beat Overall Standard Deviation0
+ +      -0.0584 * (normalized) Beat Sum Overall Standard Deviation0
+ +       0.3695 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +       0.0504 * (normalized) MFCC Overall Standard Deviation0
+ +       0.1365 * (normalized) MFCC Overall Standard Deviation1
+ +       0.155  * (normalized) MFCC Overall Standard Deviation2
+ +       0.2552 * (normalized) MFCC Overall Standard Deviation3
+ +       0.1076 * (normalized) MFCC Overall Standard Deviation4
+ +       0.0038 * (normalized) MFCC Overall Standard Deviation5
+ +      -0.2154 * (normalized) MFCC Overall Standard Deviation6
+ +      -0.3222 * (normalized) MFCC Overall Standard Deviation7
+ +      -0.0746 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.2926 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.2599 * (normalized) MFCC Overall Standard Deviation10
+ +      -0.3706 * (normalized) MFCC Overall Standard Deviation11
+ +      -0.2604 * (normalized) MFCC Overall Standard Deviation12
+ +      -0.0097 * (normalized) LPC Overall Standard Deviation0
+ +      -0.0932 * (normalized) LPC Overall Standard Deviation1
+ +      -0.305  * (normalized) LPC Overall Standard Deviation2
+ +       0.113  * (normalized) LPC Overall Standard Deviation3
+ +      -0.1217 * (normalized) LPC Overall Standard Deviation4
+ +      -0.1354 * (normalized) LPC Overall Standard Deviation5
+ +      -0.1799 * (normalized) LPC Overall Standard Deviation6
+ +      -0.11   * (normalized) LPC Overall Standard Deviation7
+ +      -0.0901 * (normalized) LPC Overall Standard Deviation8
+ +      -0.1227 * (normalized) Spectral Centroid Overall Average0
+ +      -0.1084 * (normalized) Spectral Rolloff Point Overall Average0
+ +      -0.0315 * (normalized) Spectral Flux Overall Average0
+ +      -0.6269 * (normalized) Compactness Overall Average0
+ +      -0.0551 * (normalized) Spectral Variability Overall Average0
+ +      -0.0005 * (normalized) Root Mean Square Overall Average0
+ +      -0.1231 * (normalized) Fraction Of Low Energy Windows Overall Average0
+ +      -0.1043 * (normalized) Zero Crossings Overall Average0
+ +       0.2293 * (normalized) Strongest Beat Overall Average0
+ +      -0.1339 * (normalized) Beat Sum Overall Average0
+ +       0.3912 * (normalized) Strength Of Strongest Beat Overall Average0
+ +       0.102  * (normalized) MFCC Overall Average0
+ +       0.2114 * (normalized) MFCC Overall Average1
+ +       0.3878 * (normalized) MFCC Overall Average2
+ +       0.2192 * (normalized) MFCC Overall Average3
+ +       0.3189 * (normalized) MFCC Overall Average4
+ +       0.5238 * (normalized) MFCC Overall Average5
+ +       0.5482 * (normalized) MFCC Overall Average6
+ +       0.3058 * (normalized) MFCC Overall Average7
+ +       0.403  * (normalized) MFCC Overall Average8
+ +       0.3147 * (normalized) MFCC Overall Average9
+ +       0.7476 * (normalized) MFCC Overall Average10
+ +       0.2916 * (normalized) MFCC Overall Average11
+ +       0.0004 * (normalized) MFCC Overall Average12
+ +      -0.0921 * (normalized) LPC Overall Average0
+ +      -0.1316 * (normalized) LPC Overall Average1
+ +      -0.1548 * (normalized) LPC Overall Average2
+ +       0.0212 * (normalized) LPC Overall Average3
+ +      -0.0327 * (normalized) LPC Overall Average4
+ +       0.0367 * (normalized) LPC Overall Average5
+ +       0.022  * (normalized) LPC Overall Average6
+ +       0.2698 * (normalized) LPC Overall Average7
+ +      -0.0115 * (normalized) LPC Overall Average8
+ -       1.3906
+
+Number of kernel evaluations: 169 (90.495% cached)
+
+
+
+Time taken to build model: 0.04 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          45               60      %
+Incorrectly Classified Instances        30               40      %
+Kappa statistic                          0.5   
+Mean absolute error                      0.2672
+Root mean squared error                  0.3557
+Relative absolute error                 83.5    %
+Root relative squared error             88.9194 %
+Total Number of Instances               75     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.6       0.017      0.9       0.6       0.72       0.906    CavaloMarinho
+                 0.333     0.15       0.357     0.333     0.345      0.671    Coco
+                 0.6       0.15       0.5       0.6       0.545      0.742    Ciranda
+                 0.667     0.1        0.625     0.667     0.645      0.874    MaracatuSolto
+                 0.8       0.083      0.706     0.8       0.75       0.902    MaracatuVirado
+Weighted Avg.    0.6       0.1        0.618     0.6       0.601      0.819
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+  9  3  1  2  0 |  a = CavaloMarinho
+  0  5  5  2  3 |  b = Coco
+  0  2  9  2  2 |  c = Ciranda
+  1  2  2 10  0 |  d = MaracatuSolto
+  0  2  1  0 12 |  e = MaracatuVirado
+

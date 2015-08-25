@@ -1,0 +1,1318 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.NBTree 
+Relation:     jAudio
+Instances:    75
+Attributes:   69
+              Class
+              Spectral Centroid Overall Standard Deviation0
+              Spectral Rolloff Point Overall Standard Deviation0
+              Spectral Flux Overall Standard Deviation0
+              Compactness Overall Standard Deviation0
+              Spectral Variability Overall Standard Deviation0
+              Root Mean Square Overall Standard Deviation0
+              Fraction Of Low Energy Windows Overall Standard Deviation0
+              Zero Crossings Overall Standard Deviation0
+              Strongest Beat Overall Standard Deviation0
+              Beat Sum Overall Standard Deviation0
+              Strength Of Strongest Beat Overall Standard Deviation0
+              MFCC Overall Standard Deviation0
+              MFCC Overall Standard Deviation1
+              MFCC Overall Standard Deviation2
+              MFCC Overall Standard Deviation3
+              MFCC Overall Standard Deviation4
+              MFCC Overall Standard Deviation5
+              MFCC Overall Standard Deviation6
+              MFCC Overall Standard Deviation7
+              MFCC Overall Standard Deviation8
+              MFCC Overall Standard Deviation9
+              MFCC Overall Standard Deviation10
+              MFCC Overall Standard Deviation11
+              MFCC Overall Standard Deviation12
+              LPC Overall Standard Deviation0
+              LPC Overall Standard Deviation1
+              LPC Overall Standard Deviation2
+              LPC Overall Standard Deviation3
+              LPC Overall Standard Deviation4
+              LPC Overall Standard Deviation5
+              LPC Overall Standard Deviation6
+              LPC Overall Standard Deviation7
+              LPC Overall Standard Deviation8
+              LPC Overall Standard Deviation9
+              Spectral Centroid Overall Average0
+              Spectral Rolloff Point Overall Average0
+              Spectral Flux Overall Average0
+              Compactness Overall Average0
+              Spectral Variability Overall Average0
+              Root Mean Square Overall Average0
+              Fraction Of Low Energy Windows Overall Average0
+              Zero Crossings Overall Average0
+              Strongest Beat Overall Average0
+              Beat Sum Overall Average0
+              Strength Of Strongest Beat Overall Average0
+              MFCC Overall Average0
+              MFCC Overall Average1
+              MFCC Overall Average2
+              MFCC Overall Average3
+              MFCC Overall Average4
+              MFCC Overall Average5
+              MFCC Overall Average6
+              MFCC Overall Average7
+              MFCC Overall Average8
+              MFCC Overall Average9
+              MFCC Overall Average10
+              MFCC Overall Average11
+              MFCC Overall Average12
+              LPC Overall Average0
+              LPC Overall Average1
+              LPC Overall Average2
+              LPC Overall Average3
+              LPC Overall Average4
+              LPC Overall Average5
+              LPC Overall Average6
+              LPC Overall Average7
+              LPC Overall Average8
+              LPC Overall Average9
+Test mode:5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+NBTree
+------------------
+
+LPC Overall Standard Deviation3 <= 0.14525
+|   LPC Overall Standard Deviation1 <= 0.21965: NB 2
+|   LPC Overall Standard Deviation1 > 0.21965: NB 3
+LPC Overall Standard Deviation3 > 0.14525
+|   MFCC Overall Standard Deviation10 <= 2.1965: NB 5
+|   MFCC Overall Standard Deviation10 > 2.1965: NB 6
+
+Leaf number: 2 Naive Bayes Classifier
+
+                                                                      Class
+Attribute                                                     CavaloMarinho           Coco        Ciranda  MaracatuSolto MaracatuVirado
+                                                                     (0.19)         (0.07)         (0.15)         (0.15)         (0.44)
+========================================================================================================================================
+Spectral Centroid Overall Standard Deviation0
+  '(-inf-23.93]'                                                         1.0            2.0            4.0            3.0           12.0
+  '(23.93-inf)'                                                          5.0            1.0            1.0            2.0            1.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+Spectral Rolloff Point Overall Standard Deviation0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Spectral Flux Overall Standard Deviation0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Compactness Overall Standard Deviation0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Spectral Variability Overall Standard Deviation0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Root Mean Square Overall Standard Deviation0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Fraction Of Low Energy Windows Overall Standard Deviation0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Zero Crossings Overall Standard Deviation0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Strongest Beat Overall Standard Deviation0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Beat Sum Overall Standard Deviation0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Strength Of Strongest Beat Overall Standard Deviation0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+MFCC Overall Standard Deviation0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+MFCC Overall Standard Deviation1
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+MFCC Overall Standard Deviation2
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+MFCC Overall Standard Deviation3
+  '(-inf-2.1515]'                                                        2.0            2.0            1.0            3.0           12.0
+  '(2.1515-inf)'                                                         4.0            1.0            4.0            2.0            1.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+MFCC Overall Standard Deviation4
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+MFCC Overall Standard Deviation5
+  '(-inf-1.737]'                                                         2.0            2.0            1.0            1.0           11.0
+  '(1.737-inf)'                                                          4.0            1.0            4.0            4.0            2.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+MFCC Overall Standard Deviation6
+  '(-inf-1.737]'                                                         1.0            2.0            1.0            1.0           12.0
+  '(1.737-inf)'                                                          5.0            1.0            4.0            4.0            1.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+MFCC Overall Standard Deviation7
+  '(-inf-1.6515]'                                                        1.0            2.0            1.0            2.0           12.0
+  '(1.6515-inf)'                                                         5.0            1.0            4.0            3.0            1.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+MFCC Overall Standard Deviation8
+  '(-inf-1.616]'                                                         1.0            1.0            1.0            1.0           11.0
+  '(1.616-inf)'                                                          5.0            2.0            4.0            4.0            2.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+MFCC Overall Standard Deviation9
+  '(-inf-1.617]'                                                         1.0            1.0            1.0            1.0           12.0
+  '(1.617-inf)'                                                          5.0            2.0            4.0            4.0            1.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+MFCC Overall Standard Deviation10
+  '(-inf-1.666]'                                                         1.0            2.0            1.0            1.0           11.0
+  '(1.666-1.8345]'                                                       5.0            1.0            1.0            4.0            2.0
+  '(1.8345-inf)'                                                         1.0            1.0            4.0            1.0            1.0
+  [total]                                                                7.0            4.0            6.0            6.0           14.0
+
+MFCC Overall Standard Deviation11
+  '(-inf-1.55]'                                                          1.0            2.0            1.0            1.0           12.0
+  '(1.55-inf)'                                                           5.0            1.0            4.0            4.0            1.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+MFCC Overall Standard Deviation12
+  '(-inf-1.3525]'                                                        1.0            1.0            1.0            1.0           12.0
+  '(1.3525-inf)'                                                         5.0            2.0            4.0            4.0            1.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+LPC Overall Standard Deviation0
+  '(-inf-0.1922]'                                                        1.0            2.0            4.0            3.0           12.0
+  '(0.1922-inf)'                                                         5.0            1.0            1.0            2.0            1.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+LPC Overall Standard Deviation1
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+LPC Overall Standard Deviation2
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+LPC Overall Standard Deviation3
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+LPC Overall Standard Deviation4
+  '(-inf-0.09493]'                                                       1.0            1.0            1.0            2.0           12.0
+  '(0.09493-0.13]'                                                       5.0            2.0            1.0            2.0            1.0
+  '(0.13-inf)'                                                           1.0            1.0            4.0            2.0            1.0
+  [total]                                                                7.0            4.0            6.0            6.0           14.0
+
+LPC Overall Standard Deviation5
+  '(-inf-0.083805]'                                                      1.0            2.0            1.0            1.0           10.0
+  '(0.083805-inf)'                                                       5.0            1.0            4.0            4.0            3.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+LPC Overall Standard Deviation6
+  '(-inf-0.08442]'                                                       1.0            2.0            1.0            2.0           11.0
+  '(0.08442-0.10735]'                                                    5.0            1.0            1.0            1.0            2.0
+  '(0.10735-0.14295]'                                                    1.0            1.0            1.0            3.0            1.0
+  '(0.14295-inf)'                                                        1.0            1.0            4.0            1.0            1.0
+  [total]                                                                8.0            5.0            7.0            7.0           15.0
+
+LPC Overall Standard Deviation7
+  '(-inf-0.116235]'                                                      5.0            2.0            1.0            4.0           12.0
+  '(0.116235-inf)'                                                       1.0            1.0            4.0            1.0            1.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+LPC Overall Standard Deviation8
+  '(-inf-0.1072]'                                                        5.0            2.0            1.0            4.0           12.0
+  '(0.1072-inf)'                                                         1.0            1.0            4.0            1.0            1.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+LPC Overall Standard Deviation9
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Spectral Centroid Overall Average0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Spectral Rolloff Point Overall Average0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Spectral Flux Overall Average0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Compactness Overall Average0
+  '(-inf-1531]'                                                          1.0            1.0            1.0            1.0           10.0
+  '(1531-inf)'                                                           5.0            2.0            4.0            4.0            3.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+Spectral Variability Overall Average0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Root Mean Square Overall Average0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Fraction Of Low Energy Windows Overall Average0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Zero Crossings Overall Average0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Strongest Beat Overall Average0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Beat Sum Overall Average0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+Strength Of Strongest Beat Overall Average0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+MFCC Overall Average0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+MFCC Overall Average1
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+MFCC Overall Average2
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+MFCC Overall Average3
+  '(-inf--1.63065]'                                                      5.0            1.0            3.0            3.0            1.0
+  '(-1.63065-inf)'                                                       1.0            2.0            2.0            2.0           12.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+MFCC Overall Average4
+  '(-inf--0.0307]'                                                       5.0            1.0            2.0            4.0            2.0
+  '(-0.0307-inf)'                                                        1.0            2.0            3.0            1.0           11.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+MFCC Overall Average5
+  '(-inf--1.1805]'                                                       3.0            1.0            1.0            4.0            1.0
+  '(-1.1805-inf)'                                                        3.0            2.0            4.0            1.0           12.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+MFCC Overall Average6
+  '(-inf--1.453]'                                                        1.0            1.0            2.0            4.0            1.0
+  '(-1.453-inf)'                                                         5.0            2.0            3.0            1.0           12.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+MFCC Overall Average7
+  '(-inf--1.463]'                                                        1.0            2.0            2.0            4.0            1.0
+  '(-1.463-0.19965]'                                                     5.0            1.0            1.0            1.0           12.0
+  '(0.19965-inf)'                                                        1.0            1.0            3.0            1.0            1.0
+  [total]                                                                7.0            4.0            6.0            6.0           14.0
+
+MFCC Overall Average8
+  '(-inf--1.86]'                                                         4.0            1.0            1.0            4.0            1.0
+  '(-1.86--1.659]'                                                       1.0            2.0            3.0            1.0            1.0
+  '(-1.659-inf)'                                                         2.0            1.0            2.0            1.0           12.0
+  [total]                                                                7.0            4.0            6.0            6.0           14.0
+
+MFCC Overall Average9
+  '(-inf--1.1165]'                                                       4.0            2.0            2.0            4.0            1.0
+  '(-1.1165-inf)'                                                        2.0            1.0            3.0            1.0           12.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+MFCC Overall Average10
+  '(-inf--1.3525]'                                                       3.0            1.0            1.0            4.0            1.0
+  '(-1.3525-inf)'                                                        3.0            2.0            4.0            1.0           12.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+MFCC Overall Average11
+  '(-inf--1.235]'                                                        1.0            1.0            1.0            4.0            1.0
+  '(-1.235-inf)'                                                         5.0            2.0            4.0            1.0           12.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+MFCC Overall Average12
+  '(-inf--0.66755]'                                                      1.0            2.0            4.0            4.0           10.0
+  '(-0.66755-inf)'                                                       5.0            1.0            1.0            1.0            3.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+LPC Overall Average0
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+LPC Overall Average1
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+LPC Overall Average2
+  '(-inf--0.2876]'                                                       1.0            1.0            4.0            1.0            1.0
+  '(-0.2876-inf)'                                                        5.0            2.0            1.0            4.0           12.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+LPC Overall Average3
+  '(-inf-0.2689]'                                                        5.0            2.0            1.0            4.0           12.0
+  '(0.2689-inf)'                                                         1.0            1.0            4.0            1.0            1.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+LPC Overall Average4
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+LPC Overall Average5
+  '(-inf-0.1582]'                                                        5.0            2.0            1.0            4.0           12.0
+  '(0.1582-inf)'                                                         1.0            1.0            4.0            1.0            1.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+LPC Overall Average6
+  '(-inf--0.031695]'                                                     1.0            1.0            4.0            1.0            1.0
+  '(-0.031695-inf)'                                                      5.0            2.0            1.0            4.0           12.0
+  [total]                                                                6.0            3.0            5.0            5.0           13.0
+
+LPC Overall Average7
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+LPC Overall Average8
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+LPC Overall Average9
+  'All'                                                                  5.0            2.0            4.0            4.0           12.0
+  [total]                                                                5.0            2.0            4.0            4.0           12.0
+
+
+
+Leaf number: 3 Naive Bayes Classifier
+
+                                                                      Class
+Attribute                                                     CavaloMarinho           Coco        Ciranda  MaracatuSolto MaracatuVirado
+                                                                     (0.39)         (0.11)         (0.28)         (0.06)         (0.17)
+========================================================================================================================================
+Spectral Centroid Overall Standard Deviation0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Spectral Rolloff Point Overall Standard Deviation0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Spectral Flux Overall Standard Deviation0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Compactness Overall Standard Deviation0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Spectral Variability Overall Standard Deviation0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Root Mean Square Overall Standard Deviation0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Fraction Of Low Energy Windows Overall Standard Deviation0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Zero Crossings Overall Standard Deviation0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Strongest Beat Overall Standard Deviation0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Beat Sum Overall Standard Deviation0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Strength Of Strongest Beat Overall Standard Deviation0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+MFCC Overall Standard Deviation0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+MFCC Overall Standard Deviation1
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+MFCC Overall Standard Deviation2
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+MFCC Overall Standard Deviation3
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+MFCC Overall Standard Deviation4
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+MFCC Overall Standard Deviation5
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+MFCC Overall Standard Deviation6
+  '(-inf-1.9085]'                                                        2.0            1.0            5.0            1.0            3.0
+  '(1.9085-inf)'                                                         6.0            2.0            1.0            1.0            1.0
+  [total]                                                                8.0            3.0            6.0            2.0            4.0
+
+MFCC Overall Standard Deviation7
+  '(-inf-1.772]'                                                         2.0            1.0            5.0            1.0            3.0
+  '(1.772-1.854]'                                                        1.0            2.0            1.0            1.0            1.0
+  '(1.854-inf)'                                                          6.0            1.0            1.0            1.0            1.0
+  [total]                                                                9.0            4.0            7.0            3.0            5.0
+
+MFCC Overall Standard Deviation8
+  '(-inf-1.7935]'                                                        1.0            1.0            5.0            1.0            2.0
+  '(1.7935-inf)'                                                         7.0            2.0            1.0            1.0            2.0
+  [total]                                                                8.0            3.0            6.0            2.0            4.0
+
+MFCC Overall Standard Deviation9
+  '(-inf-1.6945]'                                                        1.0            1.0            4.0            1.0            3.0
+  '(1.6945-inf)'                                                         7.0            2.0            2.0            1.0            1.0
+  [total]                                                                8.0            3.0            6.0            2.0            4.0
+
+MFCC Overall Standard Deviation10
+  '(-inf-1.7225]'                                                        1.0            1.0            5.0            1.0            3.0
+  '(1.7225-inf)'                                                         7.0            2.0            1.0            1.0            1.0
+  [total]                                                                8.0            3.0            6.0            2.0            4.0
+
+MFCC Overall Standard Deviation11
+  '(-inf-1.778]'                                                         1.0            2.0            5.0            1.0            3.0
+  '(1.778-inf)'                                                          7.0            1.0            1.0            1.0            1.0
+  [total]                                                                8.0            3.0            6.0            2.0            4.0
+
+MFCC Overall Standard Deviation12
+  '(-inf-1.5915]'                                                        1.0            1.0            5.0            1.0            3.0
+  '(1.5915-inf)'                                                         7.0            2.0            1.0            1.0            1.0
+  [total]                                                                8.0            3.0            6.0            2.0            4.0
+
+LPC Overall Standard Deviation0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+LPC Overall Standard Deviation1
+  '(-inf-0.33795]'                                                       7.0            2.0            5.0            1.0            1.0
+  '(0.33795-inf)'                                                        1.0            1.0            1.0            1.0            3.0
+  [total]                                                                8.0            3.0            6.0            2.0            4.0
+
+LPC Overall Standard Deviation2
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+LPC Overall Standard Deviation3
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+LPC Overall Standard Deviation4
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+LPC Overall Standard Deviation5
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+LPC Overall Standard Deviation6
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+LPC Overall Standard Deviation7
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+LPC Overall Standard Deviation8
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+LPC Overall Standard Deviation9
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Spectral Centroid Overall Average0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Spectral Rolloff Point Overall Average0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Spectral Flux Overall Average0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Compactness Overall Average0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Spectral Variability Overall Average0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Root Mean Square Overall Average0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Fraction Of Low Energy Windows Overall Average0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Zero Crossings Overall Average0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Strongest Beat Overall Average0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Beat Sum Overall Average0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+Strength Of Strongest Beat Overall Average0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+MFCC Overall Average0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+MFCC Overall Average1
+  '(-inf--1.6115]'                                                       7.0            1.0            1.0            1.0            1.0
+  '(-1.6115-inf)'                                                        1.0            2.0            5.0            1.0            3.0
+  [total]                                                                8.0            3.0            6.0            2.0            4.0
+
+MFCC Overall Average2
+  '(-inf--2.0485]'                                                       7.0            1.0            1.0            1.0            1.0
+  '(-2.0485-inf)'                                                        1.0            2.0            5.0            1.0            3.0
+  [total]                                                                8.0            3.0            6.0            2.0            4.0
+
+MFCC Overall Average3
+  '(-inf--2.1485]'                                                       7.0            1.0            1.0            1.0            2.0
+  '(-2.1485-inf)'                                                        1.0            2.0            5.0            1.0            2.0
+  [total]                                                                8.0            3.0            6.0            2.0            4.0
+
+MFCC Overall Average4
+  '(-inf-0.6094]'                                                        7.0            2.0            5.0            1.0            1.0
+  '(0.6094-inf)'                                                         1.0            1.0            1.0            1.0            3.0
+  [total]                                                                8.0            3.0            6.0            2.0            4.0
+
+MFCC Overall Average5
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+MFCC Overall Average6
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+MFCC Overall Average7
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+MFCC Overall Average8
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+MFCC Overall Average9
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+MFCC Overall Average10
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+MFCC Overall Average11
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+MFCC Overall Average12
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+LPC Overall Average0
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+LPC Overall Average1
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+LPC Overall Average2
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+LPC Overall Average3
+  '(-inf-0.03339]'                                                       1.0            1.0            4.0            1.0            1.0
+  '(0.03339-0.043635]'                                                   1.0            2.0            1.0            1.0            1.0
+  '(0.043635-inf)'                                                       7.0            1.0            2.0            1.0            3.0
+  [total]                                                                9.0            4.0            7.0            3.0            5.0
+
+LPC Overall Average4
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+LPC Overall Average5
+  '(-inf-0.092535]'                                                      1.0            1.0            5.0            1.0            3.0
+  '(0.092535-inf)'                                                       7.0            2.0            1.0            1.0            1.0
+  [total]                                                                8.0            3.0            6.0            2.0            4.0
+
+LPC Overall Average6
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+LPC Overall Average7
+  '(-inf-0.042195]'                                                      1.0            2.0            4.0            1.0            3.0
+  '(0.042195-inf)'                                                       7.0            1.0            2.0            1.0            1.0
+  [total]                                                                8.0            3.0            6.0            2.0            4.0
+
+LPC Overall Average8
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+LPC Overall Average9
+  'All'                                                                  7.0            2.0            5.0            1.0            3.0
+  [total]                                                                7.0            2.0            5.0            1.0            3.0
+
+
+
+Leaf number: 5 Naive Bayes Classifier
+
+                                                                      Class
+Attribute                                                     CavaloMarinho           Coco        Ciranda  MaracatuSolto MaracatuVirado
+                                                                     (0.12)         (0.38)         (0.31)         (0.12)         (0.08)
+========================================================================================================================================
+Spectral Centroid Overall Standard Deviation0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Spectral Rolloff Point Overall Standard Deviation0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Spectral Flux Overall Standard Deviation0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Compactness Overall Standard Deviation0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Spectral Variability Overall Standard Deviation0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Root Mean Square Overall Standard Deviation0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Fraction Of Low Energy Windows Overall Standard Deviation0
+  '(-inf-0.03331]'                                                       1.0            7.0            1.0            1.0            2.0
+  '(0.03331-inf)'                                                        3.0            4.0            8.0            3.0            1.0
+  [total]                                                                4.0           11.0            9.0            4.0            3.0
+
+Zero Crossings Overall Standard Deviation0
+  '(-inf-48]'                                                            1.0            5.0            8.0            3.0            1.0
+  '(48-inf)'                                                             3.0            6.0            1.0            1.0            2.0
+  [total]                                                                4.0           11.0            9.0            4.0            3.0
+
+Strongest Beat Overall Standard Deviation0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Beat Sum Overall Standard Deviation0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Strength Of Strongest Beat Overall Standard Deviation0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Standard Deviation0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Standard Deviation1
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Standard Deviation2
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Standard Deviation3
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Standard Deviation4
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Standard Deviation5
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Standard Deviation6
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Standard Deviation7
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Standard Deviation8
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Standard Deviation9
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Standard Deviation10
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Standard Deviation11
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Standard Deviation12
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Standard Deviation0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Standard Deviation1
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Standard Deviation2
+  '(-inf-0.193]'                                                         1.0            4.0            8.0            1.0            2.0
+  '(0.193-0.19805]'                                                      2.0            1.0            1.0            1.0            1.0
+  '(0.19805-0.20585]'                                                    1.0            1.0            1.0            3.0            1.0
+  '(0.20585-inf)'                                                        2.0            7.0            1.0            1.0            1.0
+  [total]                                                                6.0           13.0           11.0            6.0            5.0
+
+LPC Overall Standard Deviation3
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Standard Deviation4
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Standard Deviation5
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Standard Deviation6
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Standard Deviation7
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Standard Deviation8
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Standard Deviation9
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Spectral Centroid Overall Average0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Spectral Rolloff Point Overall Average0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Spectral Flux Overall Average0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Compactness Overall Average0
+  '(-inf-1579]'                                                          3.0           10.0            3.0            1.0            2.0
+  '(1579-inf)'                                                           1.0            1.0            6.0            3.0            1.0
+  [total]                                                                4.0           11.0            9.0            4.0            3.0
+
+Spectral Variability Overall Average0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Root Mean Square Overall Average0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Fraction Of Low Energy Windows Overall Average0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Zero Crossings Overall Average0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Strongest Beat Overall Average0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Beat Sum Overall Average0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+Strength Of Strongest Beat Overall Average0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Average0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Average1
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Average2
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Average3
+  '(-inf--4.2565]'                                                       3.0            1.0            3.0            1.0            1.0
+  '(-4.2565--3.233]'                                                     1.0            1.0            1.0            3.0            1.0
+  '(-3.233-inf)'                                                         1.0           10.0            6.0            1.0            2.0
+  [total]                                                                5.0           12.0           10.0            5.0            4.0
+
+MFCC Overall Average4
+  '(-inf--0.823]'                                                        3.0            1.0            4.0            3.0            1.0
+  '(-0.823-inf)'                                                         1.0           10.0            5.0            1.0            2.0
+  [total]                                                                4.0           11.0            9.0            4.0            3.0
+
+MFCC Overall Average5
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Average6
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Average7
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Average8
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Average9
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Average10
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Average11
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+MFCC Overall Average12
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Average0
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Average1
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Average2
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Average3
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Average4
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Average5
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Average6
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Average7
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Average8
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+LPC Overall Average9
+  'All'                                                                  3.0           10.0            8.0            3.0            2.0
+  [total]                                                                3.0           10.0            8.0            3.0            2.0
+
+
+
+Leaf number: 6 Naive Bayes Classifier
+
+                                                                      Class
+Attribute                                                     CavaloMarinho           Coco        Ciranda  MaracatuSolto MaracatuVirado
+                                                                     (0.17)         (0.21)         (0.08)         (0.46)         (0.08)
+========================================================================================================================================
+Spectral Centroid Overall Standard Deviation0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Spectral Rolloff Point Overall Standard Deviation0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Spectral Flux Overall Standard Deviation0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Compactness Overall Standard Deviation0
+  '(-inf-184.15]'                                                        4.0            2.0            1.0           11.0            1.0
+  '(184.15-inf)'                                                         1.0            4.0            2.0            1.0            2.0
+  [total]                                                                5.0            6.0            3.0           12.0            3.0
+
+Spectral Variability Overall Standard Deviation0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Root Mean Square Overall Standard Deviation0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Fraction Of Low Energy Windows Overall Standard Deviation0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Zero Crossings Overall Standard Deviation0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Strongest Beat Overall Standard Deviation0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Beat Sum Overall Standard Deviation0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Strength Of Strongest Beat Overall Standard Deviation0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Standard Deviation0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Standard Deviation1
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Standard Deviation2
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Standard Deviation3
+  '(-inf-3.0885]'                                                        4.0            5.0            1.0           11.0            1.0
+  '(3.0885-3.374]'                                                       1.0            1.0            2.0            1.0            1.0
+  '(3.374-inf)'                                                          1.0            1.0            1.0            1.0            2.0
+  [total]                                                                6.0            7.0            4.0           13.0            4.0
+
+MFCC Overall Standard Deviation4
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Standard Deviation5
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Standard Deviation6
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Standard Deviation7
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Standard Deviation8
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Standard Deviation9
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Standard Deviation10
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Standard Deviation11
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Standard Deviation12
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Standard Deviation0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Standard Deviation1
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Standard Deviation2
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Standard Deviation3
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Standard Deviation4
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Standard Deviation5
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Standard Deviation6
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Standard Deviation7
+  '(-inf-0.11775]'                                                       4.0            1.0            1.0            1.0            1.0
+  '(0.11775-inf)'                                                        1.0            5.0            2.0           11.0            2.0
+  [total]                                                                5.0            6.0            3.0           12.0            3.0
+
+LPC Overall Standard Deviation8
+  '(-inf-0.12085]'                                                       4.0            3.0            1.0            1.0            1.0
+  '(0.12085-inf)'                                                        1.0            3.0            2.0           11.0            2.0
+  [total]                                                                5.0            6.0            3.0           12.0            3.0
+
+LPC Overall Standard Deviation9
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Spectral Centroid Overall Average0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Spectral Rolloff Point Overall Average0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Spectral Flux Overall Average0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Compactness Overall Average0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Spectral Variability Overall Average0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Root Mean Square Overall Average0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Fraction Of Low Energy Windows Overall Average0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Zero Crossings Overall Average0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Strongest Beat Overall Average0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Beat Sum Overall Average0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+Strength Of Strongest Beat Overall Average0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Average0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Average1
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Average2
+  '(-inf--0.14605]'                                                      4.0            1.0            2.0           11.0            1.0
+  '(-0.14605-inf)'                                                       1.0            5.0            1.0            1.0            2.0
+  [total]                                                                5.0            6.0            3.0           12.0            3.0
+
+MFCC Overall Average3
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Average4
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Average5
+  '(-inf-0.301]'                                                         4.0            1.0            2.0            9.0            1.0
+  '(0.301-inf)'                                                          1.0            5.0            1.0            3.0            2.0
+  [total]                                                                5.0            6.0            3.0           12.0            3.0
+
+MFCC Overall Average6
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Average7
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Average8
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Average9
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Average10
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Average11
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+MFCC Overall Average12
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Average0
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Average1
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Average2
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Average3
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Average4
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Average5
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Average6
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Average7
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Average8
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+LPC Overall Average9
+  'All'                                                                  4.0            5.0            2.0           11.0            2.0
+  [total]                                                                4.0            5.0            2.0           11.0            2.0
+
+
+
+
+Number of Leaves  : 	4
+
+Size of the tree : 	7
+
+
+Time taken to build model: 3.05 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          38               50.6667 %
+Incorrectly Classified Instances        37               49.3333 %
+Kappa statistic                          0.3833
+Mean absolute error                      0.2084
+Root mean squared error                  0.3868
+Relative absolute error                 65.1169 %
+Root relative squared error             96.7009 %
+Total Number of Instances               75     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.533     0.117      0.533     0.533     0.533      0.718    CavaloMarinho
+                 0.333     0.167      0.333     0.333     0.333      0.67     Coco
+                 0.6       0.167      0.474     0.6       0.529      0.77     Ciranda
+                 0.333     0.1        0.455     0.333     0.385      0.755    MaracatuSolto
+                 0.733     0.067      0.733     0.733     0.733      0.814    MaracatuVirado
+Weighted Avg.    0.507     0.123      0.506     0.507     0.503      0.745
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+  8  3  1  3  0 |  a = CavaloMarinho
+  1  5  6  1  2 |  b = Coco
+  1  2  9  2  1 |  c = Ciranda
+  5  3  1  5  1 |  d = MaracatuSolto
+  0  2  2  0 11 |  e = MaracatuVirado
+

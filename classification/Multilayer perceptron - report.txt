@@ -1,0 +1,2880 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     jAudio
+Instances:    75
+Attributes:   69
+              Class
+              Spectral Centroid Overall Standard Deviation0
+              Spectral Rolloff Point Overall Standard Deviation0
+              Spectral Flux Overall Standard Deviation0
+              Compactness Overall Standard Deviation0
+              Spectral Variability Overall Standard Deviation0
+              Root Mean Square Overall Standard Deviation0
+              Fraction Of Low Energy Windows Overall Standard Deviation0
+              Zero Crossings Overall Standard Deviation0
+              Strongest Beat Overall Standard Deviation0
+              Beat Sum Overall Standard Deviation0
+              Strength Of Strongest Beat Overall Standard Deviation0
+              MFCC Overall Standard Deviation0
+              MFCC Overall Standard Deviation1
+              MFCC Overall Standard Deviation2
+              MFCC Overall Standard Deviation3
+              MFCC Overall Standard Deviation4
+              MFCC Overall Standard Deviation5
+              MFCC Overall Standard Deviation6
+              MFCC Overall Standard Deviation7
+              MFCC Overall Standard Deviation8
+              MFCC Overall Standard Deviation9
+              MFCC Overall Standard Deviation10
+              MFCC Overall Standard Deviation11
+              MFCC Overall Standard Deviation12
+              LPC Overall Standard Deviation0
+              LPC Overall Standard Deviation1
+              LPC Overall Standard Deviation2
+              LPC Overall Standard Deviation3
+              LPC Overall Standard Deviation4
+              LPC Overall Standard Deviation5
+              LPC Overall Standard Deviation6
+              LPC Overall Standard Deviation7
+              LPC Overall Standard Deviation8
+              LPC Overall Standard Deviation9
+              Spectral Centroid Overall Average0
+              Spectral Rolloff Point Overall Average0
+              Spectral Flux Overall Average0
+              Compactness Overall Average0
+              Spectral Variability Overall Average0
+              Root Mean Square Overall Average0
+              Fraction Of Low Energy Windows Overall Average0
+              Zero Crossings Overall Average0
+              Strongest Beat Overall Average0
+              Beat Sum Overall Average0
+              Strength Of Strongest Beat Overall Average0
+              MFCC Overall Average0
+              MFCC Overall Average1
+              MFCC Overall Average2
+              MFCC Overall Average3
+              MFCC Overall Average4
+              MFCC Overall Average5
+              MFCC Overall Average6
+              MFCC Overall Average7
+              MFCC Overall Average8
+              MFCC Overall Average9
+              MFCC Overall Average10
+              MFCC Overall Average11
+              MFCC Overall Average12
+              LPC Overall Average0
+              LPC Overall Average1
+              LPC Overall Average2
+              LPC Overall Average3
+              LPC Overall Average4
+              LPC Overall Average5
+              LPC Overall Average6
+              LPC Overall Average7
+              LPC Overall Average8
+              LPC Overall Average9
+Test mode:5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.5981104959347711
+    Node 5    1.5820475538938508
+    Node 6    -1.3092318407298786
+    Node 7    -0.16431313116623694
+    Node 8    -0.17417182829011071
+    Node 9    -1.062301753873225
+    Node 10    -1.7373984747601323
+    Node 11    -0.7032890312676026
+    Node 12    -0.23178898053915345
+    Node 13    1.016230169500496
+    Node 14    0.2322787799459083
+    Node 15    1.3225589412691647
+    Node 16    -0.17463532907502946
+    Node 17    -2.448416327376406
+    Node 18    -0.014998817438573495
+    Node 19    1.4737561108284616
+    Node 20    1.110790453983934
+    Node 21    0.2537125052720733
+    Node 22    -1.0730233042066357
+    Node 23    0.04931247568136172
+    Node 24    2.0602330718821174
+    Node 25    -2.0729189975537334
+    Node 26    -1.4789449511590027
+    Node 27    -0.7108475944774428
+    Node 28    -0.46692255567414276
+    Node 29    0.3797118653875727
+    Node 30    -1.6595215757685844
+    Node 31    1.0352995764292914
+    Node 32    1.6279119703888243
+    Node 33    -1.728235273152938
+    Node 34    -0.13010103708087908
+    Node 35    -0.30885743988078534
+    Node 36    -0.510257719176689
+    Node 37    -0.9208675655530003
+    Node 38    -0.21825356958157383
+    Node 39    1.1120440564782386
+    Node 40    0.06412952448090065
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.22925220554717257
+    Node 5    -1.2920082262468648
+    Node 6    1.285963508010877
+    Node 7    -3.180535988794382
+    Node 8    1.5379130944631254
+    Node 9    0.6240220262329942
+    Node 10    2.3337161219794016
+    Node 11    0.1766607818813321
+    Node 12    -1.7501977441700713
+    Node 13    2.177461805620857
+    Node 14    -1.7968840990257529
+    Node 15    -0.9429894846294455
+    Node 16    -1.068262524815662
+    Node 17    0.7667430917330534
+    Node 18    -0.41951754479351916
+    Node 19    -2.0294067754584337
+    Node 20    -1.1173883139090788
+    Node 21    -0.87472127015417
+    Node 22    -0.15061146284739496
+    Node 23    -1.9620576827195286
+    Node 24    -1.5314914383837372
+    Node 25    1.286830249044613
+    Node 26    -1.9795159401851044
+    Node 27    1.7369279596038583
+    Node 28    2.437962042269726
+    Node 29    1.4618183663238595
+    Node 30    -2.312771859872443
+    Node 31    -0.32578910250204707
+    Node 32    -0.24732031987222292
+    Node 33    -0.9984508963325153
+    Node 34    0.5008939508770525
+    Node 35    -2.5140493943890054
+    Node 36    2.731592365030987
+    Node 37    -1.8300033906004118
+    Node 38    -1.4126576522094607
+    Node 39    -0.5988299151250824
+    Node 40    -1.1876178095702223
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.21205872812038198
+    Node 5    -1.6561445916645414
+    Node 6    1.6905536597142514
+    Node 7    -2.320931120662937
+    Node 8    -0.6710027308997613
+    Node 9    -0.1252140164218631
+    Node 10    -3.204182579318156
+    Node 11    -1.5873784627535015
+    Node 12    1.6087709606270912
+    Node 13    -0.41831507811890234
+    Node 14    -0.6603434908263669
+    Node 15    0.8559432215361654
+    Node 16    -1.401907643293115
+    Node 17    1.4396670096961341
+    Node 18    -1.9760442153569664
+    Node 19    2.955419608160149
+    Node 20    -0.7599629233420944
+    Node 21    -1.252346622770241
+    Node 22    -2.1677319694902373
+    Node 23    -1.801342998154825
+    Node 24    -1.3136738330325377
+    Node 25    1.1172475716234835
+    Node 26    1.6682825423496808
+    Node 27    -0.43665815025840266
+    Node 28    -2.2045076760014206
+    Node 29    -1.4980896548320797
+    Node 30    0.7550236716996772
+    Node 31    -1.395271183502687
+    Node 32    -0.9509683204537708
+    Node 33    -0.6155182958464981
+    Node 34    -1.0593507956716675
+    Node 35    -3.1344233640283448
+    Node 36    -1.4695800349655834
+    Node 37    0.4866060150911046
+    Node 38    -0.20049710191202194
+    Node 39    -1.2688965180537086
+    Node 40    2.2509729068206883
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.6079984490864005
+    Node 5    -0.5545240514341863
+    Node 6    -2.6735095267096023
+    Node 7    -0.8255014073800311
+    Node 8    -0.6273214577500977
+    Node 9    0.2875654133734134
+    Node 10    0.001282041723332734
+    Node 11    1.241843161412484
+    Node 12    0.3575142640526653
+    Node 13    -1.6848602892593354
+    Node 14    1.2810895964431996
+    Node 15    -1.8543991867432315
+    Node 16    1.8901696294862085
+    Node 17    -0.35665731146325597
+    Node 18    0.8235184814989911
+    Node 19    -2.0746859594808225
+    Node 20    -1.5526267467505042
+    Node 21    0.15913783186102776
+    Node 22    -0.5597042210711455
+    Node 23    2.267528800955426
+    Node 24    -0.9362885202677206
+    Node 25    1.0252190992648342
+    Node 26    -0.8953786897441508
+    Node 27    -0.6324821542063841
+    Node 28    -0.4721264958003998
+    Node 29    -0.5305063294478768
+    Node 30    1.3448596739397398
+    Node 31    -0.32888357721794786
+    Node 32    -1.2187398413664614
+    Node 33    2.037832895166282
+    Node 34    -0.1128155758974231
+    Node 35    -0.6498336854450875
+    Node 36    -0.696484575694988
+    Node 37    -0.8027238464095657
+    Node 38    -0.050974979588205405
+    Node 39    -1.359216504067884
+    Node 40    -2.1462496626838705
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.8507623306564381
+    Node 5    -0.9196704658208303
+    Node 6    0.941445349184292
+    Node 7    2.8286436887442785
+    Node 8    -1.4372719180965958
+    Node 9    -1.5328976626149797
+    Node 10    1.3473851140806643
+    Node 11    -0.7141980654487714
+    Node 12    -2.066206395813231
+    Node 13    -1.3886082947244573
+    Node 14    -1.7485852261252506
+    Node 15    -0.8724926379713354
+    Node 16    -1.6601362544411782
+    Node 17    0.4922719223862242
+    Node 18    -0.6816150130891722
+    Node 19    -1.8004017501175646
+    Node 20    0.6400240430497225
+    Node 21    -0.625942872291024
+    Node 22    1.5614706681337571
+    Node 23    -1.659646933039212
+    Node 24    -0.9863069591909218
+    Node 25    -1.9487679230410253
+    Node 26    0.7632443371927422
+    Node 27    -0.8614442481745876
+    Node 28    -0.5285197792017089
+    Node 29    -0.633525270374171
+    Node 30    -0.7020657911515944
+    Node 31    -1.2957932032991129
+    Node 32    -1.0915094983980103
+    Node 33    -0.612596653500207
+    Node 34    -0.9849620828925033
+    Node 35    2.8052405138346654
+    Node 36    -1.229303097813052
+    Node 37    0.9071299203490054
+    Node 38    0.41184087803777447
+    Node 39    0.374255366207574
+    Node 40    -0.2790279595778154
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    0.08408734583316435
+    Attrib Spectral Centroid Overall Standard Deviation0    0.2016993746474516
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    -0.03172486116831272
+    Attrib Spectral Flux Overall Standard Deviation0    0.11790312424533718
+    Attrib Compactness Overall Standard Deviation0    -0.0881027594131247
+    Attrib Spectral Variability Overall Standard Deviation0    -0.08695506445808657
+    Attrib Root Mean Square Overall Standard Deviation0    -0.1115829584370088
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    -0.10911048193352202
+    Attrib Zero Crossings Overall Standard Deviation0    0.11234160510780772
+    Attrib Strongest Beat Overall Standard Deviation0    0.3624844558083497
+    Attrib Beat Sum Overall Standard Deviation0    0.17731854534517075
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.050288454974623274
+    Attrib MFCC Overall Standard Deviation0    0.048522106523327335
+    Attrib MFCC Overall Standard Deviation1    -0.0957490348668876
+    Attrib MFCC Overall Standard Deviation2    -0.17824113199560965
+    Attrib MFCC Overall Standard Deviation3    -0.05704219167989067
+    Attrib MFCC Overall Standard Deviation4    -0.12512998634039815
+    Attrib MFCC Overall Standard Deviation5    0.3970583556286418
+    Attrib MFCC Overall Standard Deviation6    0.3185073914626084
+    Attrib MFCC Overall Standard Deviation7    0.22294718833239247
+    Attrib MFCC Overall Standard Deviation8    0.39605549033389736
+    Attrib MFCC Overall Standard Deviation9    0.5479977660708976
+    Attrib MFCC Overall Standard Deviation10    0.4732453943309145
+    Attrib MFCC Overall Standard Deviation11    0.2924937777787852
+    Attrib MFCC Overall Standard Deviation12    0.3117662022253179
+    Attrib LPC Overall Standard Deviation0    0.25701198480990084
+    Attrib LPC Overall Standard Deviation1    0.08664199513047043
+    Attrib LPC Overall Standard Deviation2    0.32106001793202127
+    Attrib LPC Overall Standard Deviation3    -0.28853673555497933
+    Attrib LPC Overall Standard Deviation4    -0.12103537664431588
+    Attrib LPC Overall Standard Deviation5    -0.06396625930316878
+    Attrib LPC Overall Standard Deviation6    -0.18908791968322958
+    Attrib LPC Overall Standard Deviation7    -0.3549649680924977
+    Attrib LPC Overall Standard Deviation8    -0.23492148957933784
+    Attrib LPC Overall Standard Deviation9    -0.021104722082620854
+    Attrib Spectral Centroid Overall Average0    0.3381613627871277
+    Attrib Spectral Rolloff Point Overall Average0    0.22508906357029052
+    Attrib Spectral Flux Overall Average0    0.013024785026363199
+    Attrib Compactness Overall Average0    -0.003947047184538577
+    Attrib Spectral Variability Overall Average0    -0.11778868647313247
+    Attrib Root Mean Square Overall Average0    -0.08556896911950376
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.8831368695138145
+    Attrib Zero Crossings Overall Average0    0.2491578112034525
+    Attrib Strongest Beat Overall Average0    -0.019993193785722754
+    Attrib Beat Sum Overall Average0    -0.016576066459654922
+    Attrib Strength Of Strongest Beat Overall Average0    -0.06344829709537016
+    Attrib MFCC Overall Average0    -0.14430057552132752
+    Attrib MFCC Overall Average1    -0.4730567152317312
+    Attrib MFCC Overall Average2    -1.1649632573927338
+    Attrib MFCC Overall Average3    -0.9753389266567206
+    Attrib MFCC Overall Average4    -0.3315089725834274
+    Attrib MFCC Overall Average5    -0.4467653271436999
+    Attrib MFCC Overall Average6    -0.09901140378792982
+    Attrib MFCC Overall Average7    0.11464102246463513
+    Attrib MFCC Overall Average8    0.4173728236029428
+    Attrib MFCC Overall Average9    0.5430971231055158
+    Attrib MFCC Overall Average10    0.06902350146466864
+    Attrib MFCC Overall Average11    -0.3921940893992064
+    Attrib MFCC Overall Average12    0.03954052062826689
+    Attrib LPC Overall Average0    0.39204078588545116
+    Attrib LPC Overall Average1    -0.07990639077290154
+    Attrib LPC Overall Average2    0.43009321958596575
+    Attrib LPC Overall Average3    0.12759892449544752
+    Attrib LPC Overall Average4    0.6930607644748193
+    Attrib LPC Overall Average5    0.3621557322675657
+    Attrib LPC Overall Average6    0.10907466861500346
+    Attrib LPC Overall Average7    0.13649452948387258
+    Attrib LPC Overall Average8    -0.29657357927124284
+    Attrib LPC Overall Average9    0.025676632933056623
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.17090807521979232
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.07189600340275075
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.22994927821604907
+    Attrib Spectral Flux Overall Standard Deviation0    -0.28726040383500967
+    Attrib Compactness Overall Standard Deviation0    0.24323123491536097
+    Attrib Spectral Variability Overall Standard Deviation0    0.2808412780376438
+    Attrib Root Mean Square Overall Standard Deviation0    0.27559928583988447
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    -0.16974891046894816
+    Attrib Zero Crossings Overall Standard Deviation0    -0.008871961461346453
+    Attrib Strongest Beat Overall Standard Deviation0    -0.43230510710451264
+    Attrib Beat Sum Overall Standard Deviation0    -0.26098388988200183
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    0.19406059395534828
+    Attrib MFCC Overall Standard Deviation0    0.014009330897134919
+    Attrib MFCC Overall Standard Deviation1    0.17523221075183645
+    Attrib MFCC Overall Standard Deviation2    0.9819976246335924
+    Attrib MFCC Overall Standard Deviation3    0.09092729022496743
+    Attrib MFCC Overall Standard Deviation4    0.2538135482706038
+    Attrib MFCC Overall Standard Deviation5    -0.3400123922085743
+    Attrib MFCC Overall Standard Deviation6    -0.7615495195122113
+    Attrib MFCC Overall Standard Deviation7    -0.48346481203304026
+    Attrib MFCC Overall Standard Deviation8    0.03679563988298164
+    Attrib MFCC Overall Standard Deviation9    -0.8428226214715889
+    Attrib MFCC Overall Standard Deviation10    -0.3525907276722377
+    Attrib MFCC Overall Standard Deviation11    -0.15773136493336704
+    Attrib MFCC Overall Standard Deviation12    -0.17594719657340271
+    Attrib LPC Overall Standard Deviation0    -0.006804803314044684
+    Attrib LPC Overall Standard Deviation1    0.12347726646814874
+    Attrib LPC Overall Standard Deviation2    -0.8250025024564621
+    Attrib LPC Overall Standard Deviation3    -0.05746170793637103
+    Attrib LPC Overall Standard Deviation4    0.02815796781054479
+    Attrib LPC Overall Standard Deviation5    -0.2733517640168546
+    Attrib LPC Overall Standard Deviation6    0.23035460480592543
+    Attrib LPC Overall Standard Deviation7    0.43625117887874754
+    Attrib LPC Overall Standard Deviation8    -0.1981670313103264
+    Attrib LPC Overall Standard Deviation9    0.024574341965210078
+    Attrib Spectral Centroid Overall Average0    -0.2611395692824653
+    Attrib Spectral Rolloff Point Overall Average0    -0.2420625612035065
+    Attrib Spectral Flux Overall Average0    -0.13977788343136316
+    Attrib Compactness Overall Average0    -0.0030376195893558073
+    Attrib Spectral Variability Overall Average0    0.12030073297084644
+    Attrib Root Mean Square Overall Average0    0.10562262573087253
+    Attrib Fraction Of Low Energy Windows Overall Average0    -0.7239066709671615
+    Attrib Zero Crossings Overall Average0    -0.2791757399350057
+    Attrib Strongest Beat Overall Average0    -0.09948549049435601
+    Attrib Beat Sum Overall Average0    -0.031620784587034746
+    Attrib Strength Of Strongest Beat Overall Average0    0.3475102465103562
+    Attrib MFCC Overall Average0    0.21741905270694215
+    Attrib MFCC Overall Average1    0.09894833488123768
+    Attrib MFCC Overall Average2    1.2941739103217484
+    Attrib MFCC Overall Average3    0.6566841382856704
+    Attrib MFCC Overall Average4    0.10359463467787866
+    Attrib MFCC Overall Average5    0.9706623292673346
+    Attrib MFCC Overall Average6    0.7776491954738198
+    Attrib MFCC Overall Average7    0.593907009566655
+    Attrib MFCC Overall Average8    -0.21941039866727086
+    Attrib MFCC Overall Average9    -0.1992428997319547
+    Attrib MFCC Overall Average10    0.906651771685426
+    Attrib MFCC Overall Average11    0.8976123547317786
+    Attrib MFCC Overall Average12    0.22378957992094264
+    Attrib LPC Overall Average0    -0.3297205277982659
+    Attrib LPC Overall Average1    0.24922234678511948
+    Attrib LPC Overall Average2    -0.41269565800883246
+    Attrib LPC Overall Average3    0.17211421310512498
+    Attrib LPC Overall Average4    -0.8370045483744329
+    Attrib LPC Overall Average5    -0.15627495505486114
+    Attrib LPC Overall Average6    0.29666191150887106
+    Attrib LPC Overall Average7    0.01791890647092166
+    Attrib LPC Overall Average8    1.0621996636403093
+    Attrib LPC Overall Average9    0.04019958484009824
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.5364596900663586
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.08244291054797627
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.48420788391609537
+    Attrib Spectral Flux Overall Standard Deviation0    -0.7252874360186377
+    Attrib Compactness Overall Standard Deviation0    0.7880911624935278
+    Attrib Spectral Variability Overall Standard Deviation0    -0.2623768002101783
+    Attrib Root Mean Square Overall Standard Deviation0    -0.3371644484448606
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    -0.25808424652739237
+    Attrib Zero Crossings Overall Standard Deviation0    -0.05207003734462458
+    Attrib Strongest Beat Overall Standard Deviation0    -0.5356194651475193
+    Attrib Beat Sum Overall Standard Deviation0    0.7286959939951695
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    1.2488755038638324
+    Attrib MFCC Overall Standard Deviation0    0.37801913584169455
+    Attrib MFCC Overall Standard Deviation1    1.5842107548276319
+    Attrib MFCC Overall Standard Deviation2    0.8659154736032441
+    Attrib MFCC Overall Standard Deviation3    -0.13581377528430258
+    Attrib MFCC Overall Standard Deviation4    -0.7686813202473953
+    Attrib MFCC Overall Standard Deviation5    -0.3952369281773715
+    Attrib MFCC Overall Standard Deviation6    -0.26233346053056833
+    Attrib MFCC Overall Standard Deviation7    -0.50654090171069
+    Attrib MFCC Overall Standard Deviation8    -0.1830325709860227
+    Attrib MFCC Overall Standard Deviation9    -0.9952327655088198
+    Attrib MFCC Overall Standard Deviation10    -0.20121313122186607
+    Attrib MFCC Overall Standard Deviation11    -0.7154936801073909
+    Attrib MFCC Overall Standard Deviation12    -0.4383785851479191
+    Attrib LPC Overall Standard Deviation0    -0.08089487554501062
+    Attrib LPC Overall Standard Deviation1    -0.06902827546348544
+    Attrib LPC Overall Standard Deviation2    -0.2725508735339304
+    Attrib LPC Overall Standard Deviation3    -0.37168483395341523
+    Attrib LPC Overall Standard Deviation4    -0.4267641977798858
+    Attrib LPC Overall Standard Deviation5    -0.447077044211778
+    Attrib LPC Overall Standard Deviation6    -0.2661584592565016
+    Attrib LPC Overall Standard Deviation7    -0.30338856182664237
+    Attrib LPC Overall Standard Deviation8    -0.2963334448173896
+    Attrib LPC Overall Standard Deviation9    -3.926416356055257E-4
+    Attrib Spectral Centroid Overall Average0    -0.1594093415270618
+    Attrib Spectral Rolloff Point Overall Average0    -0.19456463910271543
+    Attrib Spectral Flux Overall Average0    0.5674112162254732
+    Attrib Compactness Overall Average0    -1.5124539417958913
+    Attrib Spectral Variability Overall Average0    0.16519249389969
+    Attrib Root Mean Square Overall Average0    0.21403526301405873
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.19800954255664557
+    Attrib Zero Crossings Overall Average0    -0.30895763358833184
+    Attrib Strongest Beat Overall Average0    -0.6565059513008754
+    Attrib Beat Sum Overall Average0    0.4717764769120148
+    Attrib Strength Of Strongest Beat Overall Average0    0.9794049477026361
+    Attrib MFCC Overall Average0    -0.6991419312831368
+    Attrib MFCC Overall Average1    0.5229795733477977
+    Attrib MFCC Overall Average2    0.7203176314112872
+    Attrib MFCC Overall Average3    0.3782258790399106
+    Attrib MFCC Overall Average4    0.6417686048331674
+    Attrib MFCC Overall Average5    -0.11788237216200513
+    Attrib MFCC Overall Average6    0.009321871023545446
+    Attrib MFCC Overall Average7    0.279164485622028
+    Attrib MFCC Overall Average8    1.0465131659430167
+    Attrib MFCC Overall Average9    0.9252077926377867
+    Attrib MFCC Overall Average10    1.037625842050788
+    Attrib MFCC Overall Average11    1.1212777982399285
+    Attrib MFCC Overall Average12    0.10112045498794882
+    Attrib LPC Overall Average0    -0.006029413246107742
+    Attrib LPC Overall Average1    0.13643191648050368
+    Attrib LPC Overall Average2    -0.8457977584202626
+    Attrib LPC Overall Average3    0.321009898490944
+    Attrib LPC Overall Average4    0.3224918236221593
+    Attrib LPC Overall Average5    0.3707436900188111
+    Attrib LPC Overall Average6    0.1135228980091278
+    Attrib LPC Overall Average7    0.7694614677555294
+    Attrib LPC Overall Average8    0.24359811213257743
+    Attrib LPC Overall Average9    -0.004810209284364118
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    0.027542405258406257
+    Attrib Spectral Centroid Overall Standard Deviation0    0.13007218493866501
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.5448466860400868
+    Attrib Spectral Flux Overall Standard Deviation0    0.05021445148265765
+    Attrib Compactness Overall Standard Deviation0    0.11176517918909397
+    Attrib Spectral Variability Overall Standard Deviation0    0.14172177419759727
+    Attrib Root Mean Square Overall Standard Deviation0    0.07295544981963167
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    -0.12398510134600349
+    Attrib Zero Crossings Overall Standard Deviation0    0.19824575493037075
+    Attrib Strongest Beat Overall Standard Deviation0    0.3154904980902761
+    Attrib Beat Sum Overall Standard Deviation0    -0.11742109947761412
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.5093619213336898
+    Attrib MFCC Overall Standard Deviation0    0.23747742052579804
+    Attrib MFCC Overall Standard Deviation1    -0.38324898696180937
+    Attrib MFCC Overall Standard Deviation2    0.5238025675551033
+    Attrib MFCC Overall Standard Deviation3    0.2904603565570191
+    Attrib MFCC Overall Standard Deviation4    0.4499872819003123
+    Attrib MFCC Overall Standard Deviation5    0.04405862847441592
+    Attrib MFCC Overall Standard Deviation6    -0.2949222783123757
+    Attrib MFCC Overall Standard Deviation7    -0.1484195095478094
+    Attrib MFCC Overall Standard Deviation8    0.09993423346893925
+    Attrib MFCC Overall Standard Deviation9    0.2694711494638881
+    Attrib MFCC Overall Standard Deviation10    -0.12956149408029588
+    Attrib MFCC Overall Standard Deviation11    0.10680976066771287
+    Attrib MFCC Overall Standard Deviation12    0.18798134098739971
+    Attrib LPC Overall Standard Deviation0    0.21018633725411284
+    Attrib LPC Overall Standard Deviation1    -0.3927640144116563
+    Attrib LPC Overall Standard Deviation2    0.10380232430060521
+    Attrib LPC Overall Standard Deviation3    -0.14285438500163078
+    Attrib LPC Overall Standard Deviation4    0.3237130011658533
+    Attrib LPC Overall Standard Deviation5    0.1870058100342085
+    Attrib LPC Overall Standard Deviation6    -0.059559233407129535
+    Attrib LPC Overall Standard Deviation7    -0.23241071194665325
+    Attrib LPC Overall Standard Deviation8    0.13830453202943366
+    Attrib LPC Overall Standard Deviation9    0.04868758898294527
+    Attrib Spectral Centroid Overall Average0    -0.010214951425008943
+    Attrib Spectral Rolloff Point Overall Average0    3.2863381981126455E-4
+    Attrib Spectral Flux Overall Average0    -0.08998430423303991
+    Attrib Compactness Overall Average0    -0.3893016077488249
+    Attrib Spectral Variability Overall Average0    0.11407252695058373
+    Attrib Root Mean Square Overall Average0    0.1351616178864307
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.12147096276437103
+    Attrib Zero Crossings Overall Average0    0.005561354454740423
+    Attrib Strongest Beat Overall Average0    -0.5093176172327946
+    Attrib Beat Sum Overall Average0    0.019908135886631498
+    Attrib Strength Of Strongest Beat Overall Average0    -0.3851083404884927
+    Attrib MFCC Overall Average0    0.26928075854438294
+    Attrib MFCC Overall Average1    0.031003670049419486
+    Attrib MFCC Overall Average2    -0.10808680370536648
+    Attrib MFCC Overall Average3    -0.15807424473726284
+    Attrib MFCC Overall Average4    0.2505445514786921
+    Attrib MFCC Overall Average5    0.38372162703429613
+    Attrib MFCC Overall Average6    0.5790691591868007
+    Attrib MFCC Overall Average7    -0.04808015656013294
+    Attrib MFCC Overall Average8    -0.7863189779652343
+    Attrib MFCC Overall Average9    0.02187512506468095
+    Attrib MFCC Overall Average10    0.0012924303852164525
+    Attrib MFCC Overall Average11    -0.325294139304176
+    Attrib MFCC Overall Average12    0.24722616940509629
+    Attrib LPC Overall Average0    -0.05550490600700215
+    Attrib LPC Overall Average1    -0.33300706480863795
+    Attrib LPC Overall Average2    0.28668007825772757
+    Attrib LPC Overall Average3    0.24687340544936193
+    Attrib LPC Overall Average4    -0.01603952384916485
+    Attrib LPC Overall Average5    0.2049072975254689
+    Attrib LPC Overall Average6    0.17606522002332756
+    Attrib LPC Overall Average7    -0.6610954290161293
+    Attrib LPC Overall Average8    0.11860134055456098
+    Attrib LPC Overall Average9    0.03899092882941299
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.04443586661798008
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.06768571309797608
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.0396346039003074
+    Attrib Spectral Flux Overall Standard Deviation0    0.06533249063947966
+    Attrib Compactness Overall Standard Deviation0    -0.08275207507456783
+    Attrib Spectral Variability Overall Standard Deviation0    0.05847154589156068
+    Attrib Root Mean Square Overall Standard Deviation0    0.07732870953579472
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.1754384238229135
+    Attrib Zero Crossings Overall Standard Deviation0    0.020092453517972047
+    Attrib Strongest Beat Overall Standard Deviation0    0.00499190146386074
+    Attrib Beat Sum Overall Standard Deviation0    -0.15103246342476542
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.5098253079363129
+    Attrib MFCC Overall Standard Deviation0    0.10960303287448842
+    Attrib MFCC Overall Standard Deviation1    -0.3995513324831745
+    Attrib MFCC Overall Standard Deviation2    -0.15780594219446503
+    Attrib MFCC Overall Standard Deviation3    -0.007810677128049511
+    Attrib MFCC Overall Standard Deviation4    0.2876494268057365
+    Attrib MFCC Overall Standard Deviation5    0.01572249356072131
+    Attrib MFCC Overall Standard Deviation6    0.04231931520593926
+    Attrib MFCC Overall Standard Deviation7    0.17514872732323594
+    Attrib MFCC Overall Standard Deviation8    -0.178560492980152
+    Attrib MFCC Overall Standard Deviation9    0.21356455176965056
+    Attrib MFCC Overall Standard Deviation10    -0.06778562912833393
+    Attrib MFCC Overall Standard Deviation11    0.1740850462000952
+    Attrib MFCC Overall Standard Deviation12    0.07949454138999965
+    Attrib LPC Overall Standard Deviation0    0.0031590749996645807
+    Attrib LPC Overall Standard Deviation1    -0.01811706099846636
+    Attrib LPC Overall Standard Deviation2    0.3145973931167071
+    Attrib LPC Overall Standard Deviation3    0.2897938764131422
+    Attrib LPC Overall Standard Deviation4    0.2899829309109315
+    Attrib LPC Overall Standard Deviation5    0.42702069659117653
+    Attrib LPC Overall Standard Deviation6    0.17630923721229103
+    Attrib LPC Overall Standard Deviation7    0.06894627353510488
+    Attrib LPC Overall Standard Deviation8    0.22929162753367496
+    Attrib LPC Overall Standard Deviation9    0.02551390801035662
+    Attrib Spectral Centroid Overall Average0    -0.07960252837306436
+    Attrib Spectral Rolloff Point Overall Average0    -0.08272771733829719
+    Attrib Spectral Flux Overall Average0    -0.17958375818880543
+    Attrib Compactness Overall Average0    0.24289753180741355
+    Attrib Spectral Variability Overall Average0    -0.07444600224548206
+    Attrib Root Mean Square Overall Average0    -0.03288296000846059
+    Attrib Fraction Of Low Energy Windows Overall Average0    -0.1588677350287534
+    Attrib Zero Crossings Overall Average0    -0.009770376276582261
+    Attrib Strongest Beat Overall Average0    0.09934542979634088
+    Attrib Beat Sum Overall Average0    -0.16499550427646203
+    Attrib Strength Of Strongest Beat Overall Average0    -0.35968580371800385
+    Attrib MFCC Overall Average0    0.1570855540969171
+    Attrib MFCC Overall Average1    0.18046132114547406
+    Attrib MFCC Overall Average2    -0.06667352051479117
+    Attrib MFCC Overall Average3    0.16969572631599023
+    Attrib MFCC Overall Average4    0.15212489325632308
+    Attrib MFCC Overall Average5    0.23326074566922997
+    Attrib MFCC Overall Average6    4.16224397386906E-4
+    Attrib MFCC Overall Average7    -0.22437368594219478
+    Attrib MFCC Overall Average8    -0.6478137824263634
+    Attrib MFCC Overall Average9    -0.35660845544675
+    Attrib MFCC Overall Average10    -0.343502727830692
+    Attrib MFCC Overall Average11    -0.23214429811142576
+    Attrib MFCC Overall Average12    0.028004870550211274
+    Attrib LPC Overall Average0    -0.13431069153477448
+    Attrib LPC Overall Average1    -0.17726927424021746
+    Attrib LPC Overall Average2    0.1978270320145418
+    Attrib LPC Overall Average3    -0.05161007308306329
+    Attrib LPC Overall Average4    -0.27755760261320767
+    Attrib LPC Overall Average5    -0.0966414003729985
+    Attrib LPC Overall Average6    -0.11939700676237375
+    Attrib LPC Overall Average7    -0.5820689710111243
+    Attrib LPC Overall Average8    -0.20512593196685153
+    Attrib LPC Overall Average9    0.022496557770218417
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.26728589321850355
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.3147440943903455
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.9576546073688014
+    Attrib Spectral Flux Overall Standard Deviation0    -0.9026438231397117
+    Attrib Compactness Overall Standard Deviation0    0.46008587203037066
+    Attrib Spectral Variability Overall Standard Deviation0    -0.485020052031026
+    Attrib Root Mean Square Overall Standard Deviation0    -0.6519250187184846
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.46558084349590023
+    Attrib Zero Crossings Overall Standard Deviation0    -0.13396318228474866
+    Attrib Strongest Beat Overall Standard Deviation0    -0.3560875647397825
+    Attrib Beat Sum Overall Standard Deviation0    0.39743183626806455
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    0.23732411183068594
+    Attrib MFCC Overall Standard Deviation0    0.22848634655367378
+    Attrib MFCC Overall Standard Deviation1    0.7312440184118891
+    Attrib MFCC Overall Standard Deviation2    1.589529361178905
+    Attrib MFCC Overall Standard Deviation3    0.09527105465232075
+    Attrib MFCC Overall Standard Deviation4    0.3749038824649112
+    Attrib MFCC Overall Standard Deviation5    -0.6094664197973519
+    Attrib MFCC Overall Standard Deviation6    -0.29588127113224283
+    Attrib MFCC Overall Standard Deviation7    -0.47135635371220386
+    Attrib MFCC Overall Standard Deviation8    -0.49239432711833747
+    Attrib MFCC Overall Standard Deviation9    -0.4305734027712336
+    Attrib MFCC Overall Standard Deviation10    -0.3149189073384717
+    Attrib MFCC Overall Standard Deviation11    -0.5643399801600671
+    Attrib MFCC Overall Standard Deviation12    -0.12195828287492888
+    Attrib LPC Overall Standard Deviation0    -0.16797900605794835
+    Attrib LPC Overall Standard Deviation1    -0.5470739311308694
+    Attrib LPC Overall Standard Deviation2    0.5827210236563426
+    Attrib LPC Overall Standard Deviation3    0.3962301409825789
+    Attrib LPC Overall Standard Deviation4    0.09360500400797088
+    Attrib LPC Overall Standard Deviation5    0.45194862141301717
+    Attrib LPC Overall Standard Deviation6    -0.25768176128899684
+    Attrib LPC Overall Standard Deviation7    -0.6153616244145738
+    Attrib LPC Overall Standard Deviation8    0.26965439520562107
+    Attrib LPC Overall Standard Deviation9    0.0357672688073437
+    Attrib Spectral Centroid Overall Average0    -0.4876819684797281
+    Attrib Spectral Rolloff Point Overall Average0    -0.39092700075685954
+    Attrib Spectral Flux Overall Average0    0.22719878489008097
+    Attrib Compactness Overall Average0    -1.7059263530767244
+    Attrib Spectral Variability Overall Average0    0.07126610092920015
+    Attrib Root Mean Square Overall Average0    0.013942961013612217
+    Attrib Fraction Of Low Energy Windows Overall Average0    -0.08016430226171309
+    Attrib Zero Crossings Overall Average0    -0.2869833904687107
+    Attrib Strongest Beat Overall Average0    -0.33159516629722635
+    Attrib Beat Sum Overall Average0    0.12988648990790666
+    Attrib Strength Of Strongest Beat Overall Average0    -0.0047984741773640285
+    Attrib MFCC Overall Average0    -0.10861551600075946
+    Attrib MFCC Overall Average1    0.8184186836369766
+    Attrib MFCC Overall Average2    0.7781072304940518
+    Attrib MFCC Overall Average3    0.5244756769453885
+    Attrib MFCC Overall Average4    1.1944019746693324
+    Attrib MFCC Overall Average5    0.116001716292368
+    Attrib MFCC Overall Average6    0.07192249033921425
+    Attrib MFCC Overall Average7    -1.0535060746745322
+    Attrib MFCC Overall Average8    -1.2373215088287683
+    Attrib MFCC Overall Average9    -0.2621881707694902
+    Attrib MFCC Overall Average10    -0.05685767554975721
+    Attrib MFCC Overall Average11    0.5114547013279718
+    Attrib MFCC Overall Average12    0.868316789468006
+    Attrib LPC Overall Average0    -0.3884003904464272
+    Attrib LPC Overall Average1    -0.49648327205710563
+    Attrib LPC Overall Average2    -0.5561803076408868
+    Attrib LPC Overall Average3    -0.20808747880419715
+    Attrib LPC Overall Average4    0.6617771030992108
+    Attrib LPC Overall Average5    0.1563598292530047
+    Attrib LPC Overall Average6    0.5273609050656546
+    Attrib LPC Overall Average7    -0.6858506062959565
+    Attrib LPC Overall Average8    -0.12585353353702874
+    Attrib LPC Overall Average9    0.037964633997166514
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.04551220708560858
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.1334020838729727
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.13580329508069272
+    Attrib Spectral Flux Overall Standard Deviation0    -0.060938080710116624
+    Attrib Compactness Overall Standard Deviation0    0.011757212907150101
+    Attrib Spectral Variability Overall Standard Deviation0    -0.15430231637130445
+    Attrib Root Mean Square Overall Standard Deviation0    -0.21469573363090516
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.4949678375415548
+    Attrib Zero Crossings Overall Standard Deviation0    -0.13496790635731476
+    Attrib Strongest Beat Overall Standard Deviation0    -0.28059807194803976
+    Attrib Beat Sum Overall Standard Deviation0    0.2112243783068275
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.14119194466701443
+    Attrib MFCC Overall Standard Deviation0    0.0803634125809889
+    Attrib MFCC Overall Standard Deviation1    0.06459317870320566
+    Attrib MFCC Overall Standard Deviation2    -0.20464828241990143
+    Attrib MFCC Overall Standard Deviation3    -0.11061836804801956
+    Attrib MFCC Overall Standard Deviation4    0.07954492784614606
+    Attrib MFCC Overall Standard Deviation5    -0.010919345588288956
+    Attrib MFCC Overall Standard Deviation6    0.3759771888971998
+    Attrib MFCC Overall Standard Deviation7    0.17082063274692202
+    Attrib MFCC Overall Standard Deviation8    -0.4989770029600849
+    Attrib MFCC Overall Standard Deviation9    0.25218301316054625
+    Attrib MFCC Overall Standard Deviation10    -0.09749512777871303
+    Attrib MFCC Overall Standard Deviation11    -0.04625868434730309
+    Attrib MFCC Overall Standard Deviation12    -0.07386879956186546
+    Attrib LPC Overall Standard Deviation0    -0.10338595561557037
+    Attrib LPC Overall Standard Deviation1    -0.16974494616052185
+    Attrib LPC Overall Standard Deviation2    0.735774297833941
+    Attrib LPC Overall Standard Deviation3    0.41911426806347735
+    Attrib LPC Overall Standard Deviation4    0.15060057186237147
+    Attrib LPC Overall Standard Deviation5    0.46683413154822245
+    Attrib LPC Overall Standard Deviation6    -0.06902640138843144
+    Attrib LPC Overall Standard Deviation7    -0.353932705690602
+    Attrib LPC Overall Standard Deviation8    0.20552438255697103
+    Attrib LPC Overall Standard Deviation9    -0.026259243376479148
+    Attrib Spectral Centroid Overall Average0    -0.1769437165854484
+    Attrib Spectral Rolloff Point Overall Average0    -0.13498520587247048
+    Attrib Spectral Flux Overall Average0    0.13029114931526795
+    Attrib Compactness Overall Average0    -0.4739529652338474
+    Attrib Spectral Variability Overall Average0    0.07513796180351577
+    Attrib Root Mean Square Overall Average0    -0.05479085886434971
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.1470985395434414
+    Attrib Zero Crossings Overall Average0    -0.06775966283307391
+    Attrib Strongest Beat Overall Average0    -0.009799385234495535
+    Attrib Beat Sum Overall Average0    -0.009102416747323514
+    Attrib Strength Of Strongest Beat Overall Average0    -0.25381310295161297
+    Attrib MFCC Overall Average0    -0.11001176718551141
+    Attrib MFCC Overall Average1    0.46440326636646967
+    Attrib MFCC Overall Average2    -0.2381351487069616
+    Attrib MFCC Overall Average3    0.05957003540818357
+    Attrib MFCC Overall Average4    0.31248074441941603
+    Attrib MFCC Overall Average5    -0.3522438598708312
+    Attrib MFCC Overall Average6    -0.450404521237541
+    Attrib MFCC Overall Average7    -0.6940561873984794
+    Attrib MFCC Overall Average8    -0.39841764925871065
+    Attrib MFCC Overall Average9    -0.1137790802663604
+    Attrib MFCC Overall Average10    -0.3155670138851712
+    Attrib MFCC Overall Average11    -0.1584427863026545
+    Attrib MFCC Overall Average12    0.22301016061628867
+    Attrib LPC Overall Average0    -0.08004692974982935
+    Attrib LPC Overall Average1    -0.3009500187815653
+    Attrib LPC Overall Average2    0.09190089534282155
+    Attrib LPC Overall Average3    -0.35186601243060783
+    Attrib LPC Overall Average4    0.32232539155780754
+    Attrib LPC Overall Average5    0.013053065938712633
+    Attrib LPC Overall Average6    -0.04745481743958151
+    Attrib LPC Overall Average7    -0.381220537451931
+    Attrib LPC Overall Average8    -0.46847195387747503
+    Attrib LPC Overall Average9    0.004265288349996552
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    0.03588797621254018
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.07728245857705664
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    -0.9696699926144199
+    Attrib Spectral Flux Overall Standard Deviation0    0.6785892223506914
+    Attrib Compactness Overall Standard Deviation0    -0.27079602172776507
+    Attrib Spectral Variability Overall Standard Deviation0    0.3369826373716114
+    Attrib Root Mean Square Overall Standard Deviation0    0.5079477387672336
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.12667258879521587
+    Attrib Zero Crossings Overall Standard Deviation0    -0.1559499328239284
+    Attrib Strongest Beat Overall Standard Deviation0    -0.06573689774014119
+    Attrib Beat Sum Overall Standard Deviation0    -0.23813286334186723
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.23025599799589375
+    Attrib MFCC Overall Standard Deviation0    -0.0640231661403938
+    Attrib MFCC Overall Standard Deviation1    -0.5974663474822414
+    Attrib MFCC Overall Standard Deviation2    -1.3132728952588988
+    Attrib MFCC Overall Standard Deviation3    -0.19035002419316424
+    Attrib MFCC Overall Standard Deviation4    -0.1958840981132193
+    Attrib MFCC Overall Standard Deviation5    0.2657627782942478
+    Attrib MFCC Overall Standard Deviation6    0.2106681480407326
+    Attrib MFCC Overall Standard Deviation7    0.44674810840440743
+    Attrib MFCC Overall Standard Deviation8    -0.03570151380347294
+    Attrib MFCC Overall Standard Deviation9    0.21003811868080743
+    Attrib MFCC Overall Standard Deviation10    0.10548885689683116
+    Attrib MFCC Overall Standard Deviation11    0.4556061340077292
+    Attrib MFCC Overall Standard Deviation12    0.081055240933326
+    Attrib LPC Overall Standard Deviation0    -0.12086634128198097
+    Attrib LPC Overall Standard Deviation1    0.39674801384919495
+    Attrib LPC Overall Standard Deviation2    -0.125316704896467
+    Attrib LPC Overall Standard Deviation3    0.19807925740294385
+    Attrib LPC Overall Standard Deviation4    -0.004824076356632075
+    Attrib LPC Overall Standard Deviation5    0.0068183603122722826
+    Attrib LPC Overall Standard Deviation6    0.3370660209210558
+    Attrib LPC Overall Standard Deviation7    0.5558117994732479
+    Attrib LPC Overall Standard Deviation8    -0.08581245228876973
+    Attrib LPC Overall Standard Deviation9    0.006453721443118468
+    Attrib Spectral Centroid Overall Average0    0.29609027903530766
+    Attrib Spectral Rolloff Point Overall Average0    0.16809928406873342
+    Attrib Spectral Flux Overall Average0    -0.25407848214687445
+    Attrib Compactness Overall Average0    1.449847574808542
+    Attrib Spectral Variability Overall Average0    -0.10026551827299293
+    Attrib Root Mean Square Overall Average0    -0.10399352230821142
+    Attrib Fraction Of Low Energy Windows Overall Average0    -0.05516571997449558
+    Attrib Zero Crossings Overall Average0    0.16884910062417022
+    Attrib Strongest Beat Overall Average0    0.4101565388506768
+    Attrib Beat Sum Overall Average0    -0.144680576272342
+    Attrib Strength Of Strongest Beat Overall Average0    0.03720195653315048
+    Attrib MFCC Overall Average0    0.08292831151250268
+    Attrib MFCC Overall Average1    -0.39275077825285876
+    Attrib MFCC Overall Average2    -0.3820346263608015
+    Attrib MFCC Overall Average3    -0.2728218875922806
+    Attrib MFCC Overall Average4    -0.7574287506225228
+    Attrib MFCC Overall Average5    -0.10900496092331116
+    Attrib MFCC Overall Average6    -0.396987928475495
+    Attrib MFCC Overall Average7    0.29768807297856203
+    Attrib MFCC Overall Average8    0.38769454962550237
+    Attrib MFCC Overall Average9    -0.4129712080206045
+    Attrib MFCC Overall Average10    -0.3724127490693067
+    Attrib MFCC Overall Average11    -0.6224760556731447
+    Attrib MFCC Overall Average12    -0.6667279611025877
+    Attrib LPC Overall Average0    0.24610191491372918
+    Attrib LPC Overall Average1    0.395590928971559
+    Attrib LPC Overall Average2    0.2028592431536048
+    Attrib LPC Overall Average3    -0.0407655384279063
+    Attrib LPC Overall Average4    -0.45367895974120337
+    Attrib LPC Overall Average5    -0.21606614778307456
+    Attrib LPC Overall Average6    -0.5428540994053284
+    Attrib LPC Overall Average7    0.21165089202700832
+    Attrib LPC Overall Average8    -0.25269152737150363
+    Attrib LPC Overall Average9    0.041856055307080406
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.0038821322594525063
+    Attrib Spectral Centroid Overall Standard Deviation0    0.14377945450414445
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.3026645723754839
+    Attrib Spectral Flux Overall Standard Deviation0    0.24443032988011545
+    Attrib Compactness Overall Standard Deviation0    0.0727522190535436
+    Attrib Spectral Variability Overall Standard Deviation0    0.1442860116627387
+    Attrib Root Mean Square Overall Standard Deviation0    0.06810024076318448
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    -0.3067314371988706
+    Attrib Zero Crossings Overall Standard Deviation0    0.18497071214316252
+    Attrib Strongest Beat Overall Standard Deviation0    0.5321109216460698
+    Attrib Beat Sum Overall Standard Deviation0    -0.028621008318633363
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.2785962970907724
+    Attrib MFCC Overall Standard Deviation0    0.18905039830448522
+    Attrib MFCC Overall Standard Deviation1    -0.839810225065695
+    Attrib MFCC Overall Standard Deviation2    0.6959841490144119
+    Attrib MFCC Overall Standard Deviation3    0.31881151788699774
+    Attrib MFCC Overall Standard Deviation4    0.2594115464845359
+    Attrib MFCC Overall Standard Deviation5    0.009182347874383904
+    Attrib MFCC Overall Standard Deviation6    -0.41750565841182014
+    Attrib MFCC Overall Standard Deviation7    -0.2744868343340019
+    Attrib MFCC Overall Standard Deviation8    0.4662842625161066
+    Attrib MFCC Overall Standard Deviation9    0.3815843780440403
+    Attrib MFCC Overall Standard Deviation10    0.08887844899694461
+    Attrib MFCC Overall Standard Deviation11    0.24291704635940806
+    Attrib MFCC Overall Standard Deviation12    0.3124895071221339
+    Attrib LPC Overall Standard Deviation0    0.3644424689954275
+    Attrib LPC Overall Standard Deviation1    -0.34758306178178455
+    Attrib LPC Overall Standard Deviation2    -0.405790740937387
+    Attrib LPC Overall Standard Deviation3    -0.7298482403673874
+    Attrib LPC Overall Standard Deviation4    0.18894529999934312
+    Attrib LPC Overall Standard Deviation5    -0.2144721489746741
+    Attrib LPC Overall Standard Deviation6    -0.34946138497690016
+    Attrib LPC Overall Standard Deviation7    -0.3567077640430711
+    Attrib LPC Overall Standard Deviation8    -0.2043943135247959
+    Attrib LPC Overall Standard Deviation9    -0.04933592025603927
+    Attrib Spectral Centroid Overall Average0    0.1823754586102958
+    Attrib Spectral Rolloff Point Overall Average0    -0.018632452124573665
+    Attrib Spectral Flux Overall Average0    -0.0307497022617743
+    Attrib Compactness Overall Average0    -0.4021007278706062
+    Attrib Spectral Variability Overall Average0    0.13476464513013992
+    Attrib Root Mean Square Overall Average0    0.15064732307457307
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.38400588971475347
+    Attrib Zero Crossings Overall Average0    0.1505748626434582
+    Attrib Strongest Beat Overall Average0    -0.08984114058210427
+    Attrib Beat Sum Overall Average0    0.005128618315977163
+    Attrib Strength Of Strongest Beat Overall Average0    -0.10254439184527182
+    Attrib MFCC Overall Average0    0.4996938886538117
+    Attrib MFCC Overall Average1    -0.5933071836866952
+    Attrib MFCC Overall Average2    -0.5799730346663594
+    Attrib MFCC Overall Average3    -0.7712487074816446
+    Attrib MFCC Overall Average4    0.12326434107362234
+    Attrib MFCC Overall Average5    0.4879038093177191
+    Attrib MFCC Overall Average6    0.9224526768303127
+    Attrib MFCC Overall Average7    -0.049883660995529225
+    Attrib MFCC Overall Average8    -0.8691368117996691
+    Attrib MFCC Overall Average9    0.1131200381877245
+    Attrib MFCC Overall Average10    0.04716156949759832
+    Attrib MFCC Overall Average11    -0.3765933182495911
+    Attrib MFCC Overall Average12    0.1072620635675662
+    Attrib LPC Overall Average0    0.09321160372800599
+    Attrib LPC Overall Average1    -0.22087152406773086
+    Attrib LPC Overall Average2    0.5403218436850096
+    Attrib LPC Overall Average3    0.4021316296367363
+    Attrib LPC Overall Average4    0.15372081544706862
+    Attrib LPC Overall Average5    0.43102694065965647
+    Attrib LPC Overall Average6    0.47831504233827027
+    Attrib LPC Overall Average7    -0.6370805777215881
+    Attrib LPC Overall Average8    0.2484011809618999
+    Attrib LPC Overall Average9    -0.021407433639201667
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    0.07338011040747952
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.02835585046122869
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    -0.6198427453823727
+    Attrib Spectral Flux Overall Standard Deviation0    0.3606715386078301
+    Attrib Compactness Overall Standard Deviation0    -0.11568203435458364
+    Attrib Spectral Variability Overall Standard Deviation0    -0.033115623533195505
+    Attrib Root Mean Square Overall Standard Deviation0    0.08044616786470851
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.2899634792458098
+    Attrib Zero Crossings Overall Standard Deviation0    -0.015156221667244596
+    Attrib Strongest Beat Overall Standard Deviation0    0.022304470827051254
+    Attrib Beat Sum Overall Standard Deviation0    0.14699650218354665
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.1512638788377572
+    Attrib MFCC Overall Standard Deviation0    0.07847483867712403
+    Attrib MFCC Overall Standard Deviation1    -0.23576764774067405
+    Attrib MFCC Overall Standard Deviation2    -1.0683176535923213
+    Attrib MFCC Overall Standard Deviation3    -0.13590370712123084
+    Attrib MFCC Overall Standard Deviation4    -0.24997560175696737
+    Attrib MFCC Overall Standard Deviation5    0.3005416113675284
+    Attrib MFCC Overall Standard Deviation6    0.48995168267238404
+    Attrib MFCC Overall Standard Deviation7    0.4887121147318769
+    Attrib MFCC Overall Standard Deviation8    -0.0024849176512122136
+    Attrib MFCC Overall Standard Deviation9    0.592773063006114
+    Attrib MFCC Overall Standard Deviation10    0.2515279967925032
+    Attrib MFCC Overall Standard Deviation11    0.23120121710379618
+    Attrib MFCC Overall Standard Deviation12    0.11790957207365133
+    Attrib LPC Overall Standard Deviation0    -0.09343740506954065
+    Attrib LPC Overall Standard Deviation1    -0.06424044171249198
+    Attrib LPC Overall Standard Deviation2    0.440178724725597
+    Attrib LPC Overall Standard Deviation3    0.20744743709844293
+    Attrib LPC Overall Standard Deviation4    0.026537299473015624
+    Attrib LPC Overall Standard Deviation5    0.29530884374742095
+    Attrib LPC Overall Standard Deviation6    0.15203963739341472
+    Attrib LPC Overall Standard Deviation7    -0.03788572642127257
+    Attrib LPC Overall Standard Deviation8    0.04839412005874035
+    Attrib LPC Overall Standard Deviation9    0.017764267125924882
+    Attrib Spectral Centroid Overall Average0    0.2765128961697532
+    Attrib Spectral Rolloff Point Overall Average0    0.27146730317710005
+    Attrib Spectral Flux Overall Average0    -0.09321755305099781
+    Attrib Compactness Overall Average0    0.5029355657846724
+    Attrib Spectral Variability Overall Average0    -0.13160975475301384
+    Attrib Root Mean Square Overall Average0    -0.13893943878437937
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.5303134145794567
+    Attrib Zero Crossings Overall Average0    0.21114955792621895
+    Attrib Strongest Beat Overall Average0    0.20523170493097
+    Attrib Beat Sum Overall Average0    -0.17216788292660742
+    Attrib Strength Of Strongest Beat Overall Average0    -0.20965659295846736
+    Attrib MFCC Overall Average0    -0.19878381036258927
+    Attrib MFCC Overall Average1    -0.23149956076170802
+    Attrib MFCC Overall Average2    -0.8991584803540379
+    Attrib MFCC Overall Average3    -0.41821536430127737
+    Attrib MFCC Overall Average4    -0.3082866352692856
+    Attrib MFCC Overall Average5    -0.47034474493395034
+    Attrib MFCC Overall Average6    -0.541987934218037
+    Attrib MFCC Overall Average7    -0.25304036308495337
+    Attrib MFCC Overall Average8    0.22811102347155654
+    Attrib MFCC Overall Average9    -0.06616667073011735
+    Attrib MFCC Overall Average10    -0.6760819409833325
+    Attrib MFCC Overall Average11    -0.5944674990459313
+    Attrib MFCC Overall Average12    -0.22165901887696135
+    Attrib LPC Overall Average0    0.3667789690644334
+    Attrib LPC Overall Average1    0.12486312926772292
+    Attrib LPC Overall Average2    0.2388488315328541
+    Attrib LPC Overall Average3    -0.12621328771767196
+    Attrib LPC Overall Average4    0.2590734451783
+    Attrib LPC Overall Average5    -0.08057844455204623
+    Attrib LPC Overall Average6    -0.2939103775495059
+    Attrib LPC Overall Average7    0.005652992936530186
+    Attrib LPC Overall Average8    -0.7110551640212366
+    Attrib LPC Overall Average9    -0.03930579802517642
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    0.17208472299531555
+    Attrib Spectral Centroid Overall Standard Deviation0    0.22413581971000773
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    -0.34278736800451726
+    Attrib Spectral Flux Overall Standard Deviation0    0.37058985627931856
+    Attrib Compactness Overall Standard Deviation0    -0.02115502001153672
+    Attrib Spectral Variability Overall Standard Deviation0    0.33322462428391697
+    Attrib Root Mean Square Overall Standard Deviation0    0.2891097963937318
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    -0.4761485393351848
+    Attrib Zero Crossings Overall Standard Deviation0    0.16955941425782867
+    Attrib Strongest Beat Overall Standard Deviation0    0.2416819705470116
+    Attrib Beat Sum Overall Standard Deviation0    -0.11448032641650614
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    0.006041897497693557
+    Attrib MFCC Overall Standard Deviation0    -0.08506576254056715
+    Attrib MFCC Overall Standard Deviation1    -0.28811984756984127
+    Attrib MFCC Overall Standard Deviation2    -0.2645385796543272
+    Attrib MFCC Overall Standard Deviation3    -0.06631641135479412
+    Attrib MFCC Overall Standard Deviation4    -0.27240656320565876
+    Attrib MFCC Overall Standard Deviation5    0.18656375146264198
+    Attrib MFCC Overall Standard Deviation6    -0.3054233158292759
+    Attrib MFCC Overall Standard Deviation7    -0.008144526241590185
+    Attrib MFCC Overall Standard Deviation8    0.621630923098357
+    Attrib MFCC Overall Standard Deviation9    0.03429244848771126
+    Attrib MFCC Overall Standard Deviation10    0.25925483705066504
+    Attrib MFCC Overall Standard Deviation11    0.3666416860752692
+    Attrib MFCC Overall Standard Deviation12    0.3251589627556432
+    Attrib LPC Overall Standard Deviation0    0.3498700933257459
+    Attrib LPC Overall Standard Deviation1    0.07057389651454006
+    Attrib LPC Overall Standard Deviation2    -0.5202838861222395
+    Attrib LPC Overall Standard Deviation3    -0.49908633446368317
+    Attrib LPC Overall Standard Deviation4    -0.09466142531880882
+    Attrib LPC Overall Standard Deviation5    -0.45991934156734837
+    Attrib LPC Overall Standard Deviation6    0.15059702826162355
+    Attrib LPC Overall Standard Deviation7    0.2525890863108912
+    Attrib LPC Overall Standard Deviation8    -0.44269137364473826
+    Attrib LPC Overall Standard Deviation9    0.04377539031633915
+    Attrib Spectral Centroid Overall Average0    0.2303299480824739
+    Attrib Spectral Rolloff Point Overall Average0    0.11853216940325609
+    Attrib Spectral Flux Overall Average0    -0.11543773298490813
+    Attrib Compactness Overall Average0    0.7356509448131031
+    Attrib Spectral Variability Overall Average0    0.021781348721923742
+    Attrib Root Mean Square Overall Average0    0.03198549740411715
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.4535800382159372
+    Attrib Zero Crossings Overall Average0    0.16070217904341771
+    Attrib Strongest Beat Overall Average0    0.14089397438756152
+    Attrib Beat Sum Overall Average0    -0.0666405900756252
+    Attrib Strength Of Strongest Beat Overall Average0    0.17239921826359048
+    Attrib MFCC Overall Average0    0.024611344272189882
+    Attrib MFCC Overall Average1    -0.6815597069161498
+    Attrib MFCC Overall Average2    -0.34833835778597105
+    Attrib MFCC Overall Average3    -0.5099437617651563
+    Attrib MFCC Overall Average4    -0.5741718978706958
+    Attrib MFCC Overall Average5    0.24647162575245585
+    Attrib MFCC Overall Average6    0.4325408199187178
+    Attrib MFCC Overall Average7    0.8953382119734139
+    Attrib MFCC Overall Average8    0.4399039934943479
+    Attrib MFCC Overall Average9    0.43520654739031617
+    Attrib MFCC Overall Average10    0.362987537965926
+    Attrib MFCC Overall Average11    -0.06402862261620765
+    Attrib MFCC Overall Average12    -0.18300372390616215
+    Attrib LPC Overall Average0    0.18793915281554097
+    Attrib LPC Overall Average1    0.36768352528872106
+    Attrib LPC Overall Average2    0.17616976790196032
+    Attrib LPC Overall Average3    0.5256795448616359
+    Attrib LPC Overall Average4    -0.13284611047885472
+    Attrib LPC Overall Average5    0.23456273511728556
+    Attrib LPC Overall Average6    0.037726274823972325
+    Attrib LPC Overall Average7    0.3540508189368465
+    Attrib LPC Overall Average8    0.15347922282321438
+    Attrib LPC Overall Average9    -0.013774868461775426
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    -0.029651517895124654
+    Attrib Spectral Centroid Overall Standard Deviation0    0.0979421772596248
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    -0.1781993681035079
+    Attrib Spectral Flux Overall Standard Deviation0    0.33211616434832364
+    Attrib Compactness Overall Standard Deviation0    -0.11757495460759276
+    Attrib Spectral Variability Overall Standard Deviation0    -0.10690677929327991
+    Attrib Root Mean Square Overall Standard Deviation0    -0.11135475230128487
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.5126422785117617
+    Attrib Zero Crossings Overall Standard Deviation0    0.03226610942699769
+    Attrib Strongest Beat Overall Standard Deviation0    0.02003298581497762
+    Attrib Beat Sum Overall Standard Deviation0    0.2531977728436297
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.24330403737447742
+    Attrib MFCC Overall Standard Deviation0    0.12643249820054875
+    Attrib MFCC Overall Standard Deviation1    -0.07069200330344251
+    Attrib MFCC Overall Standard Deviation2    -0.864797609174657
+    Attrib MFCC Overall Standard Deviation3    -0.24207960977115095
+    Attrib MFCC Overall Standard Deviation4    -0.17583403608069637
+    Attrib MFCC Overall Standard Deviation5    0.18864116081834056
+    Attrib MFCC Overall Standard Deviation6    0.6133462425152149
+    Attrib MFCC Overall Standard Deviation7    0.4615130487677402
+    Attrib MFCC Overall Standard Deviation8    -0.3749614835089036
+    Attrib MFCC Overall Standard Deviation9    0.5127374342632831
+    Attrib MFCC Overall Standard Deviation10    0.05238812921501485
+    Attrib MFCC Overall Standard Deviation11    0.1369317447795396
+    Attrib MFCC Overall Standard Deviation12    -0.13505439185356757
+    Attrib LPC Overall Standard Deviation0    0.04725752929524599
+    Attrib LPC Overall Standard Deviation1    -0.13464674945084937
+    Attrib LPC Overall Standard Deviation2    0.9644687101083222
+    Attrib LPC Overall Standard Deviation3    0.4948617791675559
+    Attrib LPC Overall Standard Deviation4    0.11278515748292844
+    Attrib LPC Overall Standard Deviation5    0.5139373776267454
+    Attrib LPC Overall Standard Deviation6    0.012380066706808178
+    Attrib LPC Overall Standard Deviation7    -0.18201322749775856
+    Attrib LPC Overall Standard Deviation8    0.246234891148526
+    Attrib LPC Overall Standard Deviation9    -0.028595268129031293
+    Attrib Spectral Centroid Overall Average0    0.20690982782473308
+    Attrib Spectral Rolloff Point Overall Average0    0.21929163985928543
+    Attrib Spectral Flux Overall Average0    0.08408980096169902
+    Attrib Compactness Overall Average0    -0.019592705706506633
+    Attrib Spectral Variability Overall Average0    -0.1145332301815695
+    Attrib Root Mean Square Overall Average0    -0.1489554071027042
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.3653824886964464
+    Attrib Zero Crossings Overall Average0    0.1593978152318464
+    Attrib Strongest Beat Overall Average0    -0.06090489533793342
+    Attrib Beat Sum Overall Average0    -0.05963233174018902
+    Attrib Strength Of Strongest Beat Overall Average0    -0.33888154611728355
+    Attrib MFCC Overall Average0    -0.26500720830608626
+    Attrib MFCC Overall Average1    0.1745619555724569
+    Attrib MFCC Overall Average2    -0.6680742483954591
+    Attrib MFCC Overall Average3    -0.1551944240300986
+    Attrib MFCC Overall Average4    0.02545187973870977
+    Attrib MFCC Overall Average5    -0.5978758601031099
+    Attrib MFCC Overall Average6    -0.6519811319077664
+    Attrib MFCC Overall Average7    -0.6080996259431071
+    Attrib MFCC Overall Average8    -0.0909689738630603
+    Attrib MFCC Overall Average9    -0.197695128071583
+    Attrib MFCC Overall Average10    -0.6520286176732362
+    Attrib MFCC Overall Average11    -0.4385269638804977
+    Attrib MFCC Overall Average12    -0.14595292297954202
+    Attrib LPC Overall Average0    0.2495283894775702
+    Attrib LPC Overall Average1    -0.24984968277159963
+    Attrib LPC Overall Average2    0.29786878537433115
+    Attrib LPC Overall Average3    -0.2694263107035711
+    Attrib LPC Overall Average4    0.38662369941936175
+    Attrib LPC Overall Average5    -0.12732907506948943
+    Attrib LPC Overall Average6    -0.2822194970422059
+    Attrib LPC Overall Average7    -0.3019086990309821
+    Attrib LPC Overall Average8    -0.7348032527373198
+    Attrib LPC Overall Average9    -0.008183482812022802
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    -0.15924371100419343
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.09816833988657493
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.09125839247215084
+    Attrib Spectral Flux Overall Standard Deviation0    -0.1988508937901735
+    Attrib Compactness Overall Standard Deviation0    0.12055895885444587
+    Attrib Spectral Variability Overall Standard Deviation0    0.12559895219468062
+    Attrib Root Mean Square Overall Standard Deviation0    0.13403894061238136
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.15910327414472494
+    Attrib Zero Crossings Overall Standard Deviation0    -0.08541811532097966
+    Attrib Strongest Beat Overall Standard Deviation0    -0.4726044492695326
+    Attrib Beat Sum Overall Standard Deviation0    -0.2029970101842789
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    0.12617372951432235
+    Attrib MFCC Overall Standard Deviation0    0.03897327269809456
+    Attrib MFCC Overall Standard Deviation1    0.05822315699160078
+    Attrib MFCC Overall Standard Deviation2    0.30910165821003516
+    Attrib MFCC Overall Standard Deviation3    -0.07939548047258888
+    Attrib MFCC Overall Standard Deviation4    0.2144604263693829
+    Attrib MFCC Overall Standard Deviation5    -0.37250596522124907
+    Attrib MFCC Overall Standard Deviation6    -0.40660232389594936
+    Attrib MFCC Overall Standard Deviation7    -0.23865892823326146
+    Attrib MFCC Overall Standard Deviation8    -0.4203133274652086
+    Attrib MFCC Overall Standard Deviation9    -0.6388740246863893
+    Attrib MFCC Overall Standard Deviation10    -0.3567427407936675
+    Attrib MFCC Overall Standard Deviation11    -0.3234817713491215
+    Attrib MFCC Overall Standard Deviation12    -0.22729891841135405
+    Attrib LPC Overall Standard Deviation0    -0.19320377900841854
+    Attrib LPC Overall Standard Deviation1    0.04109942822338246
+    Attrib LPC Overall Standard Deviation2    -0.39258886490341327
+    Attrib LPC Overall Standard Deviation3    0.38452466715599254
+    Attrib LPC Overall Standard Deviation4    -0.014357209055493753
+    Attrib LPC Overall Standard Deviation5    0.029110998505685232
+    Attrib LPC Overall Standard Deviation6    0.2629898069620885
+    Attrib LPC Overall Standard Deviation7    0.49953582199997726
+    Attrib LPC Overall Standard Deviation8    0.11354702601686445
+    Attrib LPC Overall Standard Deviation9    0.020929252747273808
+    Attrib Spectral Centroid Overall Average0    -0.325252320711053
+    Attrib Spectral Rolloff Point Overall Average0    -0.1818836781444496
+    Attrib Spectral Flux Overall Average0    -0.04745616115569987
+    Attrib Compactness Overall Average0    0.2736338523744245
+    Attrib Spectral Variability Overall Average0    0.13041286366854565
+    Attrib Root Mean Square Overall Average0    0.01476472388813603
+    Attrib Fraction Of Low Energy Windows Overall Average0    -1.0189457411708727
+    Attrib Zero Crossings Overall Average0    -0.2324882407147067
+    Attrib Strongest Beat Overall Average0    0.2015940220411159
+    Attrib Beat Sum Overall Average0    0.02856889224511771
+    Attrib Strength Of Strongest Beat Overall Average0    0.19956790274312922
+    Attrib MFCC Overall Average0    0.1267522149079651
+    Attrib MFCC Overall Average1    0.40925788954973374
+    Attrib MFCC Overall Average2    1.1355973300955038
+    Attrib MFCC Overall Average3    0.8784331567216145
+    Attrib MFCC Overall Average4    0.1336926990655818
+    Attrib MFCC Overall Average5    0.358617401437019
+    Attrib MFCC Overall Average6    0.24084540695432044
+    Attrib MFCC Overall Average7    0.003987870977077034
+    Attrib MFCC Overall Average8    -0.30153745190737036
+    Attrib MFCC Overall Average9    -0.667040927873679
+    Attrib MFCC Overall Average10    -0.04999355827004318
+    Attrib MFCC Overall Average11    0.3197983162889069
+    Attrib MFCC Overall Average12    -0.07901346079802671
+    Attrib LPC Overall Average0    -0.30337865913328466
+    Attrib LPC Overall Average1    0.1338251512032837
+    Attrib LPC Overall Average2    -0.48917397671473456
+    Attrib LPC Overall Average3    -0.139596738051563
+    Attrib LPC Overall Average4    -0.7381296735750654
+    Attrib LPC Overall Average5    -0.4299803429528078
+    Attrib LPC Overall Average6    -0.04976362508183102
+    Attrib LPC Overall Average7    0.011850399847268725
+    Attrib LPC Overall Average8    0.4614840534849608
+    Attrib LPC Overall Average9    0.026461661357824087
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    0.04132282555086006
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.11523541797610226
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.11273674738391275
+    Attrib Spectral Flux Overall Standard Deviation0    -0.1013109096511833
+    Attrib Compactness Overall Standard Deviation0    0.0042254467899131894
+    Attrib Spectral Variability Overall Standard Deviation0    -0.28132322845555635
+    Attrib Root Mean Square Overall Standard Deviation0    -0.31375477129404333
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.34727248155997464
+    Attrib Zero Crossings Overall Standard Deviation0    -0.08917438925788393
+    Attrib Strongest Beat Overall Standard Deviation0    -0.26428361516542914
+    Attrib Beat Sum Overall Standard Deviation0    0.238744282734065
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.05624618007586493
+    Attrib MFCC Overall Standard Deviation0    0.03160996108280374
+    Attrib MFCC Overall Standard Deviation1    0.09746382984235136
+    Attrib MFCC Overall Standard Deviation2    -0.29784534097651055
+    Attrib MFCC Overall Standard Deviation3    -0.12689451949611294
+    Attrib MFCC Overall Standard Deviation4    -0.05237951709054854
+    Attrib MFCC Overall Standard Deviation5    0.23617453198719607
+    Attrib MFCC Overall Standard Deviation6    0.3837332065451537
+    Attrib MFCC Overall Standard Deviation7    0.2351617374231712
+    Attrib MFCC Overall Standard Deviation8    -0.21078402757305767
+    Attrib MFCC Overall Standard Deviation9    0.44368025124934457
+    Attrib MFCC Overall Standard Deviation10    0.23053559615828545
+    Attrib MFCC Overall Standard Deviation11    0.17312414768175932
+    Attrib MFCC Overall Standard Deviation12    0.0889136869078167
+    Attrib LPC Overall Standard Deviation0    -0.08191891103852374
+    Attrib LPC Overall Standard Deviation1    0.10705548454234487
+    Attrib LPC Overall Standard Deviation2    0.7863103789942787
+    Attrib LPC Overall Standard Deviation3    0.2497982345670693
+    Attrib LPC Overall Standard Deviation4    -0.07801604561563823
+    Attrib LPC Overall Standard Deviation5    0.33646120851849826
+    Attrib LPC Overall Standard Deviation6    -0.21215490976559934
+    Attrib LPC Overall Standard Deviation7    -0.45387851546472413
+    Attrib LPC Overall Standard Deviation8    0.03849331457670959
+    Attrib LPC Overall Standard Deviation9    -0.0436370098525571
+    Attrib Spectral Centroid Overall Average0    -0.028730804588567693
+    Attrib Spectral Rolloff Point Overall Average0    -0.10033006619870684
+    Attrib Spectral Flux Overall Average0    0.04849132511360282
+    Attrib Compactness Overall Average0    -0.31512212624460556
+    Attrib Spectral Variability Overall Average0    -0.05692165077238724
+    Attrib Root Mean Square Overall Average0    -0.08146921015341811
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.45747313812071355
+    Attrib Zero Crossings Overall Average0    -0.08132072960178453
+    Attrib Strongest Beat Overall Average0    0.17997891777866357
+    Attrib Beat Sum Overall Average0    0.05596767625837412
+    Attrib Strength Of Strongest Beat Overall Average0    -0.11996536356169248
+    Attrib MFCC Overall Average0    -0.23186597566524172
+    Attrib MFCC Overall Average1    0.15920168806201535
+    Attrib MFCC Overall Average2    -0.7846465674662716
+    Attrib MFCC Overall Average3    -0.3585599390201388
+    Attrib MFCC Overall Average4    0.08517519066430647
+    Attrib MFCC Overall Average5    -0.5987081700257183
+    Attrib MFCC Overall Average6    -0.40032405759593565
+    Attrib MFCC Overall Average7    -0.47032156381273615
+    Attrib MFCC Overall Average8    0.03296234929760374
+    Attrib MFCC Overall Average9    0.19869890858904898
+    Attrib MFCC Overall Average10    -0.2584478286464174
+    Attrib MFCC Overall Average11    -0.30705960671250665
+    Attrib MFCC Overall Average12    0.12472776798182623
+    Attrib LPC Overall Average0    -0.02533478914597638
+    Attrib LPC Overall Average1    -0.22029422636788595
+    Attrib LPC Overall Average2    0.3495249161421884
+    Attrib LPC Overall Average3    -0.17271236628151504
+    Attrib LPC Overall Average4    0.6014690098921779
+    Attrib LPC Overall Average5    0.18337115013728125
+    Attrib LPC Overall Average6    -0.08887404448104344
+    Attrib LPC Overall Average7    -0.20928990238453066
+    Attrib LPC Overall Average8    -0.5122397198296255
+    Attrib LPC Overall Average9    -0.01692034084993832
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    0.17713548793131306
+    Attrib Spectral Centroid Overall Standard Deviation0    0.43445693214073194
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    -0.8188048438468647
+    Attrib Spectral Flux Overall Standard Deviation0    0.8144496595863051
+    Attrib Compactness Overall Standard Deviation0    -0.19231321931389472
+    Attrib Spectral Variability Overall Standard Deviation0    0.5789127790950725
+    Attrib Root Mean Square Overall Standard Deviation0    0.551116329719201
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    -0.6334508260996511
+    Attrib Zero Crossings Overall Standard Deviation0    0.2683281431557777
+    Attrib Strongest Beat Overall Standard Deviation0    0.29307937992661026
+    Attrib Beat Sum Overall Standard Deviation0    -0.37333368104398157
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.09362896660965539
+    Attrib MFCC Overall Standard Deviation0    -0.02080184521991115
+    Attrib MFCC Overall Standard Deviation1    -0.738605522705623
+    Attrib MFCC Overall Standard Deviation2    -0.9223316026164325
+    Attrib MFCC Overall Standard Deviation3    0.03317507644178004
+    Attrib MFCC Overall Standard Deviation4    -0.392931925314418
+    Attrib MFCC Overall Standard Deviation5    0.4412590286767894
+    Attrib MFCC Overall Standard Deviation6    -0.34853308524272764
+    Attrib MFCC Overall Standard Deviation7    0.1537590429929625
+    Attrib MFCC Overall Standard Deviation8    0.7913189634005335
+    Attrib MFCC Overall Standard Deviation9    0.05633538023759881
+    Attrib MFCC Overall Standard Deviation10    0.300713135694223
+    Attrib MFCC Overall Standard Deviation11    0.5635827198334536
+    Attrib MFCC Overall Standard Deviation12    0.1595208746904975
+    Attrib LPC Overall Standard Deviation0    0.43146675734500195
+    Attrib LPC Overall Standard Deviation1    0.4469019419586831
+    Attrib LPC Overall Standard Deviation2    -0.915236029154113
+    Attrib LPC Overall Standard Deviation3    -0.738566481683985
+    Attrib LPC Overall Standard Deviation4    -0.13368800131490752
+    Attrib LPC Overall Standard Deviation5    -0.7167404683675488
+    Attrib LPC Overall Standard Deviation6    0.3223649818296162
+    Attrib LPC Overall Standard Deviation7    0.6285972045056815
+    Attrib LPC Overall Standard Deviation8    -0.6105992733930656
+    Attrib LPC Overall Standard Deviation9    0.02551282510833333
+    Attrib Spectral Centroid Overall Average0    0.43677864570812697
+    Attrib Spectral Rolloff Point Overall Average0    0.33419811817907574
+    Attrib Spectral Flux Overall Average0    -0.36337593427423825
+    Attrib Compactness Overall Average0    1.698933948048871
+    Attrib Spectral Variability Overall Average0    -0.02486059121299416
+    Attrib Root Mean Square Overall Average0    0.06384802259754713
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.2776281398358753
+    Attrib Zero Crossings Overall Average0    0.23429287969432697
+    Attrib Strongest Beat Overall Average0    0.21850171119651646
+    Attrib Beat Sum Overall Average0    -0.11169168671071986
+    Attrib Strength Of Strongest Beat Overall Average0    0.27568419152267065
+    Attrib MFCC Overall Average0    0.1339318977676747
+    Attrib MFCC Overall Average1    -1.0878522942429243
+    Attrib MFCC Overall Average2    -0.47350775363221337
+    Attrib MFCC Overall Average3    -0.5943326290278859
+    Attrib MFCC Overall Average4    -1.326734612455486
+    Attrib MFCC Overall Average5    0.34414811965869363
+    Attrib MFCC Overall Average6    0.4961292636039373
+    Attrib MFCC Overall Average7    1.4998253020258825
+    Attrib MFCC Overall Average8    1.0882672238984117
+    Attrib MFCC Overall Average9    0.43245267205602445
+    Attrib MFCC Overall Average10    0.29534553228145816
+    Attrib MFCC Overall Average11    -0.28721644555307774
+    Attrib MFCC Overall Average12    -0.6888096554857012
+    Attrib LPC Overall Average0    0.359353008910599
+    Attrib LPC Overall Average1    0.6482178594095906
+    Attrib LPC Overall Average2    0.3521135345349932
+    Attrib LPC Overall Average3    0.6778286706493423
+    Attrib LPC Overall Average4    -0.8104868041505624
+    Attrib LPC Overall Average5    -0.03175011022745247
+    Attrib LPC Overall Average6    -0.2682238850318227
+    Attrib LPC Overall Average7    0.6528651319662817
+    Attrib LPC Overall Average8    0.3858433147684439
+    Attrib LPC Overall Average9    0.03480047060407987
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    0.15986988556564255
+    Attrib Spectral Centroid Overall Standard Deviation0    0.09584841448037236
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.010737124122436596
+    Attrib Spectral Flux Overall Standard Deviation0    -0.1526887537048309
+    Attrib Compactness Overall Standard Deviation0    0.061567284966714805
+    Attrib Spectral Variability Overall Standard Deviation0    0.13403184830363069
+    Attrib Root Mean Square Overall Standard Deviation0    0.007571318048930439
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    -0.38542672630063307
+    Attrib Zero Crossings Overall Standard Deviation0    0.11290662475396639
+    Attrib Strongest Beat Overall Standard Deviation0    0.21521153153430847
+    Attrib Beat Sum Overall Standard Deviation0    0.23825833098612137
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    0.41734017134001933
+    Attrib MFCC Overall Standard Deviation0    -0.1884376273600185
+    Attrib MFCC Overall Standard Deviation1    0.47197266748967176
+    Attrib MFCC Overall Standard Deviation2    0.24552746039754977
+    Attrib MFCC Overall Standard Deviation3    -0.053295835971290804
+    Attrib MFCC Overall Standard Deviation4    -0.24215357986602126
+    Attrib MFCC Overall Standard Deviation5    -0.061388423536381076
+    Attrib MFCC Overall Standard Deviation6    -0.15999739783165007
+    Attrib MFCC Overall Standard Deviation7    -0.2099263042866572
+    Attrib MFCC Overall Standard Deviation8    0.48813510287487666
+    Attrib MFCC Overall Standard Deviation9    -0.1370306612211248
+    Attrib MFCC Overall Standard Deviation10    0.4220295036427184
+    Attrib MFCC Overall Standard Deviation11    -0.051312424667277416
+    Attrib MFCC Overall Standard Deviation12    0.25658712690589675
+    Attrib LPC Overall Standard Deviation0    0.10029090477502701
+    Attrib LPC Overall Standard Deviation1    0.09580896228210957
+    Attrib LPC Overall Standard Deviation2    -0.31020706171529544
+    Attrib LPC Overall Standard Deviation3    -0.49398138927586077
+    Attrib LPC Overall Standard Deviation4    -0.3407126791531788
+    Attrib LPC Overall Standard Deviation5    -0.4812669411451205
+    Attrib LPC Overall Standard Deviation6    -0.16200116618936872
+    Attrib LPC Overall Standard Deviation7    -0.14598070501595398
+    Attrib LPC Overall Standard Deviation8    -0.33101551638168447
+    Attrib LPC Overall Standard Deviation9    0.0326122573233127
+    Attrib Spectral Centroid Overall Average0    0.04751601917906042
+    Attrib Spectral Rolloff Point Overall Average0    -0.09545870840338068
+    Attrib Spectral Flux Overall Average0    0.13277677130634427
+    Attrib Compactness Overall Average0    -0.32679983401420315
+    Attrib Spectral Variability Overall Average0    0.03012945856643593
+    Attrib Root Mean Square Overall Average0    0.06291432645254089
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.5266946184851503
+    Attrib Zero Crossings Overall Average0    -0.03255641995639673
+    Attrib Strongest Beat Overall Average0    0.05951756457762166
+    Attrib Beat Sum Overall Average0    0.10835036879272304
+    Attrib Strength Of Strongest Beat Overall Average0    0.35028068605668233
+    Attrib MFCC Overall Average0    -0.1725287378391154
+    Attrib MFCC Overall Average1    -0.27831936474668356
+    Attrib MFCC Overall Average2    -0.3634036752203266
+    Attrib MFCC Overall Average3    -0.4633924616865289
+    Attrib MFCC Overall Average4    -0.06460694010352869
+    Attrib MFCC Overall Average5    -0.27339130433625425
+    Attrib MFCC Overall Average6    0.28584085902885426
+    Attrib MFCC Overall Average7    0.5030162650167327
+    Attrib MFCC Overall Average8    0.7007518522969508
+    Attrib MFCC Overall Average9    0.6160548361691891
+    Attrib MFCC Overall Average10    0.5883926254378934
+    Attrib MFCC Overall Average11    0.14733597883943247
+    Attrib MFCC Overall Average12    0.10116812925650065
+    Attrib LPC Overall Average0    0.08436788057162091
+    Attrib LPC Overall Average1    0.23419222977780577
+    Attrib LPC Overall Average2    -0.020610540820959432
+    Attrib LPC Overall Average3    0.347495052631492
+    Attrib LPC Overall Average4    0.5928197810154855
+    Attrib LPC Overall Average5    0.2963314776025185
+    Attrib LPC Overall Average6    0.1396930018886354
+    Attrib LPC Overall Average7    0.6619278896200311
+    Attrib LPC Overall Average8    0.04196393228279839
+    Attrib LPC Overall Average9    -0.04167344288314641
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    0.04897096009118976
+    Attrib Spectral Centroid Overall Standard Deviation0    0.06045567679969238
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    -0.04917807120561365
+    Attrib Spectral Flux Overall Standard Deviation0    -0.02187891084093843
+    Attrib Compactness Overall Standard Deviation0    0.06206711227517859
+    Attrib Spectral Variability Overall Standard Deviation0    -0.1626788183729925
+    Attrib Root Mean Square Overall Standard Deviation0    -0.10997399291780298
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.25969787613350714
+    Attrib Zero Crossings Overall Standard Deviation0    -0.031040766915591277
+    Attrib Strongest Beat Overall Standard Deviation0    -0.13716033622660692
+    Attrib Beat Sum Overall Standard Deviation0    0.19910819745367545
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    0.024208671594658213
+    Attrib MFCC Overall Standard Deviation0    0.0454250036047438
+    Attrib MFCC Overall Standard Deviation1    0.043589556376977534
+    Attrib MFCC Overall Standard Deviation2    -0.24578492991917592
+    Attrib MFCC Overall Standard Deviation3    -0.11321456282896442
+    Attrib MFCC Overall Standard Deviation4    -0.07386239940008933
+    Attrib MFCC Overall Standard Deviation5    0.2619909978877699
+    Attrib MFCC Overall Standard Deviation6    0.3433424365148267
+    Attrib MFCC Overall Standard Deviation7    0.1929445241245717
+    Attrib MFCC Overall Standard Deviation8    0.0574240827653447
+    Attrib MFCC Overall Standard Deviation9    0.3923899819498199
+    Attrib MFCC Overall Standard Deviation10    0.2990029549409341
+    Attrib MFCC Overall Standard Deviation11    0.21852908588760042
+    Attrib MFCC Overall Standard Deviation12    0.16886036316975522
+    Attrib LPC Overall Standard Deviation0    0.015076097994150977
+    Attrib LPC Overall Standard Deviation1    0.08992017672648361
+    Attrib LPC Overall Standard Deviation2    0.4428819052677375
+    Attrib LPC Overall Standard Deviation3    0.06861621081068316
+    Attrib LPC Overall Standard Deviation4    -0.04800497215774626
+    Attrib LPC Overall Standard Deviation5    0.18062636847022023
+    Attrib LPC Overall Standard Deviation6    -0.05653957238812006
+    Attrib LPC Overall Standard Deviation7    -0.18909466152685436
+    Attrib LPC Overall Standard Deviation8    0.022309477419942176
+    Attrib LPC Overall Standard Deviation9    0.01351700297810797
+    Attrib Spectral Centroid Overall Average0    0.06679606048636665
+    Attrib Spectral Rolloff Point Overall Average0    0.044057494136740656
+    Attrib Spectral Flux Overall Average0    -0.06339217443904419
+    Attrib Compactness Overall Average0    0.027040684540994817
+    Attrib Spectral Variability Overall Average0    -0.12070109441357924
+    Attrib Root Mean Square Overall Average0    -0.10100036037005189
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.4154925302525491
+    Attrib Zero Crossings Overall Average0    0.005319026021651119
+    Attrib Strongest Beat Overall Average0    0.18631346318386238
+    Attrib Beat Sum Overall Average0    -0.04592184548630378
+    Attrib Strength Of Strongest Beat Overall Average0    -0.028335022495218642
+    Attrib MFCC Overall Average0    -0.30088074262656433
+    Attrib MFCC Overall Average1    -0.12372763233371041
+    Attrib MFCC Overall Average2    -0.6960648906348064
+    Attrib MFCC Overall Average3    -0.43580361436304754
+    Attrib MFCC Overall Average4    -0.11663705215922637
+    Attrib MFCC Overall Average5    -0.4840896752262726
+    Attrib MFCC Overall Average6    -0.22225851403798966
+    Attrib MFCC Overall Average7    -0.11540366606646431
+    Attrib MFCC Overall Average8    0.16743998428989756
+    Attrib MFCC Overall Average9    0.17932015004572407
+    Attrib MFCC Overall Average10    -0.1376336092044207
+    Attrib MFCC Overall Average11    -0.25730610995490694
+    Attrib MFCC Overall Average12    0.04872359162298707
+    Attrib LPC Overall Average0    0.11025982128853175
+    Attrib LPC Overall Average1    0.052913984670539
+    Attrib LPC Overall Average2    0.2515089266066724
+    Attrib LPC Overall Average3    -0.07302357958549438
+    Attrib LPC Overall Average4    0.4195752974949578
+    Attrib LPC Overall Average5    0.13293538911128014
+    Attrib LPC Overall Average6    -0.04006506393958003
+    Attrib LPC Overall Average7    -0.013498790550041134
+    Attrib LPC Overall Average8    -0.36767781209558403
+    Attrib LPC Overall Average9    -0.04212018667078286
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    -0.37627541002813747
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.19279924735875323
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.5276536988133687
+    Attrib Spectral Flux Overall Standard Deviation0    -0.4780577038475848
+    Attrib Compactness Overall Standard Deviation0    0.40894647600323164
+    Attrib Spectral Variability Overall Standard Deviation0    -0.19304222554336992
+    Attrib Root Mean Square Overall Standard Deviation0    -0.17856350808377153
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.16507516941526665
+    Attrib Zero Crossings Overall Standard Deviation0    -0.11813991449814273
+    Attrib Strongest Beat Overall Standard Deviation0    -0.36125470011414096
+    Attrib Beat Sum Overall Standard Deviation0    0.3886514007834013
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    0.4964666715092633
+    Attrib MFCC Overall Standard Deviation0    0.11780052613845853
+    Attrib MFCC Overall Standard Deviation1    0.9318535752867069
+    Attrib MFCC Overall Standard Deviation2    1.0868295605714464
+    Attrib MFCC Overall Standard Deviation3    -0.0452530703018412
+    Attrib MFCC Overall Standard Deviation4    -0.014497118418756318
+    Attrib MFCC Overall Standard Deviation5    -0.2779011868971136
+    Attrib MFCC Overall Standard Deviation6    -0.15314142694982014
+    Attrib MFCC Overall Standard Deviation7    -0.413542983452764
+    Attrib MFCC Overall Standard Deviation8    -0.30806394716570956
+    Attrib MFCC Overall Standard Deviation9    -0.5085698891122249
+    Attrib MFCC Overall Standard Deviation10    -0.25477462345243385
+    Attrib MFCC Overall Standard Deviation11    -0.5583379229604067
+    Attrib MFCC Overall Standard Deviation12    -0.2004859922043769
+    Attrib LPC Overall Standard Deviation0    -0.16703076545426176
+    Attrib LPC Overall Standard Deviation1    -0.4408192584574781
+    Attrib LPC Overall Standard Deviation2    0.13612743591621138
+    Attrib LPC Overall Standard Deviation3    0.10406748361294571
+    Attrib LPC Overall Standard Deviation4    0.012960923771621547
+    Attrib LPC Overall Standard Deviation5    0.16716515084212777
+    Attrib LPC Overall Standard Deviation6    0.026580648518516766
+    Attrib LPC Overall Standard Deviation7    -0.24009041556574234
+    Attrib LPC Overall Standard Deviation8    0.058794355535722896
+    Attrib LPC Overall Standard Deviation9    0.041863026124028105
+    Attrib Spectral Centroid Overall Average0    -0.23733334102065765
+    Attrib Spectral Rolloff Point Overall Average0    -0.14942331266038866
+    Attrib Spectral Flux Overall Average0    0.2019867869320211
+    Attrib Compactness Overall Average0    -1.1201445208947334
+    Attrib Spectral Variability Overall Average0    0.03805488333598486
+    Attrib Root Mean Square Overall Average0    0.08534650332650852
+    Attrib Fraction Of Low Energy Windows Overall Average0    -0.021637013952334055
+    Attrib Zero Crossings Overall Average0    -0.21368049055700278
+    Attrib Strongest Beat Overall Average0    -0.27300555337319915
+    Attrib Beat Sum Overall Average0    0.1433078352317042
+    Attrib Strength Of Strongest Beat Overall Average0    0.2908096965585435
+    Attrib MFCC Overall Average0    -0.15671964370358327
+    Attrib MFCC Overall Average1    0.5253590198753002
+    Attrib MFCC Overall Average2    0.6912366576891898
+    Attrib MFCC Overall Average3    0.4379675058563002
+    Attrib MFCC Overall Average4    0.7048775141639058
+    Attrib MFCC Overall Average5    -0.016753976593000652
+    Attrib MFCC Overall Average6    0.041505384044393155
+    Attrib MFCC Overall Average7    -0.2052772950028617
+    Attrib MFCC Overall Average8    -0.20079415158060193
+    Attrib MFCC Overall Average9    0.31783308700365065
+    Attrib MFCC Overall Average10    0.43038539106417495
+    Attrib MFCC Overall Average11    0.5859250418513164
+    Attrib MFCC Overall Average12    0.4700420361123971
+    Attrib LPC Overall Average0    -0.2114901337135067
+    Attrib LPC Overall Average1    -0.10379547328896124
+    Attrib LPC Overall Average2    -0.7076858176363457
+    Attrib LPC Overall Average3    -0.014721007135339399
+    Attrib LPC Overall Average4    0.23044276416237935
+    Attrib LPC Overall Average5    0.07350059637988347
+    Attrib LPC Overall Average6    0.28605002942174673
+    Attrib LPC Overall Average7    -0.15713293093202313
+    Attrib LPC Overall Average8    0.03190475578713579
+    Attrib LPC Overall Average9    -0.013014866728216369
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    0.020875488341843107
+    Attrib Spectral Centroid Overall Standard Deviation0    0.024675476061746998
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    -0.37237469503753373
+    Attrib Spectral Flux Overall Standard Deviation0    0.25911852821896775
+    Attrib Compactness Overall Standard Deviation0    -0.13154275094878348
+    Attrib Spectral Variability Overall Standard Deviation0    -0.2579448726545516
+    Attrib Root Mean Square Overall Standard Deviation0    -0.23116320971668988
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.4112901543980827
+    Attrib Zero Crossings Overall Standard Deviation0    -0.10519766789425822
+    Attrib Strongest Beat Overall Standard Deviation0    0.235350106388925
+    Attrib Beat Sum Overall Standard Deviation0    0.30038094393309245
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.17156961669967244
+    Attrib MFCC Overall Standard Deviation0    0.08389729096929067
+    Attrib MFCC Overall Standard Deviation1    -0.32195023723021954
+    Attrib MFCC Overall Standard Deviation2    -1.144104291349459
+    Attrib MFCC Overall Standard Deviation3    -0.15612147656368508
+    Attrib MFCC Overall Standard Deviation4    -0.20641586967660094
+    Attrib MFCC Overall Standard Deviation5    0.37421956692750435
+    Attrib MFCC Overall Standard Deviation6    0.7637549692697828
+    Attrib MFCC Overall Standard Deviation7    0.6308568104323378
+    Attrib MFCC Overall Standard Deviation8    -0.1770723147423316
+    Attrib MFCC Overall Standard Deviation9    0.7993224805416177
+    Attrib MFCC Overall Standard Deviation10    0.30931998050357595
+    Attrib MFCC Overall Standard Deviation11    0.15125088819281768
+    Attrib MFCC Overall Standard Deviation12    0.12462397720390682
+    Attrib LPC Overall Standard Deviation0    -0.1143127262395451
+    Attrib LPC Overall Standard Deviation1    -0.19476123684617233
+    Attrib LPC Overall Standard Deviation2    0.8484215532161063
+    Attrib LPC Overall Standard Deviation3    0.3246817683314173
+    Attrib LPC Overall Standard Deviation4    -0.006926714859948621
+    Attrib LPC Overall Standard Deviation5    0.4342187940210351
+    Attrib LPC Overall Standard Deviation6    -2.1219201040245108E-5
+    Attrib LPC Overall Standard Deviation7    -0.21905108054178873
+    Attrib LPC Overall Standard Deviation8    0.25429445680498575
+    Attrib LPC Overall Standard Deviation9    0.009568283577889025
+    Attrib Spectral Centroid Overall Average0    0.3761685362070158
+    Attrib Spectral Rolloff Point Overall Average0    0.32144866719757464
+    Attrib Spectral Flux Overall Average0    0.06417921177895872
+    Attrib Compactness Overall Average0    0.3212249291417099
+    Attrib Spectral Variability Overall Average0    -0.10281482270192778
+    Attrib Root Mean Square Overall Average0    -0.06539557624478207
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.5217246584754096
+    Attrib Zero Crossings Overall Average0    0.25939398341280023
+    Attrib Strongest Beat Overall Average0    0.1180557218041471
+    Attrib Beat Sum Overall Average0    0.05959736939923808
+    Attrib Strength Of Strongest Beat Overall Average0    -0.33917770670886216
+    Attrib MFCC Overall Average0    -0.26430990594318554
+    Attrib MFCC Overall Average1    -0.0446495491554202
+    Attrib MFCC Overall Average2    -1.021318160625756
+    Attrib MFCC Overall Average3    -0.48076280194940146
+    Attrib MFCC Overall Average4    -0.1901418705714503
+    Attrib MFCC Overall Average5    -1.0074708489076432
+    Attrib MFCC Overall Average6    -0.7656119730885075
+    Attrib MFCC Overall Average7    -0.7000554829863914
+    Attrib MFCC Overall Average8    0.1546853113945672
+    Attrib MFCC Overall Average9    -0.1053954871592617
+    Attrib MFCC Overall Average10    -1.0997728598842398
+    Attrib MFCC Overall Average11    -0.9991849272879835
+    Attrib MFCC Overall Average12    -0.22508410237852106
+    Attrib LPC Overall Average0    0.42677845475718384
+    Attrib LPC Overall Average1    -0.20437430568148668
+    Attrib LPC Overall Average2    0.34005259072508043
+    Attrib LPC Overall Average3    -0.2869400355839655
+    Attrib LPC Overall Average4    0.5960512968407142
+    Attrib LPC Overall Average5    -0.02920029204131021
+    Attrib LPC Overall Average6    -0.3938153988196394
+    Attrib LPC Overall Average7    -0.19004400963648962
+    Attrib LPC Overall Average8    -0.9610651259860614
+    Attrib LPC Overall Average9    -0.026232413739085317
+Sigmoid Node 24
+    Inputs    Weights
+    Threshold    0.07467247019824545
+    Attrib Spectral Centroid Overall Standard Deviation0    0.26739739745893654
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    -0.11094158036400009
+    Attrib Spectral Flux Overall Standard Deviation0    0.2765715496469189
+    Attrib Compactness Overall Standard Deviation0    -0.09213884066898957
+    Attrib Spectral Variability Overall Standard Deviation0    -0.06852539504142365
+    Attrib Root Mean Square Overall Standard Deviation0    -0.057175019454426185
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    -0.2687187352538194
+    Attrib Zero Crossings Overall Standard Deviation0    0.22618592677889363
+    Attrib Strongest Beat Overall Standard Deviation0    0.54425949186293
+    Attrib Beat Sum Overall Standard Deviation0    0.17592157029103966
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.004279624180262412
+    Attrib MFCC Overall Standard Deviation0    0.012589615078191991
+    Attrib MFCC Overall Standard Deviation1    -0.08069401719469375
+    Attrib MFCC Overall Standard Deviation2    -0.17449165510181924
+    Attrib MFCC Overall Standard Deviation3    -0.025004035250604538
+    Attrib MFCC Overall Standard Deviation4    -0.2660902043570358
+    Attrib MFCC Overall Standard Deviation5    0.4385710182563386
+    Attrib MFCC Overall Standard Deviation6    0.2943804700859931
+    Attrib MFCC Overall Standard Deviation7    0.19721416000925124
+    Attrib MFCC Overall Standard Deviation8    0.4741564011511352
+    Attrib MFCC Overall Standard Deviation9    0.507940574302958
+    Attrib MFCC Overall Standard Deviation10    0.4626033750127412
+    Attrib MFCC Overall Standard Deviation11    0.3183487183662694
+    Attrib MFCC Overall Standard Deviation12    0.3640315804126031
+    Attrib LPC Overall Standard Deviation0    0.31406533682807586
+    Attrib LPC Overall Standard Deviation1    0.06415488740592946
+    Attrib LPC Overall Standard Deviation2    0.10986686353105994
+    Attrib LPC Overall Standard Deviation3    -0.3941766115355651
+    Attrib LPC Overall Standard Deviation4    -0.0747654037981424
+    Attrib LPC Overall Standard Deviation5    -0.31440552003810235
+    Attrib LPC Overall Standard Deviation6    -0.2612291948748033
+    Attrib LPC Overall Standard Deviation7    -0.2671623236743106
+    Attrib LPC Overall Standard Deviation8    -0.2881747037904264
+    Attrib LPC Overall Standard Deviation9    -0.04187525049218236
+    Attrib Spectral Centroid Overall Average0    0.47963733739865677
+    Attrib Spectral Rolloff Point Overall Average0    0.24032313413276848
+    Attrib Spectral Flux Overall Average0    -0.019307662844397538
+    Attrib Compactness Overall Average0    -3.0949645441181626E-4
+    Attrib Spectral Variability Overall Average0    -0.03888828043310608
+    Attrib Root Mean Square Overall Average0    -0.009347371176681583
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.9549215448540656
+    Attrib Zero Crossings Overall Average0    0.396032244182696
+    Attrib Strongest Beat Overall Average0    -0.029558453300092068
+    Attrib Beat Sum Overall Average0    -5.739106573911721E-4
+    Attrib Strength Of Strongest Beat Overall Average0    0.028737207576822965
+    Attrib MFCC Overall Average0    -0.10586181771530576
+    Attrib MFCC Overall Average1    -0.7194861237374184
+    Attrib MFCC Overall Average2    -1.1712356719154695
+    Attrib MFCC Overall Average3    -1.0213505936314748
+    Attrib MFCC Overall Average4    -0.43626310582972583
+    Attrib MFCC Overall Average5    -0.39487173939348635
+    Attrib MFCC Overall Average6    -0.026860821678505318
+    Attrib MFCC Overall Average7    0.32427967441346484
+    Attrib MFCC Overall Average8    0.4723459590027429
+    Attrib MFCC Overall Average9    0.7694659646408293
+    Attrib MFCC Overall Average10    0.16840288149258203
+    Attrib MFCC Overall Average11    -0.2591032790103636
+    Attrib MFCC Overall Average12    0.049535515431748604
+    Attrib LPC Overall Average0    0.4682877278133188
+    Attrib LPC Overall Average1    0.05096124020410193
+    Attrib LPC Overall Average2    0.44509273379031217
+    Attrib LPC Overall Average3    0.2662148739384208
+    Attrib LPC Overall Average4    0.5883518356606346
+    Attrib LPC Overall Average5    0.3994727259330912
+    Attrib LPC Overall Average6    0.09344610038598655
+    Attrib LPC Overall Average7    0.2795567864299194
+    Attrib LPC Overall Average8    -0.30704933469373197
+    Attrib LPC Overall Average9    0.019216204120299105
+Sigmoid Node 25
+    Inputs    Weights
+    Threshold    -0.12413740139445295
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.06906514910789692
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    -0.10470167016076504
+    Attrib Spectral Flux Overall Standard Deviation0    0.2976368219806123
+    Attrib Compactness Overall Standard Deviation0    -0.19453126557192296
+    Attrib Spectral Variability Overall Standard Deviation0    0.05149886002684657
+    Attrib Root Mean Square Overall Standard Deviation0    0.1751466035063092
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.45453888198269654
+    Attrib Zero Crossings Overall Standard Deviation0    -0.02762215273221822
+    Attrib Strongest Beat Overall Standard Deviation0    -0.11984731395173111
+    Attrib Beat Sum Overall Standard Deviation0    -0.40101694760830053
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.5459258432314112
+    Attrib MFCC Overall Standard Deviation0    0.20242392808277337
+    Attrib MFCC Overall Standard Deviation1    -0.8443344128545829
+    Attrib MFCC Overall Standard Deviation2    -0.33929159114446966
+    Attrib MFCC Overall Standard Deviation3    0.10777423350950106
+    Attrib MFCC Overall Standard Deviation4    0.4539894090296867
+    Attrib MFCC Overall Standard Deviation5    0.027370306880721007
+    Attrib MFCC Overall Standard Deviation6    0.054581013339227755
+    Attrib MFCC Overall Standard Deviation7    0.32485117540803443
+    Attrib MFCC Overall Standard Deviation8    -0.498234367845389
+    Attrib MFCC Overall Standard Deviation9    0.20555429467890945
+    Attrib MFCC Overall Standard Deviation10    -0.41777040533369264
+    Attrib MFCC Overall Standard Deviation11    0.15996629676436605
+    Attrib MFCC Overall Standard Deviation12    -0.11435739987971452
+    Attrib LPC Overall Standard Deviation0    -0.1238068986690659
+    Attrib LPC Overall Standard Deviation1    0.043771074865390225
+    Attrib LPC Overall Standard Deviation2    0.2523886975959081
+    Attrib LPC Overall Standard Deviation3    0.5513864436107381
+    Attrib LPC Overall Standard Deviation4    0.48755913319812516
+    Attrib LPC Overall Standard Deviation5    0.5308049613188713
+    Attrib LPC Overall Standard Deviation6    0.3622662233839096
+    Attrib LPC Overall Standard Deviation7    0.4136886211759269
+    Attrib LPC Overall Standard Deviation8    0.32427956360439114
+    Attrib LPC Overall Standard Deviation9    0.04035917822536479
+    Attrib Spectral Centroid Overall Average0    -0.061513359004063364
+    Attrib Spectral Rolloff Point Overall Average0    0.07711571143050565
+    Attrib Spectral Flux Overall Average0    -0.2940804226546147
+    Attrib Compactness Overall Average0    0.8191458561291602
+    Attrib Spectral Variability Overall Average0    -0.04832494481385481
+    Attrib Root Mean Square Overall Average0    -0.09981144237596777
+    Attrib Fraction Of Low Energy Windows Overall Average0    -0.7044299632978804
+    Attrib Zero Crossings Overall Average0    0.06135805436257462
+    Attrib Strongest Beat Overall Average0    0.10116742528706993
+    Attrib Beat Sum Overall Average0    -0.24707267382681
+    Attrib Strength Of Strongest Beat Overall Average0    -0.41054295227503446
+    Attrib MFCC Overall Average0    0.3608546966248659
+    Attrib MFCC Overall Average1    0.20153758208863293
+    Attrib MFCC Overall Average2    0.3357306790012616
+    Attrib MFCC Overall Average3    0.4477863005264095
+    Attrib MFCC Overall Average4    0.035707649000449364
+    Attrib MFCC Overall Average5    0.58419612707857
+    Attrib MFCC Overall Average6    -0.2804418321273694
+    Attrib MFCC Overall Average7    -0.33365372740065413
+    Attrib MFCC Overall Average8    -0.981440985950754
+    Attrib MFCC Overall Average9    -0.9156158338877954
+    Attrib MFCC Overall Average10    -0.7400580207266776
+    Attrib MFCC Overall Average11    -0.2948080689430829
+    Attrib MFCC Overall Average12    -0.16743724159945367
+    Attrib LPC Overall Average0    -0.0444023922285422
+    Attrib LPC Overall Average1    -0.2992818818050273
+    Attrib LPC Overall Average2    0.21868193364483154
+    Attrib LPC Overall Average3    -0.348761983473639
+    Attrib LPC Overall Average4    -0.819314400737046
+    Attrib LPC Overall Average5    -0.36807188755504944
+    Attrib LPC Overall Average6    -0.2041315506235474
+    Attrib LPC Overall Average7    -0.8871083725491024
+    Attrib LPC Overall Average8    -0.13012173163107255
+    Attrib LPC Overall Average9    -0.014892901063596052
+Sigmoid Node 26
+    Inputs    Weights
+    Threshold    -0.15267740073355424
+    Attrib Spectral Centroid Overall Standard Deviation0    0.09762809396401503
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    -0.2076725603115012
+    Attrib Spectral Flux Overall Standard Deviation0    0.10194687269370287
+    Attrib Compactness Overall Standard Deviation0    0.12970892725127642
+    Attrib Spectral Variability Overall Standard Deviation0    0.3015910758464059
+    Attrib Root Mean Square Overall Standard Deviation0    0.3632216740341842
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    -0.15936245719782427
+    Attrib Zero Crossings Overall Standard Deviation0    0.02104144919290421
+    Attrib Strongest Beat Overall Standard Deviation0    -0.5277302705563415
+    Attrib Beat Sum Overall Standard Deviation0    -0.12379431672884052
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    0.549909159654926
+    Attrib MFCC Overall Standard Deviation0    -0.022606481637381038
+    Attrib MFCC Overall Standard Deviation1    0.4392264637871908
+    Attrib MFCC Overall Standard Deviation2    -0.11615823387551737
+    Attrib MFCC Overall Standard Deviation3    -0.28988916387833863
+    Attrib MFCC Overall Standard Deviation4    -0.2946659157362159
+    Attrib MFCC Overall Standard Deviation5    -0.19934812437266924
+    Attrib MFCC Overall Standard Deviation6    -0.30709959353479105
+    Attrib MFCC Overall Standard Deviation7    -0.1864558905142835
+    Attrib MFCC Overall Standard Deviation8    -0.15284402046876566
+    Attrib MFCC Overall Standard Deviation9    -0.8355582060782668
+    Attrib MFCC Overall Standard Deviation10    -0.19272136082942318
+    Attrib MFCC Overall Standard Deviation11    -0.08052269830909091
+    Attrib MFCC Overall Standard Deviation12    -0.27225416526524016
+    Attrib LPC Overall Standard Deviation0    -0.030077746767308906
+    Attrib LPC Overall Standard Deviation1    0.515929043241837
+    Attrib LPC Overall Standard Deviation2    -0.48084858394269897
+    Attrib LPC Overall Standard Deviation3    0.2868055601027071
+    Attrib LPC Overall Standard Deviation4    -0.1889749951090345
+    Attrib LPC Overall Standard Deviation5    -0.3242427598295093
+    Attrib LPC Overall Standard Deviation6    0.4388420286078912
+    Attrib LPC Overall Standard Deviation7    0.8028440186923661
+    Attrib LPC Overall Standard Deviation8    -0.21228959658216762
+    Attrib LPC Overall Standard Deviation9    -0.03531169285457857
+    Attrib Spectral Centroid Overall Average0    -0.09264548106931872
+    Attrib Spectral Rolloff Point Overall Average0    0.10713036786039526
+    Attrib Spectral Flux Overall Average0    0.05583182621856764
+    Attrib Compactness Overall Average0    0.8280878600638351
+    Attrib Spectral Variability Overall Average0    0.0622775165738137
+    Attrib Root Mean Square Overall Average0    0.027236503826287242
+    Attrib Fraction Of Low Energy Windows Overall Average0    -0.7282591302957878
+    Attrib Zero Crossings Overall Average0    -0.1531029118821994
+    Attrib Strongest Beat Overall Average0    0.2518774605786535
+    Attrib Beat Sum Overall Average0    0.0744311781279243
+    Attrib Strength Of Strongest Beat Overall Average0    0.5754221242002081
+    Attrib MFCC Overall Average0    -0.12465737423177259
+    Attrib MFCC Overall Average1    0.1605790953290754
+    Attrib MFCC Overall Average2    0.9414407311346226
+    Attrib MFCC Overall Average3    0.7574088121887161
+    Attrib MFCC Overall Average4    -0.3491051249620139
+    Attrib MFCC Overall Average5    0.3905357468359297
+    Attrib MFCC Overall Average6    -0.02792964334834006
+    Attrib MFCC Overall Average7    0.8229337499557832
+    Attrib MFCC Overall Average8    0.8542935658230733
+    Attrib MFCC Overall Average9    -0.16382514161575698
+    Attrib MFCC Overall Average10    0.4242621716783579
+    Attrib MFCC Overall Average11    0.5025340625009996
+    Attrib MFCC Overall Average12    -0.33192072304438475
+    Attrib LPC Overall Average0    0.006660231045269226
+    Attrib LPC Overall Average1    0.36301240798768636
+    Attrib LPC Overall Average2    -0.537869255857977
+    Attrib LPC Overall Average3    0.07374286654837012
+    Attrib LPC Overall Average4    -0.7583418039258396
+    Attrib LPC Overall Average5    -0.3781295966940164
+    Attrib LPC Overall Average6    -0.20018461249837252
+    Attrib LPC Overall Average7    0.6130540534347284
+    Attrib LPC Overall Average8    0.46100425013355517
+    Attrib LPC Overall Average9    0.04186318523800764
+Sigmoid Node 27
+    Inputs    Weights
+    Threshold    -0.13500524879102466
+    Attrib Spectral Centroid Overall Standard Deviation0    0.11669116303533512
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.7793109880148186
+    Attrib Spectral Flux Overall Standard Deviation0    0.11393300432459026
+    Attrib Compactness Overall Standard Deviation0    0.2274353631610569
+    Attrib Spectral Variability Overall Standard Deviation0    0.3249252575592173
+    Attrib Root Mean Square Overall Standard Deviation0    0.29736094244403266
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.03793580240779566
+    Attrib Zero Crossings Overall Standard Deviation0    0.1772165588934005
+    Attrib Strongest Beat Overall Standard Deviation0    0.14651040775243193
+    Attrib Beat Sum Overall Standard Deviation0    -0.08325146957799746
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.34413354096888177
+    Attrib MFCC Overall Standard Deviation0    0.3124526003319718
+    Attrib MFCC Overall Standard Deviation1    -0.09221350872332919
+    Attrib MFCC Overall Standard Deviation2    0.7943367071054117
+    Attrib MFCC Overall Standard Deviation3    0.1963371464261492
+    Attrib MFCC Overall Standard Deviation4    0.6596836050870777
+    Attrib MFCC Overall Standard Deviation5    0.039682196047528415
+    Attrib MFCC Overall Standard Deviation6    -0.2234672654671885
+    Attrib MFCC Overall Standard Deviation7    -0.10885143202012852
+    Attrib MFCC Overall Standard Deviation8    0.1518791519913076
+    Attrib MFCC Overall Standard Deviation9    0.0488970983468396
+    Attrib MFCC Overall Standard Deviation10    -0.28484040003619665
+    Attrib MFCC Overall Standard Deviation11    0.17596497934388805
+    Attrib MFCC Overall Standard Deviation12    0.1016898172229419
+    Attrib LPC Overall Standard Deviation0    0.24368393391712467
+    Attrib LPC Overall Standard Deviation1    -0.09850857822213126
+    Attrib LPC Overall Standard Deviation2    0.20578570430025103
+    Attrib LPC Overall Standard Deviation3    0.011511002980552066
+    Attrib LPC Overall Standard Deviation4    0.3453963323206973
+    Attrib LPC Overall Standard Deviation5    0.20500944013513345
+    Attrib LPC Overall Standard Deviation6    0.08711013953939574
+    Attrib LPC Overall Standard Deviation7    -0.04378357008923215
+    Attrib LPC Overall Standard Deviation8    0.20341658766197154
+    Attrib LPC Overall Standard Deviation9    0.01381517032213049
+    Attrib Spectral Centroid Overall Average0    -0.09336409656678968
+    Attrib Spectral Rolloff Point Overall Average0    -0.09504897812483128
+    Attrib Spectral Flux Overall Average0    0.09940011937919452
+    Attrib Compactness Overall Average0    -0.20266267231283724
+    Attrib Spectral Variability Overall Average0    0.2764736156866446
+    Attrib Root Mean Square Overall Average0    0.21571207570400125
+    Attrib Fraction Of Low Energy Windows Overall Average0    -0.08132882464025398
+    Attrib Zero Crossings Overall Average0    -0.012998764263844699
+    Attrib Strongest Beat Overall Average0    -0.8047928866336117
+    Attrib Beat Sum Overall Average0    0.1477365049670702
+    Attrib Strength Of Strongest Beat Overall Average0    -0.21597353212736686
+    Attrib MFCC Overall Average0    0.17937195709911827
+    Attrib MFCC Overall Average1    0.19965822690917864
+    Attrib MFCC Overall Average2    0.20985744831529907
+    Attrib MFCC Overall Average3    0.22686916408554914
+    Attrib MFCC Overall Average4    0.19093647635399474
+    Attrib MFCC Overall Average5    0.53734680396646
+    Attrib MFCC Overall Average6    0.5395999693894318
+    Attrib MFCC Overall Average7    0.15945300706394044
+    Attrib MFCC Overall Average8    -0.6930171643674998
+    Attrib MFCC Overall Average9    -0.008920351125008469
+    Attrib MFCC Overall Average10    0.11963619543664873
+    Attrib MFCC Overall Average11    -0.06483227423746646
+    Attrib MFCC Overall Average12    0.31963753533222267
+    Attrib LPC Overall Average0    -0.19610434546701508
+    Attrib LPC Overall Average1    -0.32618152083852725
+    Attrib LPC Overall Average2    0.2136769947622586
+    Attrib LPC Overall Average3    0.32733356203526515
+    Attrib LPC Overall Average4    -0.23818847439528776
+    Attrib LPC Overall Average5    0.150758668649599
+    Attrib LPC Overall Average6    0.056558194475183135
+    Attrib LPC Overall Average7    -0.49746976743986154
+    Attrib LPC Overall Average8    0.42280781947758894
+    Attrib LPC Overall Average9    -0.016512220469291662
+Sigmoid Node 28
+    Inputs    Weights
+    Threshold    -0.15572872064010243
+    Attrib Spectral Centroid Overall Standard Deviation0    0.08016475145865985
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    1.0608152525129608
+    Attrib Spectral Flux Overall Standard Deviation0    0.06554882334235011
+    Attrib Compactness Overall Standard Deviation0    0.1972656863442045
+    Attrib Spectral Variability Overall Standard Deviation0    0.36680662518541424
+    Attrib Root Mean Square Overall Standard Deviation0    0.32993739102495245
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.15130656374138415
+    Attrib Zero Crossings Overall Standard Deviation0    0.2006900959516748
+    Attrib Strongest Beat Overall Standard Deviation0    0.15951225654038614
+    Attrib Beat Sum Overall Standard Deviation0    0.011310528584927312
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.3365531266416682
+    Attrib MFCC Overall Standard Deviation0    0.33747725923808486
+    Attrib MFCC Overall Standard Deviation1    -0.06402616109560305
+    Attrib MFCC Overall Standard Deviation2    1.220736660868791
+    Attrib MFCC Overall Standard Deviation3    0.22476757640161035
+    Attrib MFCC Overall Standard Deviation4    0.9435964962849634
+    Attrib MFCC Overall Standard Deviation5    0.30939062273506396
+    Attrib MFCC Overall Standard Deviation6    -0.14404143586176077
+    Attrib MFCC Overall Standard Deviation7    -0.03713537285627252
+    Attrib MFCC Overall Standard Deviation8    0.10512220467011117
+    Attrib MFCC Overall Standard Deviation9    0.2866696315804009
+    Attrib MFCC Overall Standard Deviation10    -0.47870803897124004
+    Attrib MFCC Overall Standard Deviation11    0.22664207605926778
+    Attrib MFCC Overall Standard Deviation12    0.06970055105911878
+    Attrib LPC Overall Standard Deviation0    0.21381693363349571
+    Attrib LPC Overall Standard Deviation1    -0.1860551867748048
+    Attrib LPC Overall Standard Deviation2    0.6769649877534383
+    Attrib LPC Overall Standard Deviation3    -0.06663915064920485
+    Attrib LPC Overall Standard Deviation4    0.49401819582131523
+    Attrib LPC Overall Standard Deviation5    0.3958946484540185
+    Attrib LPC Overall Standard Deviation6    0.20464430972826364
+    Attrib LPC Overall Standard Deviation7    -0.12982697001017013
+    Attrib LPC Overall Standard Deviation8    0.41163231406415235
+    Attrib LPC Overall Standard Deviation9    0.028396618333276655
+    Attrib Spectral Centroid Overall Average0    -0.2627944562873106
+    Attrib Spectral Rolloff Point Overall Average0    -0.18948919890396862
+    Attrib Spectral Flux Overall Average0    0.3669557074927618
+    Attrib Compactness Overall Average0    -0.7726535382602416
+    Attrib Spectral Variability Overall Average0    0.4337152350550534
+    Attrib Root Mean Square Overall Average0    0.40029217134732303
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.16039498416095752
+    Attrib Zero Crossings Overall Average0    -0.20448186932507784
+    Attrib Strongest Beat Overall Average0    -1.2486896635786122
+    Attrib Beat Sum Overall Average0    0.3383287546736981
+    Attrib Strength Of Strongest Beat Overall Average0    -0.2128358926774122
+    Attrib MFCC Overall Average0    -0.02733378125855802
+    Attrib MFCC Overall Average1    0.7025029272722143
+    Attrib MFCC Overall Average2    0.061180704510938516
+    Attrib MFCC Overall Average3    0.3503406407998728
+    Attrib MFCC Overall Average4    0.40882682585319396
+    Attrib MFCC Overall Average5    0.61230715243075
+    Attrib MFCC Overall Average6    0.5495382309920767
+    Attrib MFCC Overall Average7    0.18600898632424978
+    Attrib MFCC Overall Average8    -0.7514435877292046
+    Attrib MFCC Overall Average9    0.5285334140217228
+    Attrib MFCC Overall Average10    0.8287565382367904
+    Attrib MFCC Overall Average11    -0.005371963371574504
+    Attrib MFCC Overall Average12    0.7024742572408303
+    Attrib LPC Overall Average0    -0.26364284073066035
+    Attrib LPC Overall Average1    -0.46133036055664584
+    Attrib LPC Overall Average2    0.15958909408472574
+    Attrib LPC Overall Average3    0.5012437458331092
+    Attrib LPC Overall Average4    0.023513398419262855
+    Attrib LPC Overall Average5    0.24833221135238917
+    Attrib LPC Overall Average6    -0.010240272685309708
+    Attrib LPC Overall Average7    -0.4775995485083279
+    Attrib LPC Overall Average8    0.4343734556284418
+    Attrib LPC Overall Average9    -0.04178637238027501
+Sigmoid Node 29
+    Inputs    Weights
+    Threshold    0.05240343983298991
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.0769476669054134
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.3333439312717859
+    Attrib Spectral Flux Overall Standard Deviation0    -0.09307758806477325
+    Attrib Compactness Overall Standard Deviation0    0.05873999416248937
+    Attrib Spectral Variability Overall Standard Deviation0    -0.09647909904321643
+    Attrib Root Mean Square Overall Standard Deviation0    -0.1851094322136288
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    -0.04247584190499534
+    Attrib Zero Crossings Overall Standard Deviation0    -0.04775709863787186
+    Attrib Strongest Beat Overall Standard Deviation0    0.3072141394370311
+    Attrib Beat Sum Overall Standard Deviation0    0.10996937801490092
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.26783880572981356
+    Attrib MFCC Overall Standard Deviation0    0.12482690399063186
+    Attrib MFCC Overall Standard Deviation1    -0.2660849615545877
+    Attrib MFCC Overall Standard Deviation2    0.6103828759051723
+    Attrib MFCC Overall Standard Deviation3    0.1274788555786918
+    Attrib MFCC Overall Standard Deviation4    0.21972531652753347
+    Attrib MFCC Overall Standard Deviation5    0.02246416740878761
+    Attrib MFCC Overall Standard Deviation6    -0.08213918288243842
+    Attrib MFCC Overall Standard Deviation7    -0.11740933969393341
+    Attrib MFCC Overall Standard Deviation8    0.13296886142051506
+    Attrib MFCC Overall Standard Deviation9    0.3479446016244763
+    Attrib MFCC Overall Standard Deviation10    0.09367828661002614
+    Attrib MFCC Overall Standard Deviation11    -0.03668724436926804
+    Attrib MFCC Overall Standard Deviation12    0.13053055265915767
+    Attrib LPC Overall Standard Deviation0    0.052831228112336016
+    Attrib LPC Overall Standard Deviation1    -0.3085376342613766
+    Attrib LPC Overall Standard Deviation2    0.10184665679502099
+    Attrib LPC Overall Standard Deviation3    -0.2989856742299817
+    Attrib LPC Overall Standard Deviation4    0.14769605728399277
+    Attrib LPC Overall Standard Deviation5    0.16020506890236363
+    Attrib LPC Overall Standard Deviation6    -0.3703382880902958
+    Attrib LPC Overall Standard Deviation7    -0.49974588878159537
+    Attrib LPC Overall Standard Deviation8    -0.009170170395699536
+    Attrib LPC Overall Standard Deviation9    -0.04445658034712065
+    Attrib Spectral Centroid Overall Average0    -0.033398161789720604
+    Attrib Spectral Rolloff Point Overall Average0    -0.1460174475059805
+    Attrib Spectral Flux Overall Average0    -0.07313332602886378
+    Attrib Compactness Overall Average0    -0.8225885162637927
+    Attrib Spectral Variability Overall Average0    0.03478510293813042
+    Attrib Root Mean Square Overall Average0    0.0393691944709664
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.48263389273301355
+    Attrib Zero Crossings Overall Average0    -0.015923158001378963
+    Attrib Strongest Beat Overall Average0    -0.21378751414028602
+    Attrib Beat Sum Overall Average0    -1.8048432359359727E-4
+    Attrib Strength Of Strongest Beat Overall Average0    -0.1901025521660391
+    Attrib MFCC Overall Average0    0.10278976553604487
+    Attrib MFCC Overall Average1    -0.08982014755187635
+    Attrib MFCC Overall Average2    -0.43269035172952275
+    Attrib MFCC Overall Average3    -0.4689294426330098
+    Attrib MFCC Overall Average4    0.4384839075890772
+    Attrib MFCC Overall Average5    0.007621368254205217
+    Attrib MFCC Overall Average6    0.42702822920440453
+    Attrib MFCC Overall Average7    -0.3546963980997758
+    Attrib MFCC Overall Average8    -0.6691928604567805
+    Attrib MFCC Overall Average9    0.15802240071278328
+    Attrib MFCC Overall Average10    -0.07425796869605424
+    Attrib MFCC Overall Average11    -0.24201175437411235
+    Attrib MFCC Overall Average12    0.22519828766438435
+    Attrib LPC Overall Average0    -0.10284495202930283
+    Attrib LPC Overall Average1    -0.22269727990069443
+    Attrib LPC Overall Average2    0.24874866494038517
+    Attrib LPC Overall Average3    0.2352522956215487
+    Attrib LPC Overall Average4    0.4427854257593723
+    Attrib LPC Overall Average5    0.3893183647036396
+    Attrib LPC Overall Average6    0.33996669854569805
+    Attrib LPC Overall Average7    -0.541994605892194
+    Attrib LPC Overall Average8    -0.10120298241124868
+    Attrib LPC Overall Average9    -0.04328062092418075
+Sigmoid Node 30
+    Inputs    Weights
+    Threshold    -0.11158132068106329
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.2106645443699186
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    -0.7446273686965086
+    Attrib Spectral Flux Overall Standard Deviation0    0.31138586815465463
+    Attrib Compactness Overall Standard Deviation0    -0.13934004343614598
+    Attrib Spectral Variability Overall Standard Deviation0    0.14078759188858275
+    Attrib Root Mean Square Overall Standard Deviation0    0.22102320718101912
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.30028749038445746
+    Attrib Zero Crossings Overall Standard Deviation0    -0.28496180125426446
+    Attrib Strongest Beat Overall Standard Deviation0    -0.4586139193486748
+    Attrib Beat Sum Overall Standard Deviation0    0.11414862932735437
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    0.23910267310623656
+    Attrib MFCC Overall Standard Deviation0    -0.13545724591282332
+    Attrib MFCC Overall Standard Deviation1    0.14469223587349705
+    Attrib MFCC Overall Standard Deviation2    -1.2422197552896466
+    Attrib MFCC Overall Standard Deviation3    -0.258066108284526
+    Attrib MFCC Overall Standard Deviation4    -0.32014681204621004
+    Attrib MFCC Overall Standard Deviation5    0.03303444936502388
+    Attrib MFCC Overall Standard Deviation6    0.39196853901055767
+    Attrib MFCC Overall Standard Deviation7    0.322523139711156
+    Attrib MFCC Overall Standard Deviation8    -0.5119389252232692
+    Attrib MFCC Overall Standard Deviation9    -0.15615059430586642
+    Attrib MFCC Overall Standard Deviation10    -0.08529061360471431
+    Attrib MFCC Overall Standard Deviation11    -0.012642939095287645
+    Attrib MFCC Overall Standard Deviation12    -0.19998676541993193
+    Attrib LPC Overall Standard Deviation0    -0.4409059483994216
+    Attrib LPC Overall Standard Deviation1    0.43756666901533464
+    Attrib LPC Overall Standard Deviation2    0.32631239514316857
+    Attrib LPC Overall Standard Deviation3    0.8181961792849354
+    Attrib LPC Overall Standard Deviation4    0.03648938869838839
+    Attrib LPC Overall Standard Deviation5    0.4003995970484432
+    Attrib LPC Overall Standard Deviation6    0.5404939760484818
+    Attrib LPC Overall Standard Deviation7    0.6383052767747881
+    Attrib LPC Overall Standard Deviation8    0.11684737674810079
+    Attrib LPC Overall Standard Deviation9    -0.010824972027645006
+    Attrib Spectral Centroid Overall Average0    -0.15724356756770125
+    Attrib Spectral Rolloff Point Overall Average0    -0.0765539487317354
+    Attrib Spectral Flux Overall Average0    -0.026917360620375697
+    Attrib Compactness Overall Average0    0.8788538413236506
+    Attrib Spectral Variability Overall Average0    -0.026533795971120648
+    Attrib Root Mean Square Overall Average0    -0.10924921646329479
+    Attrib Fraction Of Low Energy Windows Overall Average0    -0.29468659018677484
+    Attrib Zero Crossings Overall Average0    -0.16354610697252173
+    Attrib Strongest Beat Overall Average0    0.4372928491058105
+    Attrib Beat Sum Overall Average0    -0.07231158708723451
+    Attrib Strength Of Strongest Beat Overall Average0    0.16800695513102556
+    Attrib MFCC Overall Average0    -0.2663681575247611
+    Attrib MFCC Overall Average1    0.3991411173905878
+    Attrib MFCC Overall Average2    0.40671905253828
+    Attrib MFCC Overall Average3    0.7147408893370673
+    Attrib MFCC Overall Average4    -0.1442403640827483
+    Attrib MFCC Overall Average5    -0.015567484768902757
+    Attrib MFCC Overall Average6    -0.8413077609767583
+    Attrib MFCC Overall Average7    -0.19372663205116064
+    Attrib MFCC Overall Average8    0.5980585549015657
+    Attrib MFCC Overall Average9    -0.569857029931035
+    Attrib MFCC Overall Average10    -0.3246455436209775
+    Attrib MFCC Overall Average11    0.06563685175663435
+    Attrib MFCC Overall Average12    -0.3598242613691091
+    Attrib LPC Overall Average0    0.014305808579004708
+    Attrib LPC Overall Average1    0.32844842140260533
+    Attrib LPC Overall Average2    -0.13548744795186357
+    Attrib LPC Overall Average3    -0.36259384267569605
+    Attrib LPC Overall Average4    -0.5510486928605689
+    Attrib LPC Overall Average5    -0.46251403701003974
+    Attrib LPC Overall Average6    -0.5347830144449537
+    Attrib LPC Overall Average7    0.35688580250365753
+    Attrib LPC Overall Average8    -0.5025737339590539
+    Attrib LPC Overall Average9    -0.03504653307268627
+Sigmoid Node 31
+    Inputs    Weights
+    Threshold    0.12543756653548582
+    Attrib Spectral Centroid Overall Standard Deviation0    0.09888825350561095
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.12805962732122925
+    Attrib Spectral Flux Overall Standard Deviation0    0.22509404132626834
+    Attrib Compactness Overall Standard Deviation0    0.028419206698659275
+    Attrib Spectral Variability Overall Standard Deviation0    -0.023632838096645858
+    Attrib Root Mean Square Overall Standard Deviation0    -0.006494208000631537
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    -0.10356253887934472
+    Attrib Zero Crossings Overall Standard Deviation0    0.14437950734188407
+    Attrib Strongest Beat Overall Standard Deviation0    0.29637659160972574
+    Attrib Beat Sum Overall Standard Deviation0    0.13302744479379386
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.2142216957837811
+    Attrib MFCC Overall Standard Deviation0    0.007778161856970121
+    Attrib MFCC Overall Standard Deviation1    -0.20334403167641468
+    Attrib MFCC Overall Standard Deviation2    -0.12921375557978923
+    Attrib MFCC Overall Standard Deviation3    -0.11203937589945112
+    Attrib MFCC Overall Standard Deviation4    -0.08422759026589668
+    Attrib MFCC Overall Standard Deviation5    0.20732435830971968
+    Attrib MFCC Overall Standard Deviation6    0.1671574665991034
+    Attrib MFCC Overall Standard Deviation7    0.18817748616188187
+    Attrib MFCC Overall Standard Deviation8    0.22349107805625293
+    Attrib MFCC Overall Standard Deviation9    0.5174194829175823
+    Attrib MFCC Overall Standard Deviation10    0.27489034020906544
+    Attrib MFCC Overall Standard Deviation11    0.26400653092512927
+    Attrib MFCC Overall Standard Deviation12    0.2731271119146371
+    Attrib LPC Overall Standard Deviation0    0.23384763990001975
+    Attrib LPC Overall Standard Deviation1    0.023994046320338584
+    Attrib LPC Overall Standard Deviation2    0.409755541724462
+    Attrib LPC Overall Standard Deviation3    -0.17981639238319153
+    Attrib LPC Overall Standard Deviation4    -0.045164476420937946
+    Attrib LPC Overall Standard Deviation5    0.02469986948104843
+    Attrib LPC Overall Standard Deviation6    -0.2020525673807228
+    Attrib LPC Overall Standard Deviation7    -0.29756293594136346
+    Attrib LPC Overall Standard Deviation8    -0.07326666476636981
+    Attrib LPC Overall Standard Deviation9    0.04697015286403798
+    Attrib Spectral Centroid Overall Average0    0.19789110811552157
+    Attrib Spectral Rolloff Point Overall Average0    0.018867605307851185
+    Attrib Spectral Flux Overall Average0    0.02131049616195902
+    Attrib Compactness Overall Average0    -0.21625944310830889
+    Attrib Spectral Variability Overall Average0    6.374433465575376E-4
+    Attrib Root Mean Square Overall Average0    -0.055500301347542906
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.7845807775388968
+    Attrib Zero Crossings Overall Average0    0.15332302709129741
+    Attrib Strongest Beat Overall Average0    -0.07905653444532255
+    Attrib Beat Sum Overall Average0    -0.0035694300667490396
+    Attrib Strength Of Strongest Beat Overall Average0    -0.2054535835416578
+    Attrib MFCC Overall Average0    -0.02206915526270497
+    Attrib MFCC Overall Average1    -0.26694975852421016
+    Attrib MFCC Overall Average2    -0.8571070244010274
+    Attrib MFCC Overall Average3    -0.5719848754235782
+    Attrib MFCC Overall Average4    -0.028635865415551773
+    Attrib MFCC Overall Average5    -0.10431838936105536
+    Attrib MFCC Overall Average6    0.05277392652051597
+    Attrib MFCC Overall Average7    -0.02387516257439009
+    Attrib MFCC Overall Average8    0.04019299974409643
+    Attrib MFCC Overall Average9    0.32987495773219927
+    Attrib MFCC Overall Average10    0.034480929410692314
+    Attrib MFCC Overall Average11    -0.32564201422007444
+    Attrib MFCC Overall Average12    0.0746331481010971
+    Attrib LPC Overall Average0    0.13407365911619032
+    Attrib LPC Overall Average1    -0.1778438480920681
+    Attrib LPC Overall Average2    0.5048639015366818
+    Attrib LPC Overall Average3    0.13946803451066878
+    Attrib LPC Overall Average4    0.5605920470561274
+    Attrib LPC Overall Average5    0.3364814713899277
+    Attrib LPC Overall Average6    0.03958958891704065
+    Attrib LPC Overall Average7    -0.08503613187103912
+    Attrib LPC Overall Average8    -0.37199146158065366
+    Attrib LPC Overall Average9    0.04904309873698935
+Sigmoid Node 32
+    Inputs    Weights
+    Threshold    0.07046130125997159
+    Attrib Spectral Centroid Overall Standard Deviation0    0.2921069795114767
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.15399358461538068
+    Attrib Spectral Flux Overall Standard Deviation0    0.2224450069058743
+    Attrib Compactness Overall Standard Deviation0    0.053481523936996
+    Attrib Spectral Variability Overall Standard Deviation0    0.14596560956912175
+    Attrib Root Mean Square Overall Standard Deviation0    0.07182280232741825
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    -0.3807879320937928
+    Attrib Zero Crossings Overall Standard Deviation0    0.2843266863989501
+    Attrib Strongest Beat Overall Standard Deviation0    0.5227057227793298
+    Attrib Beat Sum Overall Standard Deviation0    0.18493985451914102
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.07459098524075124
+    Attrib MFCC Overall Standard Deviation0    0.10471604964976787
+    Attrib MFCC Overall Standard Deviation1    -0.17839629032512286
+    Attrib MFCC Overall Standard Deviation2    0.059841806997258676
+    Attrib MFCC Overall Standard Deviation3    0.011857823605158815
+    Attrib MFCC Overall Standard Deviation4    -0.10805055534814859
+    Attrib MFCC Overall Standard Deviation5    0.22877943825680583
+    Attrib MFCC Overall Standard Deviation6    -0.0026411862941437404
+    Attrib MFCC Overall Standard Deviation7    0.0813391155793987
+    Attrib MFCC Overall Standard Deviation8    0.5015517093746699
+    Attrib MFCC Overall Standard Deviation9    0.39872149186632644
+    Attrib MFCC Overall Standard Deviation10    0.39427055810083994
+    Attrib MFCC Overall Standard Deviation11    0.2876323851147094
+    Attrib MFCC Overall Standard Deviation12    0.2962590085922163
+    Attrib LPC Overall Standard Deviation0    0.3944253068600557
+    Attrib LPC Overall Standard Deviation1    0.014929103148032571
+    Attrib LPC Overall Standard Deviation2    0.026613332763266825
+    Attrib LPC Overall Standard Deviation3    -0.4838674283692923
+    Attrib LPC Overall Standard Deviation4    -0.04413954170384926
+    Attrib LPC Overall Standard Deviation5    -0.2905720575713942
+    Attrib LPC Overall Standard Deviation6    -0.2799687486574964
+    Attrib LPC Overall Standard Deviation7    -0.25392301920731686
+    Attrib LPC Overall Standard Deviation8    -0.30362590671281814
+    Attrib LPC Overall Standard Deviation9    -0.04075081594721656
+    Attrib Spectral Centroid Overall Average0    0.23799612169656023
+    Attrib Spectral Rolloff Point Overall Average0    0.0596488721827793
+    Attrib Spectral Flux Overall Average0    3.527322389233315E-4
+    Attrib Compactness Overall Average0    -0.17173372620210928
+    Attrib Spectral Variability Overall Average0    0.035993867268683
+    Attrib Root Mean Square Overall Average0    0.10073552094718144
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.8170473005721528
+    Attrib Zero Crossings Overall Average0    0.22800994346642164
+    Attrib Strongest Beat Overall Average0    -0.21406432497901484
+    Attrib Beat Sum Overall Average0    0.09336337845042375
+    Attrib Strength Of Strongest Beat Overall Average0    -0.0533633785664508
+    Attrib MFCC Overall Average0    0.04810828640966897
+    Attrib MFCC Overall Average1    -0.51659801815917
+    Attrib MFCC Overall Average2    -0.809054540224426
+    Attrib MFCC Overall Average3    -0.7909264882591257
+    Attrib MFCC Overall Average4    -0.1635173201294573
+    Attrib MFCC Overall Average5    -0.06892261647992538
+    Attrib MFCC Overall Average6    0.2945172771962163
+    Attrib MFCC Overall Average7    0.20532245370405783
+    Attrib MFCC Overall Average8    0.11565426447618204
+    Attrib MFCC Overall Average9    0.40205891685619394
+    Attrib MFCC Overall Average10    0.21826990819013692
+    Attrib MFCC Overall Average11    -0.2478535908245606
+    Attrib MFCC Overall Average12    0.07190033697710276
+    Attrib LPC Overall Average0    0.23555821111861783
+    Attrib LPC Overall Average1    -0.12940237365050883
+    Attrib LPC Overall Average2    0.4992128548152869
+    Attrib LPC Overall Average3    0.3293155430788328
+    Attrib LPC Overall Average4    0.4766334810778727
+    Attrib LPC Overall Average5    0.4055786234952877
+    Attrib LPC Overall Average6    0.26799155026119137
+    Attrib LPC Overall Average7    0.09277045209557103
+    Attrib LPC Overall Average8    -0.06767118194312036
+    Attrib LPC Overall Average9    0.015433136417836668
+Sigmoid Node 33
+    Inputs    Weights
+    Threshold    -0.24053035369594442
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.08101476633189486
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    -0.21610683419312735
+    Attrib Spectral Flux Overall Standard Deviation0    0.03550453548954484
+    Attrib Compactness Overall Standard Deviation0    -0.0010690503344592773
+    Attrib Spectral Variability Overall Standard Deviation0    -0.1968170707465564
+    Attrib Root Mean Square Overall Standard Deviation0    -0.07202100715236809
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.6815224492394195
+    Attrib Zero Crossings Overall Standard Deviation0    -0.18542240332826124
+    Attrib Strongest Beat Overall Standard Deviation0    -0.4696856126136599
+    Attrib Beat Sum Overall Standard Deviation0    0.21172562428022573
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    0.04618427581869705
+    Attrib MFCC Overall Standard Deviation0    0.08648459087560044
+    Attrib MFCC Overall Standard Deviation1    0.10261735924398378
+    Attrib MFCC Overall Standard Deviation2    -0.7680242629382847
+    Attrib MFCC Overall Standard Deviation3    -0.18452400412028674
+    Attrib MFCC Overall Standard Deviation4    0.01162410680166588
+    Attrib MFCC Overall Standard Deviation5    0.08638303100130157
+    Attrib MFCC Overall Standard Deviation6    0.5872800812056937
+    Attrib MFCC Overall Standard Deviation7    0.36514044349081887
+    Attrib MFCC Overall Standard Deviation8    -0.5808577748773968
+    Attrib MFCC Overall Standard Deviation9    0.2083991458529696
+    Attrib MFCC Overall Standard Deviation10    -0.15475478067638193
+    Attrib MFCC Overall Standard Deviation11    0.036930471640829236
+    Attrib MFCC Overall Standard Deviation12    -0.19798976309540517
+    Attrib LPC Overall Standard Deviation0    -0.2834983622737874
+    Attrib LPC Overall Standard Deviation1    0.05970951553441857
+    Attrib LPC Overall Standard Deviation2    0.7118461909297175
+    Attrib LPC Overall Standard Deviation3    0.7677307188703519
+    Attrib LPC Overall Standard Deviation4    0.16917626649206124
+    Attrib LPC Overall Standard Deviation5    0.6342730921021338
+    Attrib LPC Overall Standard Deviation6    0.22463257375155002
+    Attrib LPC Overall Standard Deviation7    0.19083082769420384
+    Attrib LPC Overall Standard Deviation8    0.38353289657164524
+    Attrib LPC Overall Standard Deviation9    -0.034999957133584114
+    Attrib Spectral Centroid Overall Average0    -0.04942121056296283
+    Attrib Spectral Rolloff Point Overall Average0    0.036505555751964444
+    Attrib Spectral Flux Overall Average0    0.05650481898007287
+    Attrib Compactness Overall Average0    0.21023195856848217
+    Attrib Spectral Variability Overall Average0    -0.07147255272211547
+    Attrib Root Mean Square Overall Average0    -0.09830812815929807
+    Attrib Fraction Of Low Energy Windows Overall Average0    -0.18866178309782144
+    Attrib Zero Crossings Overall Average0    0.04579587137378493
+    Attrib Strongest Beat Overall Average0    0.013455376579087552
+    Attrib Beat Sum Overall Average0    -0.03784479674560429
+    Attrib Strength Of Strongest Beat Overall Average0    -0.08593554811120606
+    Attrib MFCC Overall Average0    -0.29039773922270845
+    Attrib MFCC Overall Average1    0.5238735348750738
+    Attrib MFCC Overall Average2    0.039052263300715054
+    Attrib MFCC Overall Average3    0.46490765364207437
+    Attrib MFCC Overall Average4    0.12058173133336827
+    Attrib MFCC Overall Average5    -0.33814616584450313
+    Attrib MFCC Overall Average6    -0.9143982333401186
+    Attrib MFCC Overall Average7    -0.829289554826952
+    Attrib MFCC Overall Average8    -0.04432771211372763
+    Attrib MFCC Overall Average9    -0.5220918337728166
+    Attrib MFCC Overall Average10    -0.5727086688756915
+    Attrib MFCC Overall Average11    -0.06518279997821602
+    Attrib MFCC Overall Average12    -0.1259456057596996
+    Attrib LPC Overall Average0    0.07042112436677242
+    Attrib LPC Overall Average1    -0.17351253710855447
+    Attrib LPC Overall Average2    -0.046848091544455184
+    Attrib LPC Overall Average3    -0.4552474291838502
+    Attrib LPC Overall Average4    -0.15877199384982493
+    Attrib LPC Overall Average5    -0.2448184843922145
+    Attrib LPC Overall Average6    -0.3823693417396054
+    Attrib LPC Overall Average7    -0.2584777661483854
+    Attrib LPC Overall Average8    -0.5369611751827601
+    Attrib LPC Overall Average9    0.02687331264183994
+Sigmoid Node 34
+    Inputs    Weights
+    Threshold    0.025127768483713297
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.022997741999039232
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.15112371157945054
+    Attrib Spectral Flux Overall Standard Deviation0    -0.020810214357397643
+    Attrib Compactness Overall Standard Deviation0    0.008111988933665618
+    Attrib Spectral Variability Overall Standard Deviation0    -0.043711501834046
+    Attrib Root Mean Square Overall Standard Deviation0    -0.03559865275608674
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.1227810880381717
+    Attrib Zero Crossings Overall Standard Deviation0    0.056490994465453734
+    Attrib Strongest Beat Overall Standard Deviation0    0.09446197994130594
+    Attrib Beat Sum Overall Standard Deviation0    -0.009503485019686472
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.3054391424375163
+    Attrib MFCC Overall Standard Deviation0    0.09044819414687512
+    Attrib MFCC Overall Standard Deviation1    -0.22380640686159378
+    Attrib MFCC Overall Standard Deviation2    0.11587471006957985
+    Attrib MFCC Overall Standard Deviation3    -0.005906174998206964
+    Attrib MFCC Overall Standard Deviation4    0.1760883054007202
+    Attrib MFCC Overall Standard Deviation5    0.10286116667029499
+    Attrib MFCC Overall Standard Deviation6    0.04657584716202439
+    Attrib MFCC Overall Standard Deviation7    0.08624337151142278
+    Attrib MFCC Overall Standard Deviation8    -0.05188910105123226
+    Attrib MFCC Overall Standard Deviation9    0.33711877550421926
+    Attrib MFCC Overall Standard Deviation10    0.05149795159027191
+    Attrib MFCC Overall Standard Deviation11    0.15014302121851703
+    Attrib MFCC Overall Standard Deviation12    0.14220527215062748
+    Attrib LPC Overall Standard Deviation0    0.02166994384208398
+    Attrib LPC Overall Standard Deviation1    -0.12686652405843551
+    Attrib LPC Overall Standard Deviation2    0.3112579385424814
+    Attrib LPC Overall Standard Deviation3    -0.03206157617538315
+    Attrib LPC Overall Standard Deviation4    0.06585766076133101
+    Attrib LPC Overall Standard Deviation5    0.2972896828450397
+    Attrib LPC Overall Standard Deviation6    -0.05619076257884996
+    Attrib LPC Overall Standard Deviation7    -0.24145049601284393
+    Attrib LPC Overall Standard Deviation8    0.12399298679528704
+    Attrib LPC Overall Standard Deviation9    0.03785238493730092
+    Attrib Spectral Centroid Overall Average0    -0.13094737489759062
+    Attrib Spectral Rolloff Point Overall Average0    -0.1558799915365125
+    Attrib Spectral Flux Overall Average0    -0.10285391318559163
+    Attrib Compactness Overall Average0    -0.35230410696598624
+    Attrib Spectral Variability Overall Average0    0.06361859929436489
+    Attrib Root Mean Square Overall Average0    0.030528085315696295
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.23289230842020156
+    Attrib Zero Crossings Overall Average0    -0.08429513597977807
+    Attrib Strongest Beat Overall Average0    0.0013045426835609987
+    Attrib Beat Sum Overall Average0    -0.05091577749558246
+    Attrib Strength Of Strongest Beat Overall Average0    -0.32418872638168417
+    Attrib MFCC Overall Average0    0.024651371587453095
+    Attrib MFCC Overall Average1    0.10404585502831845
+    Attrib MFCC Overall Average2    -0.34280653506696523
+    Attrib MFCC Overall Average3    -0.20158130620102616
+    Attrib MFCC Overall Average4    0.21220468095102207
+    Attrib MFCC Overall Average5    0.024456592381890217
+    Attrib MFCC Overall Average6    0.1687900230985275
+    Attrib MFCC Overall Average7    -0.2429995868645427
+    Attrib MFCC Overall Average8    -0.41482066901217357
+    Attrib MFCC Overall Average9    0.12733518890186332
+    Attrib MFCC Overall Average10    -0.06964417706423426
+    Attrib MFCC Overall Average11    -0.21525976134245553
+    Attrib MFCC Overall Average12    0.2170984402277285
+    Attrib LPC Overall Average0    -0.057838574686963434
+    Attrib LPC Overall Average1    -0.1952058869399066
+    Attrib LPC Overall Average2    0.2516724429951807
+    Attrib LPC Overall Average3    0.1273722247140439
+    Attrib LPC Overall Average4    0.279609476031141
+    Attrib LPC Overall Average5    0.16233480020546576
+    Attrib LPC Overall Average6    0.0668141063151056
+    Attrib LPC Overall Average7    -0.33807656525257695
+    Attrib LPC Overall Average8    -0.21906917886753294
+    Attrib LPC Overall Average9    -0.018713109370800708
+Sigmoid Node 35
+    Inputs    Weights
+    Threshold    -0.5242048258005977
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.09974131097974084
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.5621607486205361
+    Attrib Spectral Flux Overall Standard Deviation0    -0.6730975803107865
+    Attrib Compactness Overall Standard Deviation0    0.9068947415402643
+    Attrib Spectral Variability Overall Standard Deviation0    -0.22449063941927183
+    Attrib Root Mean Square Overall Standard Deviation0    -0.32172116685785246
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    -0.21185432570565738
+    Attrib Zero Crossings Overall Standard Deviation0    -0.08034582323798103
+    Attrib Strongest Beat Overall Standard Deviation0    -0.5284148234079156
+    Attrib Beat Sum Overall Standard Deviation0    0.7554038531313335
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    1.162345834416997
+    Attrib MFCC Overall Standard Deviation0    0.3498536663770484
+    Attrib MFCC Overall Standard Deviation1    1.595788240833755
+    Attrib MFCC Overall Standard Deviation2    1.0912424233597322
+    Attrib MFCC Overall Standard Deviation3    -0.12251620181004383
+    Attrib MFCC Overall Standard Deviation4    -0.5756674375240691
+    Attrib MFCC Overall Standard Deviation5    -0.44312479635246194
+    Attrib MFCC Overall Standard Deviation6    -0.28087282966770966
+    Attrib MFCC Overall Standard Deviation7    -0.5116965659708056
+    Attrib MFCC Overall Standard Deviation8    -0.2770074633933907
+    Attrib MFCC Overall Standard Deviation9    -0.9803917131168755
+    Attrib MFCC Overall Standard Deviation10    -0.2190664576317
+    Attrib MFCC Overall Standard Deviation11    -0.7000751812802205
+    Attrib MFCC Overall Standard Deviation12    -0.5462403305752452
+    Attrib LPC Overall Standard Deviation0    -0.08962965714695749
+    Attrib LPC Overall Standard Deviation1    -0.39801853928311726
+    Attrib LPC Overall Standard Deviation2    -0.0985961218780398
+    Attrib LPC Overall Standard Deviation3    -0.30072950351498934
+    Attrib LPC Overall Standard Deviation4    -0.3197022254325444
+    Attrib LPC Overall Standard Deviation5    -0.2536304342691222
+    Attrib LPC Overall Standard Deviation6    -0.13079456551655358
+    Attrib LPC Overall Standard Deviation7    -0.3318297004197901
+    Attrib LPC Overall Standard Deviation8    -0.2597619915014411
+    Attrib LPC Overall Standard Deviation9    0.03549466449323872
+    Attrib Spectral Centroid Overall Average0    -0.20029793584873304
+    Attrib Spectral Rolloff Point Overall Average0    -0.1954144308658689
+    Attrib Spectral Flux Overall Average0    0.5952073803820547
+    Attrib Compactness Overall Average0    -1.6631014874346988
+    Attrib Spectral Variability Overall Average0    0.2255659934616183
+    Attrib Root Mean Square Overall Average0    0.19531743190967665
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.223297045553476
+    Attrib Zero Crossings Overall Average0    -0.24028495401429553
+    Attrib Strongest Beat Overall Average0    -0.6591426245610631
+    Attrib Beat Sum Overall Average0    0.41422465503884587
+    Attrib Strength Of Strongest Beat Overall Average0    0.8126510189279196
+    Attrib MFCC Overall Average0    -0.5172282701966113
+    Attrib MFCC Overall Average1    0.537524815019721
+    Attrib MFCC Overall Average2    0.7910737066489796
+    Attrib MFCC Overall Average3    0.49027880547577285
+    Attrib MFCC Overall Average4    0.8873978147214503
+    Attrib MFCC Overall Average5    -0.11158803446106327
+    Attrib MFCC Overall Average6    0.05372180980175949
+    Attrib MFCC Overall Average7    0.11986875723733671
+    Attrib MFCC Overall Average8    0.7227863838176244
+    Attrib MFCC Overall Average9    0.8898524921543507
+    Attrib MFCC Overall Average10    1.0103251662486907
+    Attrib MFCC Overall Average11    1.2172281301965377
+    Attrib MFCC Overall Average12    0.3250190725434406
+    Attrib LPC Overall Average0    -0.012999106650284298
+    Attrib LPC Overall Average1    0.14572346592462176
+    Attrib LPC Overall Average2    -1.0375002056622256
+    Attrib LPC Overall Average3    0.342220404666219
+    Attrib LPC Overall Average4    0.3791523238339184
+    Attrib LPC Overall Average5    0.28619086498458035
+    Attrib LPC Overall Average6    0.19915200275414502
+    Attrib LPC Overall Average7    0.4826570820823167
+    Attrib LPC Overall Average8    0.021365691812147633
+    Attrib LPC Overall Average9    -0.009848346674931521
+Sigmoid Node 36
+    Inputs    Weights
+    Threshold    -0.19249537681965476
+    Attrib Spectral Centroid Overall Standard Deviation0    0.17576487808109326
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    1.155627541902933
+    Attrib Spectral Flux Overall Standard Deviation0    0.16387597702085888
+    Attrib Compactness Overall Standard Deviation0    0.2301135556041441
+    Attrib Spectral Variability Overall Standard Deviation0    0.5314195334722718
+    Attrib Root Mean Square Overall Standard Deviation0    0.47876603299806003
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.06437252666025269
+    Attrib Zero Crossings Overall Standard Deviation0    0.2727995166716199
+    Attrib Strongest Beat Overall Standard Deviation0    0.2101357699040347
+    Attrib Beat Sum Overall Standard Deviation0    -0.048880840454115615
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    -0.5474645325035145
+    Attrib MFCC Overall Standard Deviation0    0.45116846097966046
+    Attrib MFCC Overall Standard Deviation1    -0.1800782891730743
+    Attrib MFCC Overall Standard Deviation2    1.1757444595091084
+    Attrib MFCC Overall Standard Deviation3    0.2323608680514448
+    Attrib MFCC Overall Standard Deviation4    0.9043987433211923
+    Attrib MFCC Overall Standard Deviation5    0.27260281305957984
+    Attrib MFCC Overall Standard Deviation6    -0.21079881476800252
+    Attrib MFCC Overall Standard Deviation7    -0.050298861096542954
+    Attrib MFCC Overall Standard Deviation8    0.13841866592424937
+    Attrib MFCC Overall Standard Deviation9    0.17373685960961652
+    Attrib MFCC Overall Standard Deviation10    -0.35442213561357666
+    Attrib MFCC Overall Standard Deviation11    0.2947403102974103
+    Attrib MFCC Overall Standard Deviation12    0.18077466217157623
+    Attrib LPC Overall Standard Deviation0    0.36634628010595055
+    Attrib LPC Overall Standard Deviation1    -0.009813337554806525
+    Attrib LPC Overall Standard Deviation2    0.6484704410660334
+    Attrib LPC Overall Standard Deviation3    -0.1043257255943075
+    Attrib LPC Overall Standard Deviation4    0.5061062628820427
+    Attrib LPC Overall Standard Deviation5    0.29279456003826454
+    Attrib LPC Overall Standard Deviation6    0.28088317215319125
+    Attrib LPC Overall Standard Deviation7    -0.033964655530028864
+    Attrib LPC Overall Standard Deviation8    0.29360096795422486
+    Attrib LPC Overall Standard Deviation9    -0.03685421453021596
+    Attrib Spectral Centroid Overall Average0    -0.28551768086233836
+    Attrib Spectral Rolloff Point Overall Average0    -0.13432545288351
+    Attrib Spectral Flux Overall Average0    0.2775872288190061
+    Attrib Compactness Overall Average0    -0.46741483730825484
+    Attrib Spectral Variability Overall Average0    0.4669682226194096
+    Attrib Root Mean Square Overall Average0    0.32629271579164393
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.12470392063325461
+    Attrib Zero Crossings Overall Average0    -0.1631174609174992
+    Attrib Strongest Beat Overall Average0    -1.3256329628161045
+    Attrib Beat Sum Overall Average0    0.37672566566735216
+    Attrib Strength Of Strongest Beat Overall Average0    -0.31776160716815816
+    Attrib MFCC Overall Average0    0.09533902327355873
+    Attrib MFCC Overall Average1    0.5999710440190751
+    Attrib MFCC Overall Average2    0.1199748216860957
+    Attrib MFCC Overall Average3    0.277936872124121
+    Attrib MFCC Overall Average4    0.27365249709570916
+    Attrib MFCC Overall Average5    0.7559643727915338
+    Attrib MFCC Overall Average6    0.7668881946015385
+    Attrib MFCC Overall Average7    0.5036986492954709
+    Attrib MFCC Overall Average8    -0.768167797286994
+    Attrib MFCC Overall Average9    0.3938149979762997
+    Attrib MFCC Overall Average10    0.579593859922082
+    Attrib MFCC Overall Average11    -0.0018046181465762267
+    Attrib MFCC Overall Average12    0.5921011912141229
+    Attrib LPC Overall Average0    -0.2643568138754409
+    Attrib LPC Overall Average1    -0.4059529282295223
+    Attrib LPC Overall Average2    0.2866633036595464
+    Attrib LPC Overall Average3    0.7211804843542444
+    Attrib LPC Overall Average4    -0.07297109008478031
+    Attrib LPC Overall Average5    0.30323151281578253
+    Attrib LPC Overall Average6    -0.020997378376188848
+    Attrib LPC Overall Average7    -0.5037264036181084
+    Attrib LPC Overall Average8    0.579828757174
+    Attrib LPC Overall Average9    -0.019568528556027677
+Sigmoid Node 37
+    Inputs    Weights
+    Threshold    -0.22988382360297197
+    Attrib Spectral Centroid Overall Standard Deviation0    0.06197945592145933
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    -0.04353005214454175
+    Attrib Spectral Flux Overall Standard Deviation0    -0.05817639051143298
+    Attrib Compactness Overall Standard Deviation0    0.17670018540031612
+    Attrib Spectral Variability Overall Standard Deviation0    0.1972702148288386
+    Attrib Root Mean Square Overall Standard Deviation0    0.2099362776487567
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    -0.04437747365687278
+    Attrib Zero Crossings Overall Standard Deviation0    -0.003253495629332429
+    Attrib Strongest Beat Overall Standard Deviation0    -0.5743709234204081
+    Attrib Beat Sum Overall Standard Deviation0    0.0786776431194115
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    0.5930093049540787
+    Attrib MFCC Overall Standard Deviation0    -0.007544683999117847
+    Attrib MFCC Overall Standard Deviation1    0.5233765285337596
+    Attrib MFCC Overall Standard Deviation2    0.06066322366091241
+    Attrib MFCC Overall Standard Deviation3    -0.35212041622988555
+    Attrib MFCC Overall Standard Deviation4    -0.38003769405466375
+    Attrib MFCC Overall Standard Deviation5    -0.14725947356283495
+    Attrib MFCC Overall Standard Deviation6    -0.16452150591838663
+    Attrib MFCC Overall Standard Deviation7    -0.24402350952486734
+    Attrib MFCC Overall Standard Deviation8    -0.25279075002575746
+    Attrib MFCC Overall Standard Deviation9    -0.7100939124201314
+    Attrib MFCC Overall Standard Deviation10    -0.09870226658007471
+    Attrib MFCC Overall Standard Deviation11    -0.17224079669565306
+    Attrib MFCC Overall Standard Deviation12    -0.20157822742720247
+    Attrib LPC Overall Standard Deviation0    -0.042076447785242395
+    Attrib LPC Overall Standard Deviation1    0.4409772676689001
+    Attrib LPC Overall Standard Deviation2    -0.2625521939839065
+    Attrib LPC Overall Standard Deviation3    -0.07551144261014422
+    Attrib LPC Overall Standard Deviation4    -0.2153639996558495
+    Attrib LPC Overall Standard Deviation5    -0.27045492082667827
+    Attrib LPC Overall Standard Deviation6    0.17818664779614532
+    Attrib LPC Overall Standard Deviation7    0.41640500159696076
+    Attrib LPC Overall Standard Deviation8    -0.21005108794466024
+    Attrib LPC Overall Standard Deviation9    0.043403376496146936
+    Attrib Spectral Centroid Overall Average0    -0.09086413421972062
+    Attrib Spectral Rolloff Point Overall Average0    -0.06282971595017799
+    Attrib Spectral Flux Overall Average0    0.11632762538387668
+    Attrib Compactness Overall Average0    0.33430179023658707
+    Attrib Spectral Variability Overall Average0    0.03372933988619651
+    Attrib Root Mean Square Overall Average0    0.00327790094977391
+    Attrib Fraction Of Low Energy Windows Overall Average0    -0.17351338830583768
+    Attrib Zero Crossings Overall Average0    -0.1491752192069292
+    Attrib Strongest Beat Overall Average0    0.1728198581560156
+    Attrib Beat Sum Overall Average0    0.08502441310665813
+    Attrib Strength Of Strongest Beat Overall Average0    0.6097724004494941
+    Attrib MFCC Overall Average0    -0.33824086981753915
+    Attrib MFCC Overall Average1    0.31801265711073134
+    Attrib MFCC Overall Average2    0.8196227433542277
+    Attrib MFCC Overall Average3    0.5596269174100637
+    Attrib MFCC Overall Average4    -0.0033157513358570297
+    Attrib MFCC Overall Average5    0.16294253626258343
+    Attrib MFCC Overall Average6    -0.0351246924169293
+    Attrib MFCC Overall Average7    0.5792624325761185
+    Attrib MFCC Overall Average8    0.8526377302450515
+    Attrib MFCC Overall Average9    0.19902895489945388
+    Attrib MFCC Overall Average10    0.44094499861116115
+    Attrib MFCC Overall Average11    0.3387709550210828
+    Attrib MFCC Overall Average12    -0.2341127241464023
+    Attrib LPC Overall Average0    0.01633738067144257
+    Attrib LPC Overall Average1    0.1740486966515736
+    Attrib LPC Overall Average2    -0.3231000855407114
+    Attrib LPC Overall Average3    0.1205792440416972
+    Attrib LPC Overall Average4    -0.5127706507916694
+    Attrib LPC Overall Average5    -0.14795198477782284
+    Attrib LPC Overall Average6    -0.2226857354051538
+    Attrib LPC Overall Average7    0.26240769209764864
+    Attrib LPC Overall Average8    0.27166995967415586
+    Attrib LPC Overall Average9    -0.03090338376823104
+Sigmoid Node 38
+    Inputs    Weights
+    Threshold    -0.10658540824049526
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.03905959600629531
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    -0.07849306356371637
+    Attrib Spectral Flux Overall Standard Deviation0    0.03839289348042556
+    Attrib Compactness Overall Standard Deviation0    0.16508474550775903
+    Attrib Spectral Variability Overall Standard Deviation0    0.12954367177892626
+    Attrib Root Mean Square Overall Standard Deviation0    0.13269243735630745
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    0.033533705357548654
+    Attrib Zero Crossings Overall Standard Deviation0    -0.010780205933257096
+    Attrib Strongest Beat Overall Standard Deviation0    -0.36003396875855537
+    Attrib Beat Sum Overall Standard Deviation0    0.19921750423239923
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    0.4715084408658507
+    Attrib MFCC Overall Standard Deviation0    0.09293382795774872
+    Attrib MFCC Overall Standard Deviation1    0.39679184355567976
+    Attrib MFCC Overall Standard Deviation2    -0.08398784552362142
+    Attrib MFCC Overall Standard Deviation3    -0.2837295191012529
+    Attrib MFCC Overall Standard Deviation4    -0.44142615237307015
+    Attrib MFCC Overall Standard Deviation5    -0.15009379947921106
+    Attrib MFCC Overall Standard Deviation6    -0.058888102713679
+    Attrib MFCC Overall Standard Deviation7    -0.11934339115431764
+    Attrib MFCC Overall Standard Deviation8    -0.18727443416035341
+    Attrib MFCC Overall Standard Deviation9    -0.4855290551063708
+    Attrib MFCC Overall Standard Deviation10    -0.10484471061550195
+    Attrib MFCC Overall Standard Deviation11    -0.07026347485773667
+    Attrib MFCC Overall Standard Deviation12    -0.18481714081942793
+    Attrib LPC Overall Standard Deviation0    -0.0676368012322839
+    Attrib LPC Overall Standard Deviation1    0.22188102497602102
+    Attrib LPC Overall Standard Deviation2    0.02600367337396484
+    Attrib LPC Overall Standard Deviation3    -0.08332750191782504
+    Attrib LPC Overall Standard Deviation4    -0.20133402384157917
+    Attrib LPC Overall Standard Deviation5    -0.2511402587500145
+    Attrib LPC Overall Standard Deviation6    0.025807446781792354
+    Attrib LPC Overall Standard Deviation7    0.06665192678447614
+    Attrib LPC Overall Standard Deviation8    -0.21558037055561527
+    Attrib LPC Overall Standard Deviation9    0.002234788211849671
+    Attrib Spectral Centroid Overall Average0    -0.10372353346573926
+    Attrib Spectral Rolloff Point Overall Average0    -0.1126092729322429
+    Attrib Spectral Flux Overall Average0    0.21120195299354755
+    Attrib Compactness Overall Average0    -0.04761912668247514
+    Attrib Spectral Variability Overall Average0    0.11949238891807638
+    Attrib Root Mean Square Overall Average0    0.052696482024477555
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.15240246881540728
+    Attrib Zero Crossings Overall Average0    -0.18554388149788684
+    Attrib Strongest Beat Overall Average0    -0.005615516621592444
+    Attrib Beat Sum Overall Average0    0.18803461868912605
+    Attrib Strength Of Strongest Beat Overall Average0    0.45195123308108476
+    Attrib MFCC Overall Average0    -0.34911342668416856
+    Attrib MFCC Overall Average1    0.3103889452356236
+    Attrib MFCC Overall Average2    0.2706220000472763
+    Attrib MFCC Overall Average3    0.15750473947027976
+    Attrib MFCC Overall Average4    0.02148941429076491
+    Attrib MFCC Overall Average5    -0.10719787063128046
+    Attrib MFCC Overall Average6    -0.16664844200052512
+    Attrib MFCC Overall Average7    0.1809739791834321
+    Attrib MFCC Overall Average8    0.5893245089052522
+    Attrib MFCC Overall Average9    0.12656860652033622
+    Attrib MFCC Overall Average10    0.18086097840649124
+    Attrib MFCC Overall Average11    0.2242108057803142
+    Attrib MFCC Overall Average12    -0.08948185270821
+    Attrib LPC Overall Average0    0.0358041640448631
+    Attrib LPC Overall Average1    0.0900486706860724
+    Attrib LPC Overall Average2    -0.20657887505973158
+    Attrib LPC Overall Average3    0.0024909698717698976
+    Attrib LPC Overall Average4    -0.00837255567911281
+    Attrib LPC Overall Average5    0.061696554399507324
+    Attrib LPC Overall Average6    -0.07608007919816126
+    Attrib LPC Overall Average7    0.2883707057672575
+    Attrib LPC Overall Average8    -0.0918560767524855
+    Attrib LPC Overall Average9    0.04345937258172283
+Sigmoid Node 39
+    Inputs    Weights
+    Threshold    0.11527008837142824
+    Attrib Spectral Centroid Overall Standard Deviation0    -0.029764540223513665
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    0.20930695010403996
+    Attrib Spectral Flux Overall Standard Deviation0    -0.14519507370112694
+    Attrib Compactness Overall Standard Deviation0    0.13737284875125796
+    Attrib Spectral Variability Overall Standard Deviation0    -0.004618880813904476
+    Attrib Root Mean Square Overall Standard Deviation0    -0.05850330991018352
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    -0.3039886822623808
+    Attrib Zero Crossings Overall Standard Deviation0    0.09383099632353864
+    Attrib Strongest Beat Overall Standard Deviation0    0.21199182694654334
+    Attrib Beat Sum Overall Standard Deviation0    0.2931891842592546
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    0.33772202013234087
+    Attrib MFCC Overall Standard Deviation0    -0.06303135907602861
+    Attrib MFCC Overall Standard Deviation1    0.38887543689320686
+    Attrib MFCC Overall Standard Deviation2    0.3531665297100056
+    Attrib MFCC Overall Standard Deviation3    -0.028546173335784433
+    Attrib MFCC Overall Standard Deviation4    -0.18674705227464392
+    Attrib MFCC Overall Standard Deviation5    0.08886506792549431
+    Attrib MFCC Overall Standard Deviation6    -0.04439851327210112
+    Attrib MFCC Overall Standard Deviation7    -0.14998088957780345
+    Attrib MFCC Overall Standard Deviation8    0.4163357215928182
+    Attrib MFCC Overall Standard Deviation9    0.0593628601685496
+    Attrib MFCC Overall Standard Deviation10    0.37447661673410093
+    Attrib MFCC Overall Standard Deviation11    0.04977076746787161
+    Attrib MFCC Overall Standard Deviation12    0.2258856043611726
+    Attrib LPC Overall Standard Deviation0    0.08555589542566601
+    Attrib LPC Overall Standard Deviation1    0.02150103145754792
+    Attrib LPC Overall Standard Deviation2    -0.15910045007199153
+    Attrib LPC Overall Standard Deviation3    -0.5204035545769592
+    Attrib LPC Overall Standard Deviation4    -0.21779939086661168
+    Attrib LPC Overall Standard Deviation5    -0.31464396834874453
+    Attrib LPC Overall Standard Deviation6    -0.23866411939001586
+    Attrib LPC Overall Standard Deviation7    -0.36734760926536697
+    Attrib LPC Overall Standard Deviation8    -0.22784547795778143
+    Attrib LPC Overall Standard Deviation9    0.0035864177053827745
+    Attrib Spectral Centroid Overall Average0    0.023985095526541156
+    Attrib Spectral Rolloff Point Overall Average0    -0.17064782739566603
+    Attrib Spectral Flux Overall Average0    -0.006597417858259313
+    Attrib Compactness Overall Average0    -0.5320358073495703
+    Attrib Spectral Variability Overall Average0    0.040233183278585855
+    Attrib Root Mean Square Overall Average0    0.056779901309063095
+    Attrib Fraction Of Low Energy Windows Overall Average0    0.6460980351251188
+    Attrib Zero Crossings Overall Average0    -0.0798834071875856
+    Attrib Strongest Beat Overall Average0    0.0354358988754699
+    Attrib Beat Sum Overall Average0    0.011526820928787101
+    Attrib Strength Of Strongest Beat Overall Average0    0.26003043493299155
+    Attrib MFCC Overall Average0    -0.18713784670519262
+    Attrib MFCC Overall Average1    -0.24744081650602462
+    Attrib MFCC Overall Average2    -0.4468444531602636
+    Attrib MFCC Overall Average3    -0.6128679321567532
+    Attrib MFCC Overall Average4    0.10470583767510235
+    Attrib MFCC Overall Average5    -0.231532173445665
+    Attrib MFCC Overall Average6    0.2996140220720318
+    Attrib MFCC Overall Average7    0.4006698007500959
+    Attrib MFCC Overall Average8    0.4704924370057479
+    Attrib MFCC Overall Average9    0.6206007840716123
+    Attrib MFCC Overall Average10    0.4791267538033155
+    Attrib MFCC Overall Average11    0.04176484727475662
+    Attrib MFCC Overall Average12    0.14796853100506618
+    Attrib LPC Overall Average0    0.010487781746588829
+    Attrib LPC Overall Average1    0.11058287417410359
+    Attrib LPC Overall Average2    0.11135001621209933
+    Attrib LPC Overall Average3    0.3871499845117046
+    Attrib LPC Overall Average4    0.6669438058732784
+    Attrib LPC Overall Average5    0.37649579883657414
+    Attrib LPC Overall Average6    0.2074439809993714
+    Attrib LPC Overall Average7    0.36881353192962285
+    Attrib LPC Overall Average8    -0.02636022656591208
+    Attrib LPC Overall Average9    -0.023106119282116512
+Sigmoid Node 40
+    Inputs    Weights
+    Threshold    0.05249095670483972
+    Attrib Spectral Centroid Overall Standard Deviation0    0.238844624661636
+    Attrib Spectral Rolloff Point Overall Standard Deviation0    -0.32209338661274695
+    Attrib Spectral Flux Overall Standard Deviation0    0.3042293869404168
+    Attrib Compactness Overall Standard Deviation0    -0.09584599586712453
+    Attrib Spectral Variability Overall Standard Deviation0    0.4238900354059211
+    Attrib Root Mean Square Overall Standard Deviation0    0.34659913483169213
+    Attrib Fraction Of Low Energy Windows Overall Standard Deviation0    -0.3943725974879626
+    Attrib Zero Crossings Overall Standard Deviation0    0.20700262167773717
+    Attrib Strongest Beat Overall Standard Deviation0    0.23916304451352183
+    Attrib Beat Sum Overall Standard Deviation0    -0.3621183190906392
+    Attrib Strength Of Strongest Beat Overall Standard Deviation0    0.17971356574604008
+    Attrib MFCC Overall Standard Deviation0    -0.02440316678745994
+    Attrib MFCC Overall Standard Deviation1    -0.36047007895870053
+    Attrib MFCC Overall Standard Deviation2    -0.1981174541229743
+    Attrib MFCC Overall Standard Deviation3    -0.11614331494529866
+    Attrib MFCC Overall Standard Deviation4    -0.19890065751086217
+    Attrib MFCC Overall Standard Deviation5    0.10055035196779198
+    Attrib MFCC Overall Standard Deviation6    -0.48227120706435
+    Attrib MFCC Overall Standard Deviation7    -0.08153360092078632
+    Attrib MFCC Overall Standard Deviation8    0.5718564729994647
+    Attrib MFCC Overall Standard Deviation9    -0.26769534203632167
+    Attrib MFCC Overall Standard Deviation10    0.2919216771921329
+    Attrib MFCC Overall Standard Deviation11    0.27217001393636986
+    Attrib MFCC Overall Standard Deviation12    0.31029538734724865
+    Attrib LPC Overall Standard Deviation0    0.24148189956529403
+    Attrib LPC Overall Standard Deviation1    0.4409099154905276
+    Attrib LPC Overall Standard Deviation2    -0.8763099011130039
+    Attrib LPC Overall Standard Deviation3    -0.40399255727718875
+    Attrib LPC Overall Standard Deviation4    -0.18183072080197443
+    Attrib LPC Overall Standard Deviation5    -0.6424814471343525
+    Attrib LPC Overall Standard Deviation6    0.37293790515680886
+    Attrib LPC Overall Standard Deviation7    0.7348261650710318
+    Attrib LPC Overall Standard Deviation8    -0.4063416623138347
+    Attrib LPC Overall Standard Deviation9    -0.004682715406935947
+    Attrib Spectral Centroid Overall Average0    0.22878209423057105
+    Attrib Spectral Rolloff Point Overall Average0    0.15068033824041288
+    Attrib Spectral Flux Overall Average0    -0.2573212696292144
+    Attrib Compactness Overall Average0    1.3017195617753008
+    Attrib Spectral Variability Overall Average0    0.01595873476628127
+    Attrib Root Mean Square Overall Average0    0.035974192116190254
+    Attrib Fraction Of Low Energy Windows Overall Average0    -0.1560161187371297
+    Attrib Zero Crossings Overall Average0    0.10749354020053577
+    Attrib Strongest Beat Overall Average0    0.16245407226955547
+    Attrib Beat Sum Overall Average0    -0.05746275153723016
+    Attrib Strength Of Strongest Beat Overall Average0    0.40667417699459024
+    Attrib MFCC Overall Average0    0.12574448021164575
+    Attrib MFCC Overall Average1    -0.5900828472296583
+    Attrib MFCC Overall Average2    0.30301227297061856
+    Attrib MFCC Overall Average3    -0.09484868836050916
+    Attrib MFCC Overall Average4    -0.744439648833231
+    Attrib MFCC Overall Average5    0.43764655695164784
+    Attrib MFCC Overall Average6    0.5036835671948443
+    Attrib MFCC Overall Average7    1.140928414472987
+    Attrib MFCC Overall Average8    0.6884411742989157
+    Attrib MFCC Overall Average9    -0.09948747314189081
+    Attrib MFCC Overall Average10    0.3177178561627709
+    Attrib MFCC Overall Average11    -0.01870710249303715
+    Attrib MFCC Overall Average12    -0.33788930327807976
+    Attrib LPC Overall Average0    0.19645065987816707
+    Attrib LPC Overall Average1    0.39258434049479335
+    Attrib LPC Overall Average2    -0.05479701498300315
+    Attrib LPC Overall Average3    0.4473098046091104
+    Attrib LPC Overall Average4    -0.5823644432204237
+    Attrib LPC Overall Average5    -0.18636856516648426
+    Attrib LPC Overall Average6    -0.11056408271977765
+    Attrib LPC Overall Average7    0.5232173301281978
+    Attrib LPC Overall Average8    0.5973370364940302
+    Attrib LPC Overall Average9    -0.028561013420510862
+Class CavaloMarinho
+    Input
+    Node 0
+Class Coco
+    Input
+    Node 1
+Class Ciranda
+    Input
+    Node 2
+Class MaracatuSolto
+    Input
+    Node 3
+Class MaracatuVirado
+    Input
+    Node 4
+
+
+Time taken to build model: 1.56 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          43               57.3333 %
+Incorrectly Classified Instances        32               42.6667 %
+Kappa statistic                          0.4667
+Mean absolute error                      0.1768
+Root mean squared error                  0.3629
+Relative absolute error                 55.2643 %
+Root relative squared error             90.7265 %
+Total Number of Instances               75     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.533     0.033      0.8       0.533     0.64       0.894    CavaloMarinho
+                 0.333     0.167      0.333     0.333     0.333      0.634    Coco
+                 0.533     0.133      0.5       0.533     0.516      0.811    Ciranda
+                 0.8       0.1        0.667     0.8       0.727      0.924    MaracatuSolto
+                 0.667     0.1        0.625     0.667     0.645      0.874    MaracatuVirado
+Weighted Avg.    0.573     0.107      0.585     0.573     0.572      0.828
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+  8  3  1  3  0 |  a = CavaloMarinho
+  0  5  5  2  3 |  b = Coco
+  2  1  8  1  3 |  c = Ciranda
+  0  2  1 12  0 |  d = MaracatuSolto
+  0  4  1  0 10 |  e = MaracatuVirado
+

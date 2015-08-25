@@ -1,0 +1,479 @@
+=== Run information ===
+
+Scheme:weka.classifiers.meta.ClassificationViaRegression -W weka.classifiers.trees.M5P -- -M 4.0
+Relation:     jAudio
+Instances:    75
+Attributes:   69
+              Class
+              Spectral Centroid Overall Standard Deviation0
+              Spectral Rolloff Point Overall Standard Deviation0
+              Spectral Flux Overall Standard Deviation0
+              Compactness Overall Standard Deviation0
+              Spectral Variability Overall Standard Deviation0
+              Root Mean Square Overall Standard Deviation0
+              Fraction Of Low Energy Windows Overall Standard Deviation0
+              Zero Crossings Overall Standard Deviation0
+              Strongest Beat Overall Standard Deviation0
+              Beat Sum Overall Standard Deviation0
+              Strength Of Strongest Beat Overall Standard Deviation0
+              MFCC Overall Standard Deviation0
+              MFCC Overall Standard Deviation1
+              MFCC Overall Standard Deviation2
+              MFCC Overall Standard Deviation3
+              MFCC Overall Standard Deviation4
+              MFCC Overall Standard Deviation5
+              MFCC Overall Standard Deviation6
+              MFCC Overall Standard Deviation7
+              MFCC Overall Standard Deviation8
+              MFCC Overall Standard Deviation9
+              MFCC Overall Standard Deviation10
+              MFCC Overall Standard Deviation11
+              MFCC Overall Standard Deviation12
+              LPC Overall Standard Deviation0
+              LPC Overall Standard Deviation1
+              LPC Overall Standard Deviation2
+              LPC Overall Standard Deviation3
+              LPC Overall Standard Deviation4
+              LPC Overall Standard Deviation5
+              LPC Overall Standard Deviation6
+              LPC Overall Standard Deviation7
+              LPC Overall Standard Deviation8
+              LPC Overall Standard Deviation9
+              Spectral Centroid Overall Average0
+              Spectral Rolloff Point Overall Average0
+              Spectral Flux Overall Average0
+              Compactness Overall Average0
+              Spectral Variability Overall Average0
+              Root Mean Square Overall Average0
+              Fraction Of Low Energy Windows Overall Average0
+              Zero Crossings Overall Average0
+              Strongest Beat Overall Average0
+              Beat Sum Overall Average0
+              Strength Of Strongest Beat Overall Average0
+              MFCC Overall Average0
+              MFCC Overall Average1
+              MFCC Overall Average2
+              MFCC Overall Average3
+              MFCC Overall Average4
+              MFCC Overall Average5
+              MFCC Overall Average6
+              MFCC Overall Average7
+              MFCC Overall Average8
+              MFCC Overall Average9
+              MFCC Overall Average10
+              MFCC Overall Average11
+              MFCC Overall Average12
+              LPC Overall Average0
+              LPC Overall Average1
+              LPC Overall Average2
+              LPC Overall Average3
+              LPC Overall Average4
+              LPC Overall Average5
+              LPC Overall Average6
+              LPC Overall Average7
+              LPC Overall Average8
+              LPC Overall Average9
+Test mode:5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Classification via Regression
+
+Classifier for class with index 0:
+
+M5 pruned model tree:
+(using smoothed linear models)
+
+MFCC Overall Average3 <= -2.003 : 
+|   LPC Overall Average2 <= -0.01 : 
+|   |   LPC Overall Average4 <= 0.067 : LM1 (15/0%)
+|   |   LPC Overall Average4 >  0.067 : LM2 (9/99.774%)
+|   LPC Overall Average2 >  -0.01 : LM3 (11/0%)
+MFCC Overall Average3 >  -2.003 : LM4 (40/0%)
+
+LM num: 1
+Class = 
+	0.0062 * Spectral Centroid Overall Standard Deviation0 
+	- 0.0264 * MFCC Overall Average3 
+	- 0.1561 * LPC Overall Average1 
+	+ 0.673 * LPC Overall Average2 
+	+ 0.2892 * LPC Overall Average4 
+	+ 0.1309
+
+LM num: 2
+Class = 
+	0.0131 * Spectral Centroid Overall Standard Deviation0 
+	- 0.0264 * MFCC Overall Average3 
+	- 0.1561 * LPC Overall Average1 
+	+ 0.673 * LPC Overall Average2 
+	+ 0.3615 * LPC Overall Average4 
+	+ 0.0734
+
+LM num: 3
+Class = 
+	0.0027 * Spectral Centroid Overall Standard Deviation0 
+	- 0.0264 * MFCC Overall Average3 
+	- 0.2342 * LPC Overall Average1 
+	+ 0.8966 * LPC Overall Average2 
+	+ 0.562
+
+LM num: 4
+Class = 
+	0.0025 * Spectral Centroid Overall Standard Deviation0 
+	- 0.024 * MFCC Overall Average3 
+	+ 0.2053 * LPC Overall Average2 
+	- 0.0229
+
+Number of Rules : 4
+
+Classifier for class with index 1:
+
+M5 pruned model tree:
+(using smoothed linear models)
+
+MFCC Overall Average3 <= -2.998 : LM1 (22/0%)
+MFCC Overall Average3 >  -2.998 : 
+|   MFCC Overall Standard Deviation2 <= 2.689 : LM2 (18/0%)
+|   MFCC Overall Standard Deviation2 >  2.689 : 
+|   |   MFCC Overall Average1 <= -2.507 : LM3 (8/0%)
+|   |   MFCC Overall Average1 >  -2.507 : 
+|   |   |   Spectral Centroid Overall Average0 <= 43.955 : 
+|   |   |   |   MFCC Overall Average8 <= -0.869 : 
+|   |   |   |   |   Spectral Flux Overall Standard Deviation0 <= 0.002 : 
+|   |   |   |   |   |   MFCC Overall Standard Deviation5 <= 2.193 : LM4 (4/43.53%)
+|   |   |   |   |   |   MFCC Overall Standard Deviation5 >  2.193 : LM5 (5/0%)
+|   |   |   |   |   Spectral Flux Overall Standard Deviation0 >  0.002 : LM6 (5/0%)
+|   |   |   |   MFCC Overall Average8 >  -0.869 : LM7 (6/0%)
+|   |   |   Spectral Centroid Overall Average0 >  43.955 : LM8 (7/0%)
+
+LM num: 1
+Class = 
+	0.0058 * Spectral Centroid Overall Standard Deviation0 
+	+ 0.0529 * MFCC Overall Standard Deviation2 
+	+ 0.008 * MFCC Overall Average1 
+	+ 0.0143 * MFCC Overall Average3 
+	- 0.1804
+
+LM num: 2
+Class = 
+	0.0082 * Spectral Centroid Overall Standard Deviation0 
+	+ 0.0831 * MFCC Overall Standard Deviation2 
+	+ 0.0145 * MFCC Overall Average1 
+	+ 0.0078 * MFCC Overall Average3 
+	- 0.2854
+
+LM num: 3
+Class = 
+	0.0156 * Spectral Centroid Overall Standard Deviation0 
+	+ 27.2647 * Spectral Flux Overall Standard Deviation0 
+	+ 0.0646 * MFCC Overall Standard Deviation2 
+	- 0.1536 * MFCC Overall Standard Deviation5 
+	- 0.0044 * Spectral Centroid Overall Average0 
+	+ 0.011 * MFCC Overall Average1 
+	+ 0.0078 * MFCC Overall Average3 
+	+ 0.2149
+
+LM num: 4
+Class = 
+	-0.0033 * Spectral Centroid Overall Standard Deviation0 
+	+ 22.2089 * Spectral Flux Overall Standard Deviation0 
+	+ 0.0646 * MFCC Overall Standard Deviation2 
+	- 0.2905 * MFCC Overall Standard Deviation5 
+	- 0.0008 * Spectral Centroid Overall Average0 
+	+ 0.011 * MFCC Overall Average1 
+	+ 0.0078 * MFCC Overall Average3 
+	- 0.061 * MFCC Overall Average8 
+	+ 0.7169
+
+LM num: 5
+Class = 
+	-0.0023 * Spectral Centroid Overall Standard Deviation0 
+	+ 22.2089 * Spectral Flux Overall Standard Deviation0 
+	+ 0.0646 * MFCC Overall Standard Deviation2 
+	- 0.2896 * MFCC Overall Standard Deviation5 
+	- 0.0008 * Spectral Centroid Overall Average0 
+	+ 0.011 * MFCC Overall Average1 
+	+ 0.0078 * MFCC Overall Average3 
+	- 0.061 * MFCC Overall Average8 
+	+ 0.693
+
+LM num: 6
+Class = 
+	-0.0006 * Spectral Centroid Overall Standard Deviation0 
+	+ 23.6645 * Spectral Flux Overall Standard Deviation0 
+	+ 0.0646 * MFCC Overall Standard Deviation2 
+	- 0.2807 * MFCC Overall Standard Deviation5 
+	- 0.0008 * Spectral Centroid Overall Average0 
+	+ 0.011 * MFCC Overall Average1 
+	+ 0.0078 * MFCC Overall Average3 
+	- 0.061 * MFCC Overall Average8 
+	+ 0.665
+
+LM num: 7
+Class = 
+	0.0037 * Spectral Centroid Overall Standard Deviation0 
+	+ 14.9307 * Spectral Flux Overall Standard Deviation0 
+	+ 0.0646 * MFCC Overall Standard Deviation2 
+	- 0.26 * MFCC Overall Standard Deviation5 
+	- 0.0008 * Spectral Centroid Overall Average0 
+	+ 0.011 * MFCC Overall Average1 
+	+ 0.0078 * MFCC Overall Average3 
+	- 0.0693 * MFCC Overall Average8 
+	+ 0.5155
+
+LM num: 8
+Class = 
+	0.0115 * Spectral Centroid Overall Standard Deviation0 
+	+ 14.9307 * Spectral Flux Overall Standard Deviation0 
+	+ 0.0646 * MFCC Overall Standard Deviation2 
+	- 0.212 * MFCC Overall Standard Deviation5 
+	+ 0.0002 * Spectral Centroid Overall Average0 
+	+ 0.011 * MFCC Overall Average1 
+	+ 0.0078 * MFCC Overall Average3 
+	- 0.0622 * MFCC Overall Average8 
+	+ 0.3649
+
+Number of Rules : 8
+
+Classifier for class with index 2:
+
+M5 pruned model tree:
+(using smoothed linear models)
+
+Strongest Beat Overall Average0 <= 195.55 : LM1 (23/0%)
+Strongest Beat Overall Average0 >  195.55 : 
+|   MFCC Overall Average8 <= -1.871 : LM2 (14/0%)
+|   MFCC Overall Average8 >  -1.871 : 
+|   |   Compactness Overall Average0 <= 1520 : LM3 (8/0%)
+|   |   Compactness Overall Average0 >  1520 : 
+|   |   |   LPC Overall Average1 <= 0.18 : LM4 (11/71.87%)
+|   |   |   LPC Overall Average1 >  0.18 : 
+|   |   |   |   MFCC Overall Standard Deviation1 <= 3.505 : LM5 (7/0%)
+|   |   |   |   MFCC Overall Standard Deviation1 >  3.505 : 
+|   |   |   |   |   LPC Overall Standard Deviation1 <= 0.268 : 
+|   |   |   |   |   |   MFCC Overall Standard Deviation2 <= 3.286 : 
+|   |   |   |   |   |   |   Fraction Of Low Energy Windows Overall Standard Deviation0 <= 0.034 : LM6 (2/0%)
+|   |   |   |   |   |   |   Fraction Of Low Energy Windows Overall Standard Deviation0 >  0.034 : LM7 (3/0%)
+|   |   |   |   |   |   MFCC Overall Standard Deviation2 >  3.286 : LM8 (3/0%)
+|   |   |   |   |   LPC Overall Standard Deviation1 >  0.268 : LM9 (4/0%)
+
+LM num: 1
+Class = 
+	-0.0481 * MFCC Overall Standard Deviation2 
+	+ 0.0011 * Compactness Overall Average0 
+	+ 0.0323 * MFCC Overall Average8 
+	+ 0.1122 * LPC Overall Average1 
+	- 1.5052
+
+LM num: 2
+Class = 
+	-0.0943 * MFCC Overall Standard Deviation2 
+	+ 0.0024 * Compactness Overall Average0 
+	+ 0.0183 * MFCC Overall Average8 
+	+ 0.0636 * LPC Overall Average1 
+	- 3.227
+
+LM num: 3
+Class = 
+	-0.1191 * MFCC Overall Standard Deviation2 
+	+ 0.0033 * Compactness Overall Average0 
+	+ 0.0183 * MFCC Overall Average8 
+	+ 0.2432 * LPC Overall Average1 
+	- 4.6096
+
+LM num: 4
+Class = 
+	-0.0922 * MFCC Overall Standard Deviation2 
+	+ 0.0025 * Compactness Overall Average0 
+	+ 0.0183 * MFCC Overall Average8 
+	+ 0.2867 * LPC Overall Average1 
+	- 3.321
+
+LM num: 5
+Class = 
+	-0.0922 * MFCC Overall Standard Deviation2 
+	+ 0.0025 * Compactness Overall Average0 
+	+ 0.0183 * MFCC Overall Average8 
+	+ 0.2558 * LPC Overall Average1 
+	- 3.1823
+
+LM num: 6
+Class = 
+	-0.0922 * MFCC Overall Standard Deviation2 
+	+ 0.0025 * Compactness Overall Average0 
+	+ 0.0183 * MFCC Overall Average8 
+	+ 0.2558 * LPC Overall Average1 
+	- 3.2193
+
+LM num: 7
+Class = 
+	-0.0922 * MFCC Overall Standard Deviation2 
+	+ 0.0025 * Compactness Overall Average0 
+	+ 0.0183 * MFCC Overall Average8 
+	+ 0.2558 * LPC Overall Average1 
+	- 3.2182
+
+LM num: 8
+Class = 
+	-0.0922 * MFCC Overall Standard Deviation2 
+	+ 0.0025 * Compactness Overall Average0 
+	+ 0.0183 * MFCC Overall Average8 
+	+ 0.2558 * LPC Overall Average1 
+	- 3.2225
+
+LM num: 9
+Class = 
+	-0.0922 * MFCC Overall Standard Deviation2 
+	+ 0.0025 * Compactness Overall Average0 
+	+ 0.0183 * MFCC Overall Average8 
+	+ 0.2558 * LPC Overall Average1 
+	- 3.2057
+
+Number of Rules : 9
+
+Classifier for class with index 3:
+
+M5 pruned model tree:
+(using smoothed linear models)
+
+MFCC Overall Average6 <= -0.163 : 
+|   Fraction Of Low Energy Windows Overall Standard Deviation0 <= 0.035 : LM1 (11/0%)
+|   Fraction Of Low Energy Windows Overall Standard Deviation0 >  0.035 : 
+|   |   LPC Overall Standard Deviation2 <= 0.228 : 
+|   |   |   MFCC Overall Average5 <= -1.299 : 
+|   |   |   |   Spectral Rolloff Point Overall Standard Deviation0 <= 0.241 : LM2 (7/0%)
+|   |   |   |   Spectral Rolloff Point Overall Standard Deviation0 >  0.241 : LM3 (2/0%)
+|   |   |   MFCC Overall Average5 >  -1.299 : LM4 (9/0%)
+|   |   LPC Overall Standard Deviation2 >  0.228 : LM5 (8/0%)
+MFCC Overall Average6 >  -0.163 : LM6 (38/0%)
+
+LM num: 1
+Class = 
+	-1.5936 * Spectral Rolloff Point Overall Standard Deviation0 
+	+ 2.9165 * LPC Overall Standard Deviation2 
+	- 0.0704 * MFCC Overall Average5 
+	- 0.0414 * MFCC Overall Average6 
+	- 0.0957
+
+LM num: 2
+Class = 
+	-2.6357 * Spectral Rolloff Point Overall Standard Deviation0 
+	+ 3.16 * LPC Overall Standard Deviation2 
+	- 0.1176 * MFCC Overall Average5 
+	- 0.0414 * MFCC Overall Average6 
+	+ 0.1619
+
+LM num: 3
+Class = 
+	-2.7307 * Spectral Rolloff Point Overall Standard Deviation0 
+	+ 3.16 * LPC Overall Standard Deviation2 
+	- 0.1176 * MFCC Overall Average5 
+	- 0.0414 * MFCC Overall Average6 
+	+ 0.1642
+
+LM num: 4
+Class = 
+	-2.3127 * Spectral Rolloff Point Overall Standard Deviation0 
+	+ 3.16 * LPC Overall Standard Deviation2 
+	- 0.1176 * MFCC Overall Average5 
+	- 0.0414 * MFCC Overall Average6 
+	+ 0.0248
+
+LM num: 5
+Class = 
+	-1.9977 * Spectral Rolloff Point Overall Standard Deviation0 
+	+ 3.5825 * LPC Overall Standard Deviation2 
+	- 0.0904 * MFCC Overall Average5 
+	- 0.0414 * MFCC Overall Average6 
+	+ 0.061
+
+LM num: 6
+Class = 
+	-0.4027 * Spectral Rolloff Point Overall Standard Deviation0 
+	+ 0.9085 * LPC Overall Standard Deviation2 
+	- 0.0186 * MFCC Overall Average5 
+	- 0.0406 * MFCC Overall Average6 
+	- 0.0585
+
+Number of Rules : 6
+
+Classifier for class with index 4:
+
+M5 pruned model tree:
+(using smoothed linear models)
+
+Compactness Overall Average0 <= 1557 : 
+|   MFCC Overall Average11 <= -0.976 : LM1 (12/0%)
+|   MFCC Overall Average11 >  -0.976 : 
+|   |   MFCC Overall Standard Deviation9 <= 1.668 : LM2 (14/0%)
+|   |   MFCC Overall Standard Deviation9 >  1.668 : LM3 (10/75%)
+Compactness Overall Average0 >  1557 : LM4 (39/0%)
+
+LM num: 1
+Class = 
+	-0.253 * Spectral Rolloff Point Overall Standard Deviation0 
+	- 0.4679 * MFCC Overall Standard Deviation9 
+	- 0.001 * Compactness Overall Average0 
+	+ 0.1025 * MFCC Overall Average11 
+	+ 2.7872
+
+LM num: 2
+Class = 
+	-0.6137 * Spectral Rolloff Point Overall Standard Deviation0 
+	- 0.5565 * MFCC Overall Standard Deviation9 
+	- 0.001 * Compactness Overall Average0 
+	+ 0.0709 * MFCC Overall Average11 
+	+ 3.263
+
+LM num: 3
+Class = 
+	-0.6714 * Spectral Rolloff Point Overall Standard Deviation0 
+	- 0.5892 * MFCC Overall Standard Deviation9 
+	- 0.001 * Compactness Overall Average0 
+	+ 0.0709 * MFCC Overall Average11 
+	+ 3.1566
+
+LM num: 4
+Class = 
+	-0.2389 * Spectral Rolloff Point Overall Standard Deviation0 
+	- 0.0861 * MFCC Overall Standard Deviation9 
+	- 0.001 * Compactness Overall Average0 
+	+ 1.8002
+
+Number of Rules : 4
+
+
+
+Time taken to build model: 0.15 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          35               46.6667 %
+Incorrectly Classified Instances        40               53.3333 %
+Kappa statistic                          0.3333
+Mean absolute error                      0.2411
+Root mean squared error                  0.371 
+Relative absolute error                 75.345  %
+Root relative squared error             92.7441 %
+Total Number of Instances               75     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.667     0.05       0.769     0.667     0.714      0.913    CavaloMarinho
+                 0.267     0.167      0.286     0.267     0.276      0.575    Coco
+                 0.333     0.183      0.313     0.333     0.323      0.696    Ciranda
+                 0.533     0.133      0.5       0.533     0.516      0.793    MaracatuSolto
+                 0.533     0.133      0.5       0.533     0.516      0.866    MaracatuVirado
+Weighted Avg.    0.467     0.133      0.473     0.467     0.469      0.769
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 10  0  2  3  0 |  a = CavaloMarinho
+  1  4  4  2  4 |  b = Coco
+  1  2  5  3  4 |  c = Ciranda
+  1  4  2  8  0 |  d = MaracatuSolto
+  0  4  3  0  8 |  e = MaracatuVirado
+
