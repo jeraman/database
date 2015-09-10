@@ -2,7 +2,7 @@
 #############################################
 # SUBPARTITIONER SCRIPT #####################
 #############################################
-# subpartitions our training data it into 5 independent test/training datasets (5-fold cross validation). these 5 new datasets will be used to check the precision of the feature selection. ############
+# subpartitions our training set it into 5 random generated subtraining sets - each one 80% of the original training dataset. the new sets will be used to check the precision of the feature selection (check paper for details). 
 #############################################
 # Jeronimo Barbosa ##########################
 # jeronimo.costa [at] mail.mcgill.ca ########
@@ -72,11 +72,11 @@ for line in file:
 total = len(cavalomarinho)+len(ciranda)+len(coco)+len(maracatusolto)+len(maracatuvirado)
 #debug
 print str(total) + ' items loaded. they are:'
-print '     ' + str(len(cavalomarinho)) + ' cavalomarinho samples loaded'
-print '     ' + str(len(ciranda)) + ' ciranda samples loaded'
-print '     ' + str(len(coco)) + ' coco samples loaded'
-print '     ' + str(len(maracatusolto)) + ' maracatusolto samples loaded'
-print '     ' + str(len(maracatuvirado)) + ' maracatuvirado samples loaded'
+print '     ' + str(len(cavalomarinho)) + ' cavalomarinho'
+print '     ' + str(len(ciranda)) + ' ciranda'
+print '     ' + str(len(coco)) + ' coco'
+print '     ' + str(len(maracatusolto)) + ' maracatusolto'
+print '     ' + str(len(maracatuvirado)) + ' maracatuvirado'
 print
 
 #how big is each subpartition
@@ -177,35 +177,42 @@ print 'saving arff files'
 #iterating over the subpartitions
 for i in range(numberOfSubPartitions):
     #sets the place where will save the testing subpartition (eg. 1-testing.arff)
-    destination_testing_file_directory  = save_path+'/'+str(i+1)+'-testing.arff'
+    #destination_testing_file_directory  = save_path+'/'+str(i+1)+'-testing.arff'
     #sets the place where will save the tng subpartition (eg. 1-training.arff)
-    destination_training_file_directory = save_path+'/'+str(i+1)+'-training.arff'
+    #destination_training_file_directory = save_path+'/'+str(i+1)+'-training.arff'
+    destination_file_directory = save_path+'/'+str(i+1)+'-subpartition.arff'
     #creates testing and trianing output files for this subpartition
-    testing_file=open(destination_testing_file_directory, 'w+')
-    training_file=open(destination_training_file_directory, 'w+')
+    #testing_file=open(destination_testing_file_directory, 'w+')
+    #training_file=open(destination_file_directory, 'w+')
+    subpartition_file=open(destination_file_directory, 'w+')
     
     #writing the header in both cases
-    testing_file.write(header)
-    training_file.write(header)
+    #testing_file.write(header)
+    #training_file.write(header)
+    subpartition_file.write(header)
     
     #writing the testing file
-    for item in subpartitions[i]:
-        testing_file.write(item)
+    #for item in subpartitions[i]:
+    #    testing_file.write(item)
         
     #variables that will store the current training items
-    training_items = []
+    #training_items = []
+    subpartition_items = []
 
     #preparing the training vector. for this iterate over the partitions again...
     for j in range(numberOfSubPartitions):
         #if this not the current...
         if i != j:
             #unite them together
-            training_items.extend(subpartitions[j])
+            #training_items.extend(subpartitions[j])
+            subpartition_items.extend(subpartitions[j])
             
     #print 'size of training items:' + str(len(training_items))
     #writing the training file
-    for item in training_items:
-        training_file.write(item)
+    #for item in training_items:
+    #    training_file.write(item)
+    for item in subpartition_items:
+            subpartition_file.write(item)
     
 print 
 print 'done!'
