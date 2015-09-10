@@ -1,0 +1,32 @@
+average merit      average rank  attribute
+ 0.549 +- 0.067       4.8 +- 2.64     24 MFCC Overall Standard Deviation11
+ 0.574 +- 0.123       5.4 +- 4.76     55 MFCC Overall Average8
+ 0.514 +- 0.044       5.4 +- 1.2      22 MFCC Overall Standard Deviation9
+ 0.522 +- 0.038       5.6 +- 2.58     23 MFCC Overall Standard Deviation10
+ 0.517 +- 0.089       5.8 +- 5.23     50 MFCC Overall Average3
+ 0.499 +- 0.053       6.4 +- 1.74     19 MFCC Overall Standard Deviation6
+ 0.482 +- 0.048       8.2 +- 1.17     25 MFCC Overall Standard Deviation12
+ 0.477 +- 0.105       9.2 +- 4.07     39 Compactness Overall Average0
+ 0.421 +- 0.252       9.2 +- 5.88     20 MFCC Overall Standard Deviation7
+ 0.457 +- 0.049       9.6 +- 5.08     49 MFCC Overall Average2
+ 0.469 +- 0.046       9.6 +- 1.36     21 MFCC Overall Standard Deviation8
+ 0.187 +- 0.231      18.6 +-11.5      28 LPC Overall Standard Deviation2
+ 0.156 +- 0.192      19.2 +- 2.23     26 LPC Overall Standard Deviation0
+ 0.377 +- 0.201      19.6 +-17.49     51 MFCC Overall Average4
+ 0.093 +- 0.186      20.4 +- 5.16     16 MFCC Overall Standard Deviation3
+ 0.131 +- 0.161      22.4 +- 6.15     18 MFCC Overall Standard Deviation5
+ 0.09  +- 0.179      22.8 +- 5.46     15 MFCC Overall Standard Deviation2
+ 0.285 +- 0.152      23   +-12.08     33 LPC Overall Standard Deviation7
+ 0.077 +- 0.154      26.4 +- 7.81     29 LPC Overall Standard Deviation3
+ 0.284 +- 0.259      26.6 +-21.47     48 MFCC Overall Average1
+ 0.169 +- 0.206      27.6 +-12.75     31 LPC Overall Standard Deviation5
+ 0.147 +- 0.18       30.4 +- 8.57     30 LPC Overall Standard Deviation4
+ 0.195 +- 0.159      30.6 +-19.15     54 MFCC Overall Average7
+ 0.196 +- 0.245      35   +-24.49     53 MFCC Overall Average6
+ 0.165 +- 0.202      37.6 +-18.29     32 LPC Overall Standard Deviation6
+ 0.086 +- 0.171      38.8 +-14.58     57 MFCC Overall Average10
+ 0.099 +- 0.199      39   +-17.33     56 MFCC Overall Average9
+ 0.133 +- 0.165      42.8 +-17.9      36 Spectral Centroid Overall Average0
+ 0.087 +- 0.173      47   +-17.01     34 LPC Overall Standard Deviation8
+ 0.086 +- 0.172      47.4 +-19.19     52 MFCC Overall Average5
+

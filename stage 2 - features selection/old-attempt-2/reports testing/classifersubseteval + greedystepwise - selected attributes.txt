@@ -1,0 +1,10 @@
+53 MFCC Overall Average6 (80%)
+2  Spectral Centroid Overall Standard Deviation0 (60%)
+39 Compactness Overall Average0 (60%)
+10 Strongest Beat Overall Standard Deviation0 (40%)
+15 MFCC Overall Standard Deviation2 (40%)
+20 MFCC Overall Standard Deviation7 (40%)
+50 MFCC Overall Average3 (40%)
+51 MFCC Overall Average4 (40%)
+54 MFCC Overall Average7 (40%)
+
