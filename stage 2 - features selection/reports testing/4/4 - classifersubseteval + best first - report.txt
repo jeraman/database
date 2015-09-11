@@ -1,0 +1,283 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     jAudio-weka.filters.unsupervised.attribute.Remove-R2,4-6,8-11,13-28,30-35,37-38,40-43,45-48,50-51,55-64,66-69
+Instances:    15
+Attributes:   13
+              Class
+              Spectral Rolloff Point Overall Standard Deviation0
+              Root Mean Square Overall Standard Deviation0
+              Strength Of Strongest Beat Overall Standard Deviation0
+              LPC Overall Standard Deviation3
+              Spectral Centroid Overall Average0
+              Compactness Overall Average0
+              Strongest Beat Overall Average0
+              MFCC Overall Average2
+              MFCC Overall Average5
+              MFCC Overall Average6
+              MFCC Overall Average7
+              LPC Overall Average5
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: CavaloMarinho, Coco
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1073 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +       0.394  * (normalized) Root Mean Square Overall Standard Deviation0
+ +       0.3954 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +       0.4002 * (normalized) LPC Overall Standard Deviation3
+ +      -0.115  * (normalized) Spectral Centroid Overall Average0
+ +      -0.4565 * (normalized) Compactness Overall Average0
+ +      -0.227  * (normalized) Strongest Beat Overall Average0
+ +       0.8671 * (normalized) MFCC Overall Average2
+ +       0.4053 * (normalized) MFCC Overall Average5
+ +       0.5249 * (normalized) MFCC Overall Average6
+ +       0.4419 * (normalized) MFCC Overall Average7
+ +      -0.3272 * (normalized) LPC Overall Average5
+ -       0.9851
+
+Number of kernel evaluations: 16 (88.571% cached)
+
+Classifier for classes: CavaloMarinho, Ciranda
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2168 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +       0.6295 * (normalized) Root Mean Square Overall Standard Deviation0
+ +       0.5704 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +       0.2714 * (normalized) LPC Overall Standard Deviation3
+ +      -0.2415 * (normalized) Spectral Centroid Overall Average0
+ +       0.3031 * (normalized) Compactness Overall Average0
+ +       0.0522 * (normalized) Strongest Beat Overall Average0
+ +       0.6227 * (normalized) MFCC Overall Average2
+ +       0.5311 * (normalized) MFCC Overall Average5
+ +       0.7407 * (normalized) MFCC Overall Average6
+ +       0.5275 * (normalized) MFCC Overall Average7
+ +      -0.5489 * (normalized) LPC Overall Average5
+ -       1.5744
+
+Number of kernel evaluations: 20 (80.392% cached)
+
+Classifier for classes: CavaloMarinho, MaracatuSolto
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0854 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +       0.3643 * (normalized) Root Mean Square Overall Standard Deviation0
+ +       0.7997 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +       1.1354 * (normalized) LPC Overall Standard Deviation3
+ +      -0.0594 * (normalized) Spectral Centroid Overall Average0
+ +       0.4642 * (normalized) Compactness Overall Average0
+ +      -0.3283 * (normalized) Strongest Beat Overall Average0
+ +       0.5793 * (normalized) MFCC Overall Average2
+ +      -0.1604 * (normalized) MFCC Overall Average5
+ +      -0.3295 * (normalized) MFCC Overall Average6
+ +      -0.1226 * (normalized) MFCC Overall Average7
+ +      -0.5011 * (normalized) LPC Overall Average5
+ -       0.5629
+
+Number of kernel evaluations: 17 (73.438% cached)
+
+Classifier for classes: CavaloMarinho, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0407 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +       0.8301 * (normalized) Root Mean Square Overall Standard Deviation0
+ +       0.0306 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +      -0.2283 * (normalized) LPC Overall Standard Deviation3
+ +      -0.3271 * (normalized) Spectral Centroid Overall Average0
+ +      -0.6668 * (normalized) Compactness Overall Average0
+ +       0.1081 * (normalized) Strongest Beat Overall Average0
+ +       1.1012 * (normalized) MFCC Overall Average2
+ +       0.2018 * (normalized) MFCC Overall Average5
+ +       0.4341 * (normalized) MFCC Overall Average6
+ +       0.0058 * (normalized) MFCC Overall Average7
+ +      -0.6881 * (normalized) LPC Overall Average5
+ -       0.5997
+
+Number of kernel evaluations: 17 (85.088% cached)
+
+Classifier for classes: Coco, Ciranda
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3381 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +       0.5606 * (normalized) Root Mean Square Overall Standard Deviation0
+ +       0.3722 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +      -0.227  * (normalized) LPC Overall Standard Deviation3
+ +      -0.1167 * (normalized) Spectral Centroid Overall Average0
+ +       1.3696 * (normalized) Compactness Overall Average0
+ +       0.4916 * (normalized) Strongest Beat Overall Average0
+ +      -0.0248 * (normalized) MFCC Overall Average2
+ +       0.1552 * (normalized) MFCC Overall Average5
+ +       0.288  * (normalized) MFCC Overall Average6
+ +       0.3469 * (normalized) MFCC Overall Average7
+ +      -0.2814 * (normalized) LPC Overall Average5
+ -       1.6563
+
+Number of kernel evaluations: 17 (78.205% cached)
+
+Classifier for classes: Coco, MaracatuSolto
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0496 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +       0.076  * (normalized) Root Mean Square Overall Standard Deviation0
+ +       0.3664 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +       0.3144 * (normalized) LPC Overall Standard Deviation3
+ +       0.17   * (normalized) Spectral Centroid Overall Average0
+ +       0.8378 * (normalized) Compactness Overall Average0
+ +       0.095  * (normalized) Strongest Beat Overall Average0
+ +      -0.3355 * (normalized) MFCC Overall Average2
+ +      -0.4667 * (normalized) MFCC Overall Average5
+ +      -1.1678 * (normalized) MFCC Overall Average6
+ +      -0.7943 * (normalized) MFCC Overall Average7
+ +       0.0387 * (normalized) LPC Overall Average5
+ +       0.3433
+
+Number of kernel evaluations: 16 (88.148% cached)
+
+Classifier for classes: Coco, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2986 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +       0.6728 * (normalized) Root Mean Square Overall Standard Deviation0
+ +      -0.4653 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +      -1.3186 * (normalized) LPC Overall Standard Deviation3
+ +      -0.5077 * (normalized) Spectral Centroid Overall Average0
+ +      -0.3897 * (normalized) Compactness Overall Average0
+ +      -0.0485 * (normalized) Strongest Beat Overall Average0
+ +       0.5454 * (normalized) MFCC Overall Average2
+ +       0.1889 * (normalized) MFCC Overall Average5
+ +      -0.5391 * (normalized) MFCC Overall Average6
+ +      -0.5543 * (normalized) MFCC Overall Average7
+ +      -0.2118 * (normalized) LPC Overall Average5
+ +       0.7496
+
+Number of kernel evaluations: 15 (64.286% cached)
+
+Classifier for classes: Ciranda, MaracatuSolto
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0458 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +      -0.2879 * (normalized) Root Mean Square Overall Standard Deviation0
+ +       0.3193 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +       0.4297 * (normalized) LPC Overall Standard Deviation3
+ +      -0.0534 * (normalized) Spectral Centroid Overall Average0
+ +      -0.5628 * (normalized) Compactness Overall Average0
+ +      -0.2887 * (normalized) Strongest Beat Overall Average0
+ +      -0.2764 * (normalized) MFCC Overall Average2
+ +      -0.3281 * (normalized) MFCC Overall Average5
+ +      -1.1752 * (normalized) MFCC Overall Average6
+ +      -1.0019 * (normalized) MFCC Overall Average7
+ +       0.1065 * (normalized) LPC Overall Average5
+ +       1.7231
+
+Number of kernel evaluations: 17 (90.341% cached)
+
+Classifier for classes: Ciranda, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2626 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +      -0.0015 * (normalized) Root Mean Square Overall Standard Deviation0
+ +      -0.4459 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +      -0.6418 * (normalized) LPC Overall Standard Deviation3
+ +      -0.1205 * (normalized) Spectral Centroid Overall Average0
+ +      -1.0711 * (normalized) Compactness Overall Average0
+ +      -0.2736 * (normalized) Strongest Beat Overall Average0
+ +       0.4262 * (normalized) MFCC Overall Average2
+ +       0.0295 * (normalized) MFCC Overall Average5
+ +      -0.4977 * (normalized) MFCC Overall Average6
+ +      -0.5871 * (normalized) MFCC Overall Average7
+ +       0.2775 * (normalized) LPC Overall Average5
+ +       1.3344
+
+Number of kernel evaluations: 21 (87.931% cached)
+
+Classifier for classes: MaracatuSolto, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0227 * (normalized) Spectral Rolloff Point Overall Standard Deviation0
+ +       0.6249 * (normalized) Root Mean Square Overall Standard Deviation0
+ +      -0.7182 * (normalized) Strength Of Strongest Beat Overall Standard Deviation0
+ +      -0.9355 * (normalized) LPC Overall Standard Deviation3
+ +      -0.0395 * (normalized) Spectral Centroid Overall Average0
+ +      -0.82   * (normalized) Compactness Overall Average0
+ +      -0.0059 * (normalized) Strongest Beat Overall Average0
+ +       0.4471 * (normalized) MFCC Overall Average2
+ +       0.3575 * (normalized) MFCC Overall Average5
+ +       0.2402 * (normalized) MFCC Overall Average6
+ +       0.2021 * (normalized) MFCC Overall Average7
+ +      -0.1313 * (normalized) LPC Overall Average5
+ -       0.0154
+
+Number of kernel evaluations: 21 (90.367% cached)
+
+
+
+Time taken to build model: 0.04 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correctly Classified Instances          14               93.3333 %
+Incorrectly Classified Instances         1                6.6667 %
+Kappa statistic                          0.9167
+Mean absolute error                      0.2427
+Root mean squared error                  0.32  
+Relative absolute error                 75.8333 %
+Root relative squared error             80      %
+Total Number of Instances               15     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0.083      0.75      1         0.857      1        CavaloMarinho
+                 0.667     0          1         0.667     0.8        0.875    Coco
+                 1         0          1         1         1          1        Ciranda
+                 1         0          1         1         1          1        MaracatuSolto
+                 1         0          1         1         1          1        MaracatuVirado
+Weighted Avg.    0.933     0.017      0.95      0.933     0.931      0.975
+
+=== Confusion Matrix ===
+
+ a b c d e   <-- classified as
+ 3 0 0 0 0 | a = CavaloMarinho
+ 1 2 0 0 0 | b = Coco
+ 0 0 3 0 0 | c = Ciranda
+ 0 0 0 3 0 | d = MaracatuSolto
+ 0 0 0 0 3 | e = MaracatuVirado
+

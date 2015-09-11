@@ -1,0 +1,239 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     jAudio-weka.filters.unsupervised.attribute.Remove-R2-6,8,10-20,23-38,40-45,47-49,51-54,56-69
+Instances:    15
+Attributes:   9
+              Class
+              Root Mean Square Overall Standard Deviation0
+              Zero Crossings Overall Standard Deviation0
+              MFCC Overall Standard Deviation8
+              MFCC Overall Standard Deviation9
+              Compactness Overall Average0
+              Strength Of Strongest Beat Overall Average0
+              MFCC Overall Average3
+              MFCC Overall Average8
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: CavaloMarinho, Coco
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.4247 * (normalized) Root Mean Square Overall Standard Deviation0
+ +       0.2146 * (normalized) Zero Crossings Overall Standard Deviation0
+ +      -0.3897 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.5117 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.4891 * (normalized) Compactness Overall Average0
+ +       0.4568 * (normalized) Strength Of Strongest Beat Overall Average0
+ +       1.3359 * (normalized) MFCC Overall Average3
+ +      -0.1347 * (normalized) MFCC Overall Average8
+ -       0.1049
+
+Number of kernel evaluations: 16 (54.286% cached)
+
+Classifier for classes: CavaloMarinho, Ciranda
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.7096 * (normalized) Root Mean Square Overall Standard Deviation0
+ +      -0.1423 * (normalized) Zero Crossings Overall Standard Deviation0
+ +      -0.1171 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.024  * (normalized) MFCC Overall Standard Deviation9
+ +       0.6575 * (normalized) Compactness Overall Average0
+ +       0.7818 * (normalized) Strength Of Strongest Beat Overall Average0
+ +       1.1529 * (normalized) MFCC Overall Average3
+ +       0.0043 * (normalized) MFCC Overall Average8
+ -       1.3903
+
+Number of kernel evaluations: 18 (86.154% cached)
+
+Classifier for classes: CavaloMarinho, MaracatuSolto
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.9196 * (normalized) Root Mean Square Overall Standard Deviation0
+ +       0.0565 * (normalized) Zero Crossings Overall Standard Deviation0
+ +       0.3907 * (normalized) MFCC Overall Standard Deviation8
+ +       0.6652 * (normalized) MFCC Overall Standard Deviation9
+ +       0.6522 * (normalized) Compactness Overall Average0
+ +       0.7915 * (normalized) Strength Of Strongest Beat Overall Average0
+ +       1.107  * (normalized) MFCC Overall Average3
+ +      -0.3789 * (normalized) MFCC Overall Average8
+ -       1.7301
+
+Number of kernel evaluations: 15 (48.276% cached)
+
+Classifier for classes: CavaloMarinho, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.3999 * (normalized) Root Mean Square Overall Standard Deviation0
+ +      -0.4529 * (normalized) Zero Crossings Overall Standard Deviation0
+ +      -0.7479 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.6889 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.5122 * (normalized) Compactness Overall Average0
+ +       0.2521 * (normalized) Strength Of Strongest Beat Overall Average0
+ +       1.1987 * (normalized) MFCC Overall Average3
+ +      -0.3052 * (normalized) MFCC Overall Average8
+ +       0.1661
+
+Number of kernel evaluations: 10 (60% cached)
+
+Classifier for classes: Coco, Ciranda
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.5555 * (normalized) Root Mean Square Overall Standard Deviation0
+ +      -0.3908 * (normalized) Zero Crossings Overall Standard Deviation0
+ +       0.2769 * (normalized) MFCC Overall Standard Deviation8
+ +       0.5403 * (normalized) MFCC Overall Standard Deviation9
+ +       1.4768 * (normalized) Compactness Overall Average0
+ +       0.4241 * (normalized) Strength Of Strongest Beat Overall Average0
+ +       0.3388 * (normalized) MFCC Overall Average3
+ +       0.3301 * (normalized) MFCC Overall Average8
+ -       1.9395
+
+Number of kernel evaluations: 17 (86.29% cached)
+
+Classifier for classes: Coco, MaracatuSolto
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2682 * (normalized) Root Mean Square Overall Standard Deviation0
+ +      -0.1481 * (normalized) Zero Crossings Overall Standard Deviation0
+ +       0.7791 * (normalized) MFCC Overall Standard Deviation8
+ +       1.194  * (normalized) MFCC Overall Standard Deviation9
+ +       1.0907 * (normalized) Compactness Overall Average0
+ +       0.1832 * (normalized) Strength Of Strongest Beat Overall Average0
+ +      -0.3084 * (normalized) MFCC Overall Average3
+ +      -0.1453 * (normalized) MFCC Overall Average8
+ -       1.438 
+
+Number of kernel evaluations: 16 (69.811% cached)
+
+Classifier for classes: Coco, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.7015 * (normalized) Root Mean Square Overall Standard Deviation0
+ +      -0.6073 * (normalized) Zero Crossings Overall Standard Deviation0
+ +      -1.157  * (normalized) MFCC Overall Standard Deviation8
+ +      -0.9329 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.3913 * (normalized) Compactness Overall Average0
+ +       0.1114 * (normalized) Strength Of Strongest Beat Overall Average0
+ +       0.2343 * (normalized) MFCC Overall Average3
+ +       0.0547 * (normalized) MFCC Overall Average8
+ +       0.2232
+
+Number of kernel evaluations: 13 (51.852% cached)
+
+Classifier for classes: Ciranda, MaracatuSolto
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.301  * (normalized) Root Mean Square Overall Standard Deviation0
+ +       0.1917 * (normalized) Zero Crossings Overall Standard Deviation0
+ +       0.5811 * (normalized) MFCC Overall Standard Deviation8
+ +       0.6994 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.5435 * (normalized) Compactness Overall Average0
+ +      -0.3111 * (normalized) Strength Of Strongest Beat Overall Average0
+ +      -0.7827 * (normalized) MFCC Overall Average3
+ +      -0.6773 * (normalized) MFCC Overall Average8
+ +       0.6093
+
+Number of kernel evaluations: 16 (64.444% cached)
+
+Classifier for classes: Ciranda, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0604 * (normalized) Root Mean Square Overall Standard Deviation0
+ +      -0.2275 * (normalized) Zero Crossings Overall Standard Deviation0
+ +      -0.802  * (normalized) MFCC Overall Standard Deviation8
+ +      -0.8287 * (normalized) MFCC Overall Standard Deviation9
+ +      -1.0346 * (normalized) Compactness Overall Average0
+ +       0.0451 * (normalized) Strength Of Strongest Beat Overall Average0
+ +      -0.0599 * (normalized) MFCC Overall Average3
+ +      -0.2456 * (normalized) MFCC Overall Average8
+ +       1.2918
+
+Number of kernel evaluations: 17 (83.654% cached)
+
+Classifier for classes: MaracatuSolto, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2297 * (normalized) Root Mean Square Overall Standard Deviation0
+ +      -0.3398 * (normalized) Zero Crossings Overall Standard Deviation0
+ +      -0.7552 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.9233 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.7016 * (normalized) Compactness Overall Average0
+ +      -0.1987 * (normalized) Strength Of Strongest Beat Overall Average0
+ +       0.424  * (normalized) MFCC Overall Average3
+ +       0.3235 * (normalized) MFCC Overall Average8
+ +       0.6567
+
+Number of kernel evaluations: 21 (87.791% cached)
+
+
+
+Time taken to build model: 0.03 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correctly Classified Instances          14               93.3333 %
+Incorrectly Classified Instances         1                6.6667 %
+Kappa statistic                          0.9167
+Mean absolute error                      0.2427
+Root mean squared error                  0.3204
+Relative absolute error                 75.8333 %
+Root relative squared error             80.1041 %
+Total Number of Instances               15     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        CavaloMarinho
+                 1         0.083      0.75      1         0.857      0.958    Coco
+                 0.667     0          1         0.667     0.8        0.972    Ciranda
+                 1         0          1         1         1          1        MaracatuSolto
+                 1         0          1         1         1          1        MaracatuVirado
+Weighted Avg.    0.933     0.017      0.95      0.933     0.931      0.986
+
+=== Confusion Matrix ===
+
+ a b c d e   <-- classified as
+ 3 0 0 0 0 | a = CavaloMarinho
+ 0 3 0 0 0 | b = Coco
+ 0 1 2 0 0 | c = Ciranda
+ 0 0 0 3 0 | d = MaracatuSolto
+ 0 0 0 0 3 | e = MaracatuVirado
+

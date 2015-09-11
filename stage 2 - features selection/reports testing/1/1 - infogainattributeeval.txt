@@ -1,0 +1,393 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     jAudio-weka.filters.unsupervised.attribute.Remove-R2-15,17-18,26-27,29,34-38,40-47,52-53,58-69
+Instances:    15
+Attributes:   23
+              Class
+              MFCC Overall Standard Deviation3
+              MFCC Overall Standard Deviation6
+              MFCC Overall Standard Deviation7
+              MFCC Overall Standard Deviation8
+              MFCC Overall Standard Deviation9
+              MFCC Overall Standard Deviation10
+              MFCC Overall Standard Deviation11
+              MFCC Overall Standard Deviation12
+              LPC Overall Standard Deviation2
+              LPC Overall Standard Deviation4
+              LPC Overall Standard Deviation5
+              LPC Overall Standard Deviation6
+              LPC Overall Standard Deviation7
+              Compactness Overall Average0
+              MFCC Overall Average1
+              MFCC Overall Average2
+              MFCC Overall Average3
+              MFCC Overall Average4
+              MFCC Overall Average7
+              MFCC Overall Average8
+              MFCC Overall Average9
+              MFCC Overall Average10
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: CavaloMarinho, Coco
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1136 * (normalized) MFCC Overall Standard Deviation3
+ +      -0.2118 * (normalized) MFCC Overall Standard Deviation6
+ +      -0.032  * (normalized) MFCC Overall Standard Deviation7
+ +      -0.2358 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.1438 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.1364 * (normalized) MFCC Overall Standard Deviation10
+ +      -0.3484 * (normalized) MFCC Overall Standard Deviation11
+ +      -0.144  * (normalized) MFCC Overall Standard Deviation12
+ +       0.3715 * (normalized) LPC Overall Standard Deviation2
+ +       0.2262 * (normalized) LPC Overall Standard Deviation4
+ +       0.2058 * (normalized) LPC Overall Standard Deviation5
+ +       0.1222 * (normalized) LPC Overall Standard Deviation6
+ +       0.0683 * (normalized) LPC Overall Standard Deviation7
+ +      -0.2347 * (normalized) Compactness Overall Average0
+ +       0.7259 * (normalized) MFCC Overall Average1
+ +       0.6589 * (normalized) MFCC Overall Average2
+ +       0.6113 * (normalized) MFCC Overall Average3
+ +       0.2153 * (normalized) MFCC Overall Average4
+ +       0.2107 * (normalized) MFCC Overall Average7
+ +      -0.3859 * (normalized) MFCC Overall Average8
+ +      -0.1963 * (normalized) MFCC Overall Average9
+ +      -0.27   * (normalized) MFCC Overall Average10
+ -       0.4236
+
+Number of kernel evaluations: 14 (64.103% cached)
+
+Classifier for classes: CavaloMarinho, Ciranda
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.573  * (normalized) MFCC Overall Standard Deviation3
+ +      -0.1926 * (normalized) MFCC Overall Standard Deviation6
+ +       0.0855 * (normalized) MFCC Overall Standard Deviation7
+ +      -0.2257 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.1797 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.2223 * (normalized) MFCC Overall Standard Deviation10
+ +      -0.0898 * (normalized) MFCC Overall Standard Deviation11
+ +      -0.1423 * (normalized) MFCC Overall Standard Deviation12
+ +      -0.0126 * (normalized) LPC Overall Standard Deviation2
+ +       0.3831 * (normalized) LPC Overall Standard Deviation4
+ +       0.3268 * (normalized) LPC Overall Standard Deviation5
+ +       0.2297 * (normalized) LPC Overall Standard Deviation6
+ +       0.2845 * (normalized) LPC Overall Standard Deviation7
+ +       0.2572 * (normalized) Compactness Overall Average0
+ +       0.1909 * (normalized) MFCC Overall Average1
+ +       0.5156 * (normalized) MFCC Overall Average2
+ +       0.7235 * (normalized) MFCC Overall Average3
+ +       0.107  * (normalized) MFCC Overall Average4
+ +       0.2603 * (normalized) MFCC Overall Average7
+ +      -0.0801 * (normalized) MFCC Overall Average8
+ +       0.0077 * (normalized) MFCC Overall Average9
+ +      -0.3311 * (normalized) MFCC Overall Average10
+ -       0.8666
+
+Number of kernel evaluations: 21 (88.83% cached)
+
+Classifier for classes: CavaloMarinho, MaracatuSolto
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.5897 * (normalized) MFCC Overall Standard Deviation3
+ +       0.1512 * (normalized) MFCC Overall Standard Deviation6
+ +       0.4772 * (normalized) MFCC Overall Standard Deviation7
+ +      -0.1409 * (normalized) MFCC Overall Standard Deviation8
+ +       0.0592 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.2086 * (normalized) MFCC Overall Standard Deviation10
+ +      -0.034  * (normalized) MFCC Overall Standard Deviation11
+ +      -0.0872 * (normalized) MFCC Overall Standard Deviation12
+ +       0.4748 * (normalized) LPC Overall Standard Deviation2
+ +       0.9283 * (normalized) LPC Overall Standard Deviation4
+ +       0.5553 * (normalized) LPC Overall Standard Deviation5
+ +       0.388  * (normalized) LPC Overall Standard Deviation6
+ +       0.143  * (normalized) LPC Overall Standard Deviation7
+ +       0.2587 * (normalized) Compactness Overall Average0
+ +       0.2638 * (normalized) MFCC Overall Average1
+ +       0.574  * (normalized) MFCC Overall Average2
+ +       0.5502 * (normalized) MFCC Overall Average3
+ +       0.1325 * (normalized) MFCC Overall Average4
+ +       0.0119 * (normalized) MFCC Overall Average7
+ +      -0.0995 * (normalized) MFCC Overall Average8
+ +      -0.1662 * (normalized) MFCC Overall Average9
+ +      -0.5517 * (normalized) MFCC Overall Average10
+ -       2.1827
+
+Number of kernel evaluations: 20 (86.301% cached)
+
+Classifier for classes: CavaloMarinho, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1487 * (normalized) MFCC Overall Standard Deviation3
+ +      -0.3851 * (normalized) MFCC Overall Standard Deviation6
+ +      -0.2853 * (normalized) MFCC Overall Standard Deviation7
+ +      -0.3631 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.3035 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.2142 * (normalized) MFCC Overall Standard Deviation10
+ +      -0.3634 * (normalized) MFCC Overall Standard Deviation11
+ +      -0.273  * (normalized) MFCC Overall Standard Deviation12
+ +      -0.1471 * (normalized) LPC Overall Standard Deviation2
+ +      -0.1971 * (normalized) LPC Overall Standard Deviation4
+ +      -0.1107 * (normalized) LPC Overall Standard Deviation5
+ +      -0.0903 * (normalized) LPC Overall Standard Deviation6
+ +      -0.0955 * (normalized) LPC Overall Standard Deviation7
+ +      -0.2231 * (normalized) Compactness Overall Average0
+ +       0.5869 * (normalized) MFCC Overall Average1
+ +       0.5812 * (normalized) MFCC Overall Average2
+ +       0.5626 * (normalized) MFCC Overall Average3
+ +       0.1776 * (normalized) MFCC Overall Average4
+ +       0.1234 * (normalized) MFCC Overall Average7
+ +      -0.0518 * (normalized) MFCC Overall Average8
+ +      -0.1121 * (normalized) MFCC Overall Average9
+ +      -0.0715 * (normalized) MFCC Overall Average10
+ -       0.0601
+
+Number of kernel evaluations: 15 (91.525% cached)
+
+Classifier for classes: Coco, Ciranda
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2678 * (normalized) MFCC Overall Standard Deviation3
+ +       0.3481 * (normalized) MFCC Overall Standard Deviation6
+ +       0.2432 * (normalized) MFCC Overall Standard Deviation7
+ +       0.0337 * (normalized) MFCC Overall Standard Deviation8
+ +       0.2579 * (normalized) MFCC Overall Standard Deviation9
+ +       0.2396 * (normalized) MFCC Overall Standard Deviation10
+ +       0.4472 * (normalized) MFCC Overall Standard Deviation11
+ +       0.3313 * (normalized) MFCC Overall Standard Deviation12
+ +      -0.2165 * (normalized) LPC Overall Standard Deviation2
+ +      -0.0791 * (normalized) LPC Overall Standard Deviation4
+ +       0.1817 * (normalized) LPC Overall Standard Deviation5
+ +       0.1537 * (normalized) LPC Overall Standard Deviation6
+ +       0.78   * (normalized) LPC Overall Standard Deviation7
+ +       0.8526 * (normalized) Compactness Overall Average0
+ +      -0.378  * (normalized) MFCC Overall Average1
+ +       0.0564 * (normalized) MFCC Overall Average2
+ +       0.2937 * (normalized) MFCC Overall Average3
+ +       0.1234 * (normalized) MFCC Overall Average4
+ +       0.1028 * (normalized) MFCC Overall Average7
+ +       0.5078 * (normalized) MFCC Overall Average8
+ +       0.2294 * (normalized) MFCC Overall Average9
+ +       0.0732 * (normalized) MFCC Overall Average10
+ -       2.7438
+
+Number of kernel evaluations: 15 (74.138% cached)
+
+Classifier for classes: Coco, MaracatuSolto
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1516 * (normalized) MFCC Overall Standard Deviation3
+ +       0.5977 * (normalized) MFCC Overall Standard Deviation6
+ +       0.5553 * (normalized) MFCC Overall Standard Deviation7
+ +       0.0534 * (normalized) MFCC Overall Standard Deviation8
+ +       0.4207 * (normalized) MFCC Overall Standard Deviation9
+ +       0.3116 * (normalized) MFCC Overall Standard Deviation10
+ +       0.2832 * (normalized) MFCC Overall Standard Deviation11
+ +       0.4157 * (normalized) MFCC Overall Standard Deviation12
+ +       0.2186 * (normalized) LPC Overall Standard Deviation2
+ +      -0.0561 * (normalized) LPC Overall Standard Deviation4
+ +       0.0513 * (normalized) LPC Overall Standard Deviation5
+ +       0.0953 * (normalized) LPC Overall Standard Deviation6
+ +       0.489  * (normalized) LPC Overall Standard Deviation7
+ +       0.4552 * (normalized) Compactness Overall Average0
+ +      -0.1814 * (normalized) MFCC Overall Average1
+ +      -0.0738 * (normalized) MFCC Overall Average2
+ +      -0.2246 * (normalized) MFCC Overall Average3
+ +       0.0662 * (normalized) MFCC Overall Average4
+ +      -0.3385 * (normalized) MFCC Overall Average7
+ +       0.1135 * (normalized) MFCC Overall Average8
+ +      -0.2671 * (normalized) MFCC Overall Average9
+ +      -0.24   * (normalized) MFCC Overall Average10
+ -       1.5593
+
+Number of kernel evaluations: 16 (57.895% cached)
+
+Classifier for classes: Coco, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3024 * (normalized) MFCC Overall Standard Deviation3
+ +      -0.4871 * (normalized) MFCC Overall Standard Deviation6
+ +      -0.4454 * (normalized) MFCC Overall Standard Deviation7
+ +      -0.3427 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.3902 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.2435 * (normalized) MFCC Overall Standard Deviation10
+ +      -0.2997 * (normalized) MFCC Overall Standard Deviation11
+ +      -0.3231 * (normalized) MFCC Overall Standard Deviation12
+ +      -0.7808 * (normalized) LPC Overall Standard Deviation2
+ +      -0.4726 * (normalized) LPC Overall Standard Deviation4
+ +      -0.35   * (normalized) LPC Overall Standard Deviation5
+ +      -0.2619 * (normalized) LPC Overall Standard Deviation6
+ +      -0.3331 * (normalized) LPC Overall Standard Deviation7
+ +      -0.1365 * (normalized) Compactness Overall Average0
+ +       0.2863 * (normalized) MFCC Overall Average1
+ +       0.2479 * (normalized) MFCC Overall Average2
+ +       0.3564 * (normalized) MFCC Overall Average3
+ +      -0.0452 * (normalized) MFCC Overall Average4
+ +      -0.1239 * (normalized) MFCC Overall Average7
+ +       0.0718 * (normalized) MFCC Overall Average8
+ +      -0.0755 * (normalized) MFCC Overall Average9
+ +      -0.0216 * (normalized) MFCC Overall Average10
+ +       0.6551
+
+Number of kernel evaluations: 10 (68.75% cached)
+
+Classifier for classes: Ciranda, MaracatuSolto
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0902 * (normalized) MFCC Overall Standard Deviation3
+ +       0.4935 * (normalized) MFCC Overall Standard Deviation6
+ +       0.5431 * (normalized) MFCC Overall Standard Deviation7
+ +       0.3393 * (normalized) MFCC Overall Standard Deviation8
+ +       0.4987 * (normalized) MFCC Overall Standard Deviation9
+ +       0.3435 * (normalized) MFCC Overall Standard Deviation10
+ +       0.0645 * (normalized) MFCC Overall Standard Deviation11
+ +       0.433  * (normalized) MFCC Overall Standard Deviation12
+ +       0.6018 * (normalized) LPC Overall Standard Deviation2
+ +       0.2747 * (normalized) LPC Overall Standard Deviation4
+ +       0.0519 * (normalized) LPC Overall Standard Deviation5
+ +      -0.0275 * (normalized) LPC Overall Standard Deviation6
+ +      -0.0566 * (normalized) LPC Overall Standard Deviation7
+ +      -0.3373 * (normalized) Compactness Overall Average0
+ +      -0.2101 * (normalized) MFCC Overall Average1
+ +      -0.265  * (normalized) MFCC Overall Average2
+ +      -0.4131 * (normalized) MFCC Overall Average3
+ +      -0.2232 * (normalized) MFCC Overall Average4
+ +      -0.8673 * (normalized) MFCC Overall Average7
+ +      -0.0574 * (normalized) MFCC Overall Average8
+ +      -0.4959 * (normalized) MFCC Overall Average9
+ +      -0.039  * (normalized) MFCC Overall Average10
+ -       0.9094
+
+Number of kernel evaluations: 17 (80.46% cached)
+
+Classifier for classes: Ciranda, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.5692 * (normalized) MFCC Overall Standard Deviation3
+ +      -0.242  * (normalized) MFCC Overall Standard Deviation6
+ +      -0.3607 * (normalized) MFCC Overall Standard Deviation7
+ +      -0.2496 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.2465 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.1391 * (normalized) MFCC Overall Standard Deviation10
+ +      -0.2689 * (normalized) MFCC Overall Standard Deviation11
+ +      -0.2597 * (normalized) MFCC Overall Standard Deviation12
+ +      -0.1493 * (normalized) LPC Overall Standard Deviation2
+ +      -0.3399 * (normalized) LPC Overall Standard Deviation4
+ +      -0.2834 * (normalized) LPC Overall Standard Deviation5
+ +      -0.2918 * (normalized) LPC Overall Standard Deviation6
+ +      -0.324  * (normalized) LPC Overall Standard Deviation7
+ +      -0.1849 * (normalized) Compactness Overall Average0
+ +       0.4506 * (normalized) MFCC Overall Average1
+ +       0.2133 * (normalized) MFCC Overall Average2
+ +       0.0678 * (normalized) MFCC Overall Average3
+ +      -0.0383 * (normalized) MFCC Overall Average4
+ +      -0.159  * (normalized) MFCC Overall Average7
+ +      -0.1393 * (normalized) MFCC Overall Average8
+ +      -0.0644 * (normalized) MFCC Overall Average9
+ +       0.0776 * (normalized) MFCC Overall Average10
+ +       1.2189
+
+Number of kernel evaluations: 6 (76.923% cached)
+
+Classifier for classes: MaracatuSolto, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1724 * (normalized) MFCC Overall Standard Deviation3
+ +      -0.3648 * (normalized) MFCC Overall Standard Deviation6
+ +      -0.3871 * (normalized) MFCC Overall Standard Deviation7
+ +      -0.1722 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.2581 * (normalized) MFCC Overall Standard Deviation9
+ +      -0.1383 * (normalized) MFCC Overall Standard Deviation10
+ +      -0.1714 * (normalized) MFCC Overall Standard Deviation11
+ +      -0.2617 * (normalized) MFCC Overall Standard Deviation12
+ +      -0.2447 * (normalized) LPC Overall Standard Deviation2
+ +      -0.3332 * (normalized) LPC Overall Standard Deviation4
+ +      -0.1639 * (normalized) LPC Overall Standard Deviation5
+ +      -0.1537 * (normalized) LPC Overall Standard Deviation6
+ +      -0.1878 * (normalized) LPC Overall Standard Deviation7
+ +      -0.2006 * (normalized) Compactness Overall Average0
+ +       0.1787 * (normalized) MFCC Overall Average1
+ +       0.179  * (normalized) MFCC Overall Average2
+ +       0.1426 * (normalized) MFCC Overall Average3
+ +       0.0003 * (normalized) MFCC Overall Average4
+ +       0.0375 * (normalized) MFCC Overall Average7
+ +       0.0585 * (normalized) MFCC Overall Average8
+ +       0.1127 * (normalized) MFCC Overall Average9
+ +       0.2536 * (normalized) MFCC Overall Average10
+ +       0.7957
+
+Number of kernel evaluations: 21 (72.368% cached)
+
+
+
+Time taken to build model: 0.04 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correctly Classified Instances          15              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.24  
+Root mean squared error                  0.3158
+Relative absolute error                 75      %
+Root relative squared error             78.9515 %
+Total Number of Instances               15     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        CavaloMarinho
+                 1         0          1         1         1          1        Coco
+                 1         0          1         1         1          1        Ciranda
+                 1         0          1         1         1          1        MaracatuSolto
+                 1         0          1         1         1          1        MaracatuVirado
+Weighted Avg.    1         0          1         1         1          1    
+
+=== Confusion Matrix ===
+
+ a b c d e   <-- classified as
+ 3 0 0 0 0 | a = CavaloMarinho
+ 0 3 0 0 0 | b = Coco
+ 0 0 3 0 0 | c = Ciranda
+ 0 0 0 3 0 | d = MaracatuSolto
+ 0 0 0 0 3 | e = MaracatuVirado
+

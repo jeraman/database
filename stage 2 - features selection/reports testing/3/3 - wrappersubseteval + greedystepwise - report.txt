@@ -1,0 +1,228 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     jAudio-weka.filters.unsupervised.attribute.Remove-R2-20,22,24-27,29-31,33-49,51-52,54-62,64-69
+Instances:    15
+Attributes:   8
+              Class
+              MFCC Overall Standard Deviation8
+              MFCC Overall Standard Deviation10
+              LPC Overall Standard Deviation2
+              LPC Overall Standard Deviation6
+              MFCC Overall Average3
+              MFCC Overall Average6
+              LPC Overall Average3
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: CavaloMarinho, Coco
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.5595 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.7953 * (normalized) MFCC Overall Standard Deviation10
+ +       0.595  * (normalized) LPC Overall Standard Deviation2
+ +       0.1848 * (normalized) LPC Overall Standard Deviation6
+ +       1.3221 * (normalized) MFCC Overall Average3
+ +       0.8803 * (normalized) MFCC Overall Average6
+ +      -0.0472 * (normalized) LPC Overall Average3
+ -       0.6687
+
+Number of kernel evaluations: 16 (72.881% cached)
+
+Classifier for classes: CavaloMarinho, Ciranda
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3459 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.426  * (normalized) MFCC Overall Standard Deviation10
+ +       0.0447 * (normalized) LPC Overall Standard Deviation2
+ +       0.7136 * (normalized) LPC Overall Standard Deviation6
+ +       1.2874 * (normalized) MFCC Overall Average3
+ +       0.9055 * (normalized) MFCC Overall Average6
+ +       0.0543 * (normalized) LPC Overall Average3
+ -       1.1519
+
+Number of kernel evaluations: 16 (82.418% cached)
+
+Classifier for classes: CavaloMarinho, MaracatuSolto
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2709 * (normalized) MFCC Overall Standard Deviation8
+ +       0.0717 * (normalized) MFCC Overall Standard Deviation10
+ +       1.1832 * (normalized) LPC Overall Standard Deviation2
+ +       0.6192 * (normalized) LPC Overall Standard Deviation6
+ +       0.963  * (normalized) MFCC Overall Average3
+ +      -0.6458 * (normalized) MFCC Overall Average6
+ +      -0.1997 * (normalized) LPC Overall Average3
+ -       1.2925
+
+Number of kernel evaluations: 11 (38.889% cached)
+
+Classifier for classes: CavaloMarinho, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.7989 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.4731 * (normalized) MFCC Overall Standard Deviation10
+ +      -0.3364 * (normalized) LPC Overall Standard Deviation2
+ +      -0.1962 * (normalized) LPC Overall Standard Deviation6
+ +       1.12   * (normalized) MFCC Overall Average3
+ +       0.5436 * (normalized) MFCC Overall Average6
+ +      -0.4272 * (normalized) LPC Overall Average3
+ -       0.051 
+
+Number of kernel evaluations: 15 (60.526% cached)
+
+Classifier for classes: Coco, Ciranda
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.3871 * (normalized) MFCC Overall Standard Deviation8
+ +       0.541  * (normalized) MFCC Overall Standard Deviation10
+ +      -0.5434 * (normalized) LPC Overall Standard Deviation2
+ +       0.8121 * (normalized) LPC Overall Standard Deviation6
+ +       0.4082 * (normalized) MFCC Overall Average3
+ +       0.3942 * (normalized) MFCC Overall Average6
+ +       0.2717 * (normalized) LPC Overall Average3
+ -       1.268 
+
+Number of kernel evaluations: 14 (41.667% cached)
+
+Classifier for classes: Coco, MaracatuSolto
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.7394 * (normalized) MFCC Overall Standard Deviation8
+ +       0.7798 * (normalized) MFCC Overall Standard Deviation10
+ +       0.2973 * (normalized) LPC Overall Standard Deviation2
+ +       0.2644 * (normalized) LPC Overall Standard Deviation6
+ +      -0.4118 * (normalized) MFCC Overall Average3
+ +      -1.3119 * (normalized) MFCC Overall Average6
+ +      -0.2144 * (normalized) LPC Overall Average3
+ -       0.4234
+
+Number of kernel evaluations: 16 (60% cached)
+
+Classifier for classes: Coco, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.6284 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.447  * (normalized) MFCC Overall Standard Deviation10
+ +      -1.0886 * (normalized) LPC Overall Standard Deviation2
+ +      -0.541  * (normalized) LPC Overall Standard Deviation6
+ +       0.3712 * (normalized) MFCC Overall Average3
+ +      -0.222  * (normalized) MFCC Overall Average6
+ +      -0.4418 * (normalized) LPC Overall Average3
+ +       0.8405
+
+Number of kernel evaluations: 10 (16.667% cached)
+
+Classifier for classes: Ciranda, MaracatuSolto
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.3919 * (normalized) MFCC Overall Standard Deviation8
+ +       0.3169 * (normalized) MFCC Overall Standard Deviation10
+ +       0.8391 * (normalized) LPC Overall Standard Deviation2
+ +      -0.4547 * (normalized) LPC Overall Standard Deviation6
+ +      -0.5607 * (normalized) MFCC Overall Average3
+ +      -1.5736 * (normalized) MFCC Overall Average6
+ +      -0.4507 * (normalized) LPC Overall Average3
+ +       0.5874
+
+Number of kernel evaluations: 16 (71.93% cached)
+
+Classifier for classes: Ciranda, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.8527 * (normalized) MFCC Overall Standard Deviation8
+ +      -0.6937 * (normalized) MFCC Overall Standard Deviation10
+ +      -0.438  * (normalized) LPC Overall Standard Deviation2
+ +      -0.7141 * (normalized) LPC Overall Standard Deviation6
+ +      -0.1369 * (normalized) MFCC Overall Average3
+ +      -0.4575 * (normalized) MFCC Overall Average6
+ +      -0.1824 * (normalized) LPC Overall Average3
+ +       1.3991
+
+Number of kernel evaluations: 12 (36.842% cached)
+
+Classifier for classes: MaracatuSolto, MaracatuVirado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.686  * (normalized) MFCC Overall Standard Deviation8
+ +      -0.4965 * (normalized) MFCC Overall Standard Deviation10
+ +      -0.8545 * (normalized) LPC Overall Standard Deviation2
+ +      -0.4187 * (normalized) LPC Overall Standard Deviation6
+ +       0.362  * (normalized) MFCC Overall Average3
+ +       0.2191 * (normalized) MFCC Overall Average6
+ +      -0.2468 * (normalized) LPC Overall Average3
+ +       0.7541
+
+Number of kernel evaluations: 20 (52.381% cached)
+
+
+
+Time taken to build model: 0.04 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correctly Classified Instances          14               93.3333 %
+Incorrectly Classified Instances         1                6.6667 %
+Kappa statistic                          0.9167
+Mean absolute error                      0.2427
+Root mean squared error                  0.32  
+Relative absolute error                 75.8333 %
+Root relative squared error             80      %
+Total Number of Instances               15     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        CavaloMarinho
+                 0.667     0          1         0.667     0.8        0.889    Coco
+                 1         0.083      0.75      1         0.857      0.958    Ciranda
+                 1         0          1         1         1          1        MaracatuSolto
+                 1         0          1         1         1          1        MaracatuVirado
+Weighted Avg.    0.933     0.017      0.95      0.933     0.931      0.969
+
+=== Confusion Matrix ===
+
+ a b c d e   <-- classified as
+ 3 0 0 0 0 | a = CavaloMarinho
+ 0 2 1 0 0 | b = Coco
+ 0 0 3 0 0 | c = Ciranda
+ 0 0 0 3 0 | d = MaracatuSolto
+ 0 0 0 0 3 | e = MaracatuVirado
+
